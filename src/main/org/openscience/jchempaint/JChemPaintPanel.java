@@ -193,10 +193,10 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
             inputAdapter.setPopupMenu(ChemModel.class, new JChemPaintPopupMenu(
                     this, "chemmodel", this.guistring));
         }
-        if (inputAdapter.getPopupMenu(Reaction.class) == null) {
+        /*if (inputAdapter.getPopupMenu(Reaction.class) == null) {
             inputAdapter.setPopupMenu(Reaction.class, new JChemPaintPopupMenu(
                     this, "reaction", this.guistring));
-        }
+        }*/
     }
 
     /**
