@@ -147,15 +147,11 @@ public class JChemPaint {
                 formatter.printHelp("JChemPaint", options);
 
                 // now report on the -D options
-                // TODO which of these are still used?
                 System.out.println();
                 System.out
                         .println("The -D options are as follows (defaults in parathesis):");
                 System.out.println("  cdk.debugging     [true|false] (false)");
                 System.out.println("  cdk.debug.stdout  [true|false] (false)");
-                System.out.println("  devel.gui         [true|false] (false)");
-                System.out
-                        .println("  gui               [stable|experimental] (stable)");
                 System.out.println("  user.language     [DE|EN|NL|PL] (EN)");
 
                 System.exit(0);
