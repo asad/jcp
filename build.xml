@@ -189,6 +189,9 @@
             <arg line="--java2 -d po/classes -r app.i18n.Messages -l nl po/nl.po"/>
         </exec>
         <exec dir="." executable="msgfmt">
+            <arg line="--java2 -d po/classes -r app.i18n.Messages -l po po/pl.po"/>
+        </exec>
+        <exec dir="." executable="msgfmt">
             <arg line="--java2 -d po/classes -r app.i18n.Messages -l pt_BR po/pt_BR.po"/>
         </exec>
         <exec dir="." executable="msgfmt">
