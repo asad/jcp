@@ -446,6 +446,12 @@
        </fileset>
       </move>
       <delete dir="${dist}/jar/shrinkout"/>
+      <delete>
+        <fileset dir=".">
+         <include name="shrinklog.*"/>
+        </fileset>
+      </delete>
+      <delete file="MANIFEST.MF"/>
       
       <signjar destDir=""
             alias="${certificatealias}"
