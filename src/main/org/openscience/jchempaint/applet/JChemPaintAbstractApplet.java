@@ -471,7 +471,7 @@ public abstract class JChemPaintAbstractApplet extends JApplet {
      * A method for highlighting atoms from JavaScript
      * 
      * @param atom
-     *            The atom number (starting with 0)
+     *            The atom number (starting with 0), -1 sets empty selection.
      */
     public void selectAtom(int atom) {
         RendererModel rendererModel = theJcpp.get2DHub().getRenderer()
@@ -480,8 +480,12 @@ public abstract class JChemPaintAbstractApplet extends JApplet {
         rendererModel.setExternalHighlightColor(Color.RED);
         IAtomContainer ac = chemModel.getMoleculeSet().getBuilder()
                 .newAtomContainer();
-        ac.addAtom(chemModel.getMoleculeSet().getMolecule(0).getAtom(atom));
-        rendererModel.setExternalSelectedPart(ac);
+        if(atom!=-1){
+            ac.addAtom(chemModel.getMoleculeSet().getMolecule(0).getAtom(atom));
+            rendererModel.setExternalSelectedPart(ac);
+        }else{
+            rendererModel.setExternalSelectedPart(null);
+        }
         getTheJcpp().get2DHub().updateView();
     }
 
