@@ -45,9 +45,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.EventObject;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import javax.swing.JButton;
 import javax.swing.JComponent;
@@ -67,7 +65,6 @@ import org.openscience.cdk.Atom;
 import org.openscience.cdk.Bond;
 import org.openscience.cdk.ChemModel;
 import org.openscience.cdk.PseudoAtom;
-import org.openscience.cdk.Reaction;
 import org.openscience.cdk.config.IsotopeFactory;
 import org.openscience.cdk.event.ICDKChangeListener;
 import org.openscience.cdk.interfaces.IAtom;
@@ -77,6 +74,7 @@ import org.openscience.cdk.interfaces.IChemModel;
 import org.openscience.cdk.interfaces.IIsotope;
 import org.openscience.cdk.tools.manipulator.ChemModelManipulator;
 import org.openscience.jchempaint.action.SaveAction;
+import org.openscience.jchempaint.applet.JChemPaintAbstractApplet;
 import org.openscience.jchempaint.applet.JChemPaintEditorApplet;
 import org.openscience.jchempaint.controller.AddAtomModule;
 import org.openscience.jchempaint.controller.ControllerHub;
@@ -124,7 +122,7 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
      * @param gui
      *            The gui string
      */
-    public JChemPaintPanel(IChemModel chemModel, String gui, boolean debug) {
+    public JChemPaintPanel(IChemModel chemModel, String gui, boolean debug, JChemPaintAbstractApplet applet) {
         this.guistring = gui;
         this.debug = debug;
         this.setLayout(new BorderLayout());
@@ -132,7 +130,7 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
         topContainer.setLayout(new BorderLayout());
         this.add(topContainer, BorderLayout.NORTH);
         try {
-			renderPanel = new RenderPanel(chemModel, getWidth(), getHeight(), false, debug);
+			renderPanel = new RenderPanel(chemModel, getWidth(), getHeight(), false, debug, false, applet);
 		} catch (IOException e) {
 			announceError(e);
 		}

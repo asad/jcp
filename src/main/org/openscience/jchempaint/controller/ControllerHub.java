@@ -70,6 +70,7 @@ import org.openscience.cdk.tools.manipulator.BondManipulator;
 import org.openscience.cdk.tools.manipulator.ChemModelManipulator;
 import org.openscience.cdk.tools.manipulator.ReactionManipulator;
 import org.openscience.cdk.validate.ProblemMarker;
+import org.openscience.jchempaint.applet.JChemPaintAbstractApplet;
 import org.openscience.jchempaint.controller.undoredo.IUndoRedoFactory;
 import org.openscience.jchempaint.controller.undoredo.IUndoRedoable;
 import org.openscience.jchempaint.controller.undoredo.UndoRedoHandler;
@@ -134,7 +135,9 @@ public class ControllerHub implements IMouseEventRelay, IChemModelRelay {
 		                   IChemModel chemModel,
 		                   IViewEventRelay eventRelay,
 		                   UndoRedoHandler undoredohandler,
-		                   IUndoRedoFactory undoredofactory) {
+		                   IUndoRedoFactory undoredofactory,
+		                   boolean isViewer,
+		                   JChemPaintAbstractApplet applet) {
 		this.controllerModel = controllerModel;
 		this.renderer = renderer;
 		this.chemModel = chemModel;
@@ -145,8 +148,10 @@ public class ControllerHub implements IMouseEventRelay, IChemModelRelay {
 
 		generalModules = new ArrayList<IControllerModule>();
 
-		registerGeneralControllerModule(new HighlightModule(this));
-		registerGeneralControllerModule(new ZoomModule(this));
+		if(!isViewer){
+            registerGeneralControllerModule(new ZoomModule(this));
+		}
+        registerGeneralControllerModule(new HighlightModule(this, applet));
 		matcher = CDKAtomTypeMatcher.getInstance(chemModel.getBuilder());
 	}
 

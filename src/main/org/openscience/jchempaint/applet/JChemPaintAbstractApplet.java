@@ -100,23 +100,19 @@ public abstract class JChemPaintAbstractApplet extends JApplet {
             { "load", "url", "URL of the chemical data" },
             { "compact", "true or false",
                     "compact means elements shown as dots, no figures etc. (default false)" },
-            {
-                    "tooltips",
+            { "tooltips",
                     "string like 'atomumber|test|atomnumber|text'",
                     "the texts will be used as tooltips for the respective atoms (leave out if none required" },
             { "impliciths", "true or false",
                     "the implicit hs will be added from start (default true)" },
-            {
-                    "spectrumRenderer",
+            { "spectrumRenderer",
                     "string",
-                    "TODO name of a spectrum applet (see subproject in NMRShiftDB) where peaks should be highlighted when hovering over atom" },
-            {
-                    "hightlightTable",
+                    "name of a spectrum applet (see subproject in NMRShiftDB) where peaks should be highlighted when hovering over atom" },
+            { "hightlightTable",
                     "true or false",
-                    "TODO if true peaks in a table will be highlighted when hovering over atom, ids are assumed to be tableid$atomnumber (default false)" },
+                    "if true peaks in a table will be highlighted when hovering over atom, ids are assumed to be tableidX, where X=atomnumber starting with 0 (default false)" },
             { "smiles", "string", "a structure to load as smiles" },
-            {
-                    "scrollbars",
+            { "scrollbars",
                     "true or false",
                     "if the molecule is too big to be displayed in normal size, shall scrollbars be used (default) or the molecule be resized - only for viewer applet" },
             { "dotranslate",
@@ -219,14 +215,14 @@ public abstract class JChemPaintAbstractApplet extends JApplet {
 
     @Override
     public void start() {
+        // Parameter parsing goes here
+        loadModelFromParam();
         RendererModel rendererModel = theJcpp.get2DHub().getRenderer()
                 .getRenderer2DModel();
         IChemModel chemModel = theJcpp.getChemModel();
         IControllerModel controllerModel = theJcpp.get2DHub()
                 .getController2DModel();
 
-        // Parameter parsing goes here
-        loadModelFromParam();
         String atomNumbers = getParameter("atomNumbersVisible");
         if (atomNumbers != null) {
             if (atomNumbers.equals("true"))
@@ -258,7 +254,8 @@ public abstract class JChemPaintAbstractApplet extends JApplet {
                     .getAllAtomContainers(chemModel).iterator();
 
             while (containers.hasNext()) {
-                container.add(containers.next());
+                IAtomContainer ac=containers.next();
+                container.add(ac);
             }
 
             while (st.hasMoreTokens()) {
@@ -547,7 +544,7 @@ public abstract class JChemPaintAbstractApplet extends JApplet {
                     }
                     if (e.getButton() == 1 && e.getClickCount() == 2 && applet instanceof JChemPaintViewerApplet)
                         if (!getJexf().isShowing()) {
-                            final JChemPaintPanel p = new JChemPaintPanel(theJcpp.getChemModel(),JChemPaintEditorApplet.GUI_APPLET,debug);
+                            final JChemPaintPanel p = new JChemPaintPanel(theJcpp.getChemModel(),JChemPaintEditorApplet.GUI_APPLET,debug,JChemPaintAbstractApplet.this);
                             p.setName("appletframe");
                             p.setShowInsertTextField(false);
                             p.setShowStatusBar(false);

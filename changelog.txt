@@ -1,0 +1,13 @@
+HEAD
+----
+New features:
+* Interaction with tables and spectrum applet (see hightlightTable and spectrumRenderer applet parameters)
+
+Fixes:
+* Tooltips parameter in applet works
+* (Virtually) Complete tranlations for Polish, Hungarian, Spanish, Czech
+
+3.0
+---
+New features:
+* The is is a completely reworked version of JCP. It is much more user friendly 

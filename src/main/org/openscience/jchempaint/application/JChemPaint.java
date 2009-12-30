@@ -621,7 +621,7 @@ public class JChemPaint {
         chemModel.setID(title);
         f.addWindowListener(new JChemPaintPanel.AppCloser());
         f.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
-        JChemPaintPanel p = new JChemPaintPanel(chemModel, "stable", debug);
+        JChemPaintPanel p = new JChemPaintPanel(chemModel, "stable", debug, null);
         f.setPreferredSize(new Dimension(1000, 500));
         f.add(p);
         f.pack();
