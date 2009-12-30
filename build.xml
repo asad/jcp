@@ -2,7 +2,7 @@
 	
     <property file="ant.properties"/>
 
-    <property name="jcp.version" value="3.0" />
+    <property name="jcp.version" value="3.1" />
     <property name="debug" value="on" />
     <property name="deprecation" value="on" />
     <property name="optimization" value="off" />
@@ -13,6 +13,8 @@
 	<property name="cdk.metainf" value="${cdk.dir}/src/META-INF" />
     <property name="src" value="src" />
     <property name="lib" value="lib" />
+	<property name="javadoc.dir" value="javadoc" />
+    <property name="devellib" value="libdevel" />
 	<property name="dist" value="dist" />
     <property name="dist-classes" value="${dist}/classes" />
 	<property name="dist-test" value="${dist}/test" />
@@ -24,6 +26,7 @@
 
     <target id="clean" name="clean" description="Removes compiled stuff.">
         <delete dir="${dist}" />
+    	<delete dir="${javadoc.dir}" />
     </target>
 
 	<target id="dist" name="dist" depends="compile-jcp, unjar-libjars, unjar-cdkjars"
@@ -63,7 +66,7 @@
                 <includesfile name="${cdk.metainf}/extra.libdepends"/>
             	<includesfile name="${cdk.metainf}/forcefield.libdepends"/>
             	<includesfile name="${cdk.metainf}/formula.libdepends"/>
-            	<includesfile name="${cdk.metainf}/inchi.libdepends"/>
+            	<!--includesfile name="${cdk.metainf}/inchi.libdepends"/-->
             	<includesfile name="${cdk.metainf}/interfaces.libdepends"/>
                 <includesfile name="${cdk.metainf}/io.libdepends"/>
             	<includesfile name="${cdk.metainf}/isomorphism.libdepends"/>
@@ -118,7 +121,7 @@
                 <include name="cdk-interfaces.jar"/>
                 <include name="cdk-io.jar"/>
             	<include name="cdk-ionpot.jar"/>
-            	<!--include name="cdk-isomorphism.jar"/-->
+            	<include name="cdk-isomorphism.jar"/>
                 <include name="cdk-libiocml.jar"/>
                 <include name="cdk-libiomd.jar"/>
                 <include name="cdk-nonotify.jar"/>
@@ -187,9 +190,6 @@
         </exec>
         <exec dir="." executable="msgfmt">
             <arg line="--java2 -d po/classes -r app.i18n.Messages -l nl po/nl.po"/>
-        </exec>
-        <exec dir="." executable="msgfmt">
-            <arg line="--java2 -d po/classes -r app.i18n.Messages -l pl po/pl.po"/>
         </exec>
         <exec dir="." executable="msgfmt">
             <arg line="--java2 -d po/classes -r app.i18n.Messages -l pt_BR po/pt_BR.po"/>
@@ -281,6 +281,7 @@
                 </patternset>
                 </class>
                 <class name="org.openscience.cdk.tools.LoggingTool" methods="public" fields="none" />
+                <class name="org.openscience.cdk.tools.ILoggingTool" methods="public" fields="none" />
                 <class name="org.openscience.cdk.interfaces.IChemObjectBuilder" methods="public" fields="none" />
                 <class name="org.openscience.cdk.controller.IControllerModel" methods="public" fields="none" />
                 <class name="org.openscience.cdk.controller.IChemModelRelay" methods="public" fields="none" />
@@ -289,8 +290,6 @@
                 <class name="org.openscience.cdk.tools.manipulator.ChemModelManipulator" methods="public" fields="none" />
                 <class name="org.openscience.cdk.renderer.selection.MultiSelection" methods="public" fields="none" />
                 <class name="org.openscience.cdk.tools.manipulator.BondManipulator" methods="public" fields="none" />
-                <class name="org.apache.log4j.Logger" methods="public"  />
-                <class name="org.apache.log4j.Category" methods="public" />
                 <class name="org.openscience.cdk.interfaces.IBond" methods="public" fields="none" />
                 <class name="org.openscience.jchempaint.applet.JChemPaintAbstractApplet" methods="public" fields="none" />
                 <class name="org.openscience.jchempaint.applet.JChemPaintViewerApplet"   methods="public" fields="none" />
@@ -383,7 +382,7 @@
              </fileset>
          </externalclasses>
 
-         <shrink logfile="shrinklog.config.xml">
+         <shrink logfile="shrinklog.tools.xml">
              <entrypointjar name="${dist}/jar/jchempaint-applet-core.jar"/>
              <entrypointjar name="${dist}/jar/jchempaint-applet-editor.jar"/>
              <entrypointjar name="${dist}/jar/jchempaint-applet-org_openscience_cdk.jar"/>
@@ -394,7 +393,7 @@
       </yguard>
 
        <!-- shrink xmlcml jar-->
-       <!--yguard>
+       <yguard>
          <inoutpair in="${dist}/jar/jchempaint-applet-org_xmlcml.jar" out="${dist}/jar/shrinkout/jchempaint-applet-org_xmlcml.jar"/>
          <externalclasses>
              <fileset dir="${dist}/jar">
@@ -403,10 +402,10 @@
          </externalclasses>
          <shrink logfile="shrinklogcml.xml">
              <entrypointjar name="${dist}/jar/jchempaint-applet-core.jar"/>
+             <entrypointjar name="${dist}/jar/jchempaint-applet-editor.jar"/>
              <entrypointjar name="${dist}/jar/jchempaint-applet-org_openscience_cdk.jar"/>
              <entrypointjar name="${dist}/jar/jchempaint-applet-org_openscience.jar"/>
              <entrypointjar name="${dist}/jar/jchempaint-applet-org_openscience_cdk_io.jar"/>
-             <property name="error-checking" value="pedantic"/>
              <keep>
                <class name="org.xmlcml.cml.attribute.main.CountExpressionAttribute" />
                <class name="org.xmlcml.cml.base.StringArraySTAttribute" methods="private"  fields="private"/>
@@ -417,18 +416,19 @@
                 </class>
              </keep>
          </shrink>
-      </yguard-->
+      </yguard>
 
       <!-- shrink nu.xom jar -->
-       <!--yguard>
+       <yguard>
          <inoutpair in="${dist}/jar/jchempaint-applet-nu.jar" out="${dist}/jar/shrinkout/jchempaint-applet-nu.jar"/>
          <externalclasses>
              <fileset dir="${dist}/jar">
                 <include name="**/*.jar"/>
              </fileset>
          </externalclasses>
-         <shrink logfile="shrinklog.config.xml">
+         <shrink logfile="shrinklog.nu.xml">
              <entrypointjar name="${dist}/jar/jchempaint-applet-core.jar"/>
+             <entrypointjar name="${dist}/jar/jchempaint-applet-editor.jar"/>
              <entrypointjar name="${dist}/jar/jchempaint-applet-org_openscience_cdk.jar"/>
              <entrypointjar name="${dist}/jar/jchempaint-applet-org_openscience_cdk_io.jar"/>
              <entrypointjar name="${dist}/jar/jchempaint-applet-org_xmlcml.jar"/>
@@ -438,7 +438,7 @@
                <class name="nu.xom.Node"  methods="public" fields="none"/>
              </keep>
          </shrink>
-      </yguard-->
+      </yguard>
 
       <move todir="${dist}/jar">
        <fileset dir="${dist}/jar/shrinkout">
@@ -446,12 +446,6 @@
        </fileset>
       </move>
       <delete dir="${dist}/jar/shrinkout"/>
-      <delete>
-        <fileset dir=".">
-         <include name="shrinklog.*"/>
-        </fileset>
-      </delete>
-      <delete file="MANIFEST.MF"/>
       
       <signjar destDir=""
             alias="${certificatealias}"
@@ -571,13 +565,11 @@
         <jar-from-pattern destfile="${dist}/jar/jchempaint-applet-org_openscience_cdk_nonotify.jar" includepattern="org/openscience/cdk/nonotify/**"/>
         <!--jar-from-pattern destfile="${dist}/jar/jchempaint-applet-org_openscience_cdk_modeling.jar" includepattern="org/openscience/cdk/modeling/**"/-->
         <jar-from-pattern destfile="${dist}/jar/jchempaint-applet-org_openscience_cdk_controller.jar" includepattern="org/openscience/cdk/controller/**"/>
-
         <jar-from-pattern destfile="${dist}/jar/jchempaint-applet-org_openscience_cdk.jar" includepattern="org/openscience/cdk/**"/>
         <jar-from-pattern destfile="${dist}/jar/jchempaint-applet-org_openscience.jar" includepattern="org/openscience/**"/>
         <jar-from-pattern destfile="${dist}/jar/jchempaint-applet-org_3pq.jar" includepattern="org/_3pq/**"/>
 	<jar-from-pattern destfile="${dist}/jar/jchempaint-applet-org_apache.jar" includepattern="org/apache/**"/>
         <jar-from-pattern destfile="${dist}/jar/jchempaint-applet-org_w3c.jar" includepattern="org/w3c/**"/>
-        <jar-from-pattern destfile="${dist}/jar/jchempaint-applet-org_fest.jar" includepattern="org/fest/**"/>
         <jar-from-pattern destfile="${dist}/jar/jchempaint-applet-org_jaxen.jar" includepattern="org/jaxen/**"/>
         <jar-from-pattern destfile="${dist}/jar/jchempaint-applet-org_xmlcml.jar" includepattern="org/xmlcml/**"/>
         <jar-from-pattern destfile="${dist}/jar/jchempaint-applet-org.jar" includepattern="org/**"/>
@@ -592,11 +584,10 @@
         <jar destfile="${dist}/jar/jchempaint-applet-core.jar" index="true" manifest="MANIFEST.MF">
             <fileset dir="${dist-classes}">
                 <includesfile name="${metainf}/applet-core.files"/>
-                <!--exclude name="org/apache/log4j/**"/-->
             </fileset>
         </jar>
         <exec dir="${dist}/jar" executable="jar" >
-             <arg line="i jchempaint-applet-core.jar jchempaint-applet-viewer-opts.jar jchempaint-applet-editor.jar jchempaint-applet-editor-opts.jar jchempaint-applet-resources.jar jchempaint-applet-org_openscience_cdk_config.jar jchempaint-applet-org_openscience_cdk_controller.jar jchempaint-applet-org_fest.jar jchempaint-applet-org_jaxen.jar jchempaint-applet-org_xmlcml.jar jchempaint-applet-org_openscience_cdk_dict.jar jchempaint-applet-org_openscience_cdk_io.jar jchempaint-applet-org_openscience_cdk_io_cml.jar jchempaint-applet-org_openscience_cdk_iupac.jar jchempaint-applet-org_openscience_cdk_math.jar jchempaint-applet-org_openscience_cdk_tools.jar jchempaint-applet-org_openscience_cdk_structgen.jar jchempaint-applet-org_openscience_cdk_nonotify.jar jchempaint-applet-org_openscience_cdk.jar jchempaint-applet-org_openscience.jar jchempaint-applet-org_3pq.jar jchempaint-applet-org_apache.jar jchempaint-applet-org_w3c.jar jchempaint-applet-org.jar jchempaint-applet-com_ozten.jar jchempaint-applet-Jama.jar jchempaint-applet-jas.jar jchempaint-applet-javax_vecmath.jar jchempaint-applet-nu.jar jchempaint-applet-templates.jar jchempaint-applet-others.jar" />
+             <arg line="i jchempaint-applet-core.jar jchempaint-applet-viewer-opts.jar jchempaint-applet-editor.jar jchempaint-applet-editor-opts.jar jchempaint-applet-resources.jar jchempaint-applet-org_openscience_cdk_config.jar jchempaint-applet-org_openscience_cdk_controller.jar jchempaint-applet-org_jaxen.jar jchempaint-applet-org_xmlcml.jar jchempaint-applet-org_openscience_cdk_dict.jar jchempaint-applet-org_openscience_cdk_io.jar jchempaint-applet-org_openscience_cdk_io_cml.jar jchempaint-applet-org_openscience_cdk_iupac.jar jchempaint-applet-org_openscience_cdk_math.jar jchempaint-applet-org_openscience_cdk_tools.jar jchempaint-applet-org_openscience_cdk_structgen.jar jchempaint-applet-org_openscience_cdk_nonotify.jar jchempaint-applet-org_openscience_cdk.jar jchempaint-applet-org_openscience.jar jchempaint-applet-org_3pq.jar jchempaint-applet-org_apache.jar jchempaint-applet-org_w3c.jar jchempaint-applet-org.jar jchempaint-applet-com_ozten.jar jchempaint-applet-Jama.jar jchempaint-applet-jas.jar jchempaint-applet-javax_vecmath.jar jchempaint-applet-nu.jar jchempaint-applet-templates.jar jchempaint-applet-others.jar" />
         </exec>
     </target>
 	
@@ -615,6 +606,9 @@
                 <fileset dir="${cdk.devellib}">
                         <include name="*.jar" />
                 </fileset>
+                <fileset dir="${devellib}">
+                        <include name="*.jar" />
+                </fileset>
             </classpath>
         </javac>
 		<copy todir="${dist-test}/data">
@@ -631,6 +625,9 @@
                 <fileset dir="${cdk.devellib}">
                         <include name="*.jar" />
                 </fileset>
+                <fileset dir="${devellib}">
+                        <include name="*.jar" />
+                </fileset>
                 <pathelement location="${dist-test}"/>
             </classpath>
             <test name="org.openscience.jchempaint.AllJCPTests"
@@ -641,10 +638,10 @@
 	</target>
 
     <target id="dist-jars" name="dist-jars" depends="compile-jcp">
-    	<mkdir dir="${dist}/alljars" />
-    	<copy todir="${dist}/alljars">
+        <mkdir dir="${dist}/alljars" />
+        <copy todir="${dist}/alljars">
             <fileset dir="${cdk.dist}/jar">
-    		  <include name="*.jar" />
+              <include name="*.jar" />
             </fileset>
         </copy>
         <jar jarfile="${dist}/alljars/cdk-jchempaint.jar">
@@ -665,6 +662,45 @@
         <zip destfile="${dist}/jchempaint-lib-${jcp.version}.zip">
               <zipfileset dir="${dist}/alljars" includes="*.jar"/>
         </zip>
+    </target>
+	
+    <target name="javadoc" depends="build-applet">
+        <mkdir dir="${javadoc.dir}" />
+        <javac srcdir="${src}/util" destdir="${javadoc.dir}" optimize="${optimization}"
+                nowarn="${nowarn}"
+                debug="${debug}" deprecation="${deprecation}" target="1.5" source="1.5">
+            <classpath>
+                <fileset dir="${cdk.lib}" >
+                </fileset>
+                <fileset dir="${cdk.devellib}">
+                </fileset>
+                <fileset dir="${cdk.dist}/jar">
+                </fileset>
+                <fileset dir="${lib}">
+                </fileset>
+            	<pathelement location="${dist-classes}"/>
+            </classpath>
+        	<include name="**/JCPParamsTaglet.java"/>
+        </javac>
+        <javadoc destdir="${javadoc.dir}"
+                 author="true" version="true" use="true"
+                 public="true"
+                 windowtitle="JChemPaint API">
+            <classpath>
+                <fileset dir="${cdk.lib}" >
+                </fileset>
+                <fileset dir="${cdk.devellib}">
+                </fileset>
+                <fileset dir="${cdk.dist}/jar">
+                </fileset>
+                <fileset dir="${lib}">
+                </fileset>
+            </classpath>
+        	<taglet name="JCPParamsTaglet" path="${cdk.lib}/jar/xom-1.1.jar:${javadoc.dir}:${dist-classes}" />
+            <packageset dir="${src}/main" defaultexcludes="yes">
+                <include name="org/openscience/jchempaint/**" />
+            </packageset>
+        </javadoc>
     </target>
 </project>
 
