@@ -6,6 +6,7 @@ New features:
 Fixes:
 * Tooltips parameter in applet works
 * (Virtually) Complete tranlations for Polish, Hungarian, Spanish, Czech
+* Cancel in Enter Element dialog created empty elements
 
 3.0
 ---
