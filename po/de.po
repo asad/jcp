@@ -649,7 +649,7 @@ msgstr "Bor"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:528
 msgid "Carbon"
-msgstr "Kohlendioxid"
+msgstr "Kohlenstoff"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:531
 msgid "Nitrogen"
