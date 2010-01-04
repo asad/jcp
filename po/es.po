@@ -3,13 +3,13 @@ msgstr ""
 "Project-Id-Version: JChemPaint\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-11-26 13:57+0000\n"
-"PO-Revision-Date: 2009-12-28 23:24+0000\n"
-"Last-Translator: aztk <aztecaymaya@gmail.com>\n"
+"PO-Revision-Date: 2010-01-04 07:29+0000\n"
+"Last-Translator: Paco Molinero <paco@byasl.com>\n"
 "Language-Team: CDK developers <cdk-jchempaint@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-12-29 14:52+0000\n"
+"X-Launchpad-Export-Date: 2010-01-04 12:40+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Country: SPAIN\n"
 "X-Poedit-Language: Spanish\n"
@@ -804,11 +804,11 @@ msgstr "Molibdeno"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:639
 msgid "Technetium"
-msgstr ""
+msgstr "Tecnecio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:642
 msgid "Ruthenium"
-msgstr ""
+msgstr "Rutenio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:645
 msgid "Rhodium"
@@ -864,67 +864,67 @@ msgstr "Lantano"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:684
 msgid "Cerium"
-msgstr ""
+msgstr "Cerio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:687
 msgid "Praseodymium"
-msgstr ""
+msgstr "Praseodimio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:690
 msgid "Neodymium"
-msgstr ""
+msgstr "Neodimio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:693
 msgid "Promethium"
-msgstr ""
+msgstr "Prometio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:696
 msgid "Samarium"
-msgstr ""
+msgstr "Samario"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:699
 msgid "Europium"
-msgstr ""
+msgstr "Europio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:702
 msgid "Gadolinium"
-msgstr ""
+msgstr "Gadolinio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:705
 msgid "Terbium"
-msgstr ""
+msgstr "Terbio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:708
 msgid "Dysprosium"
-msgstr ""
+msgstr "Disprosio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:711
 msgid "Holmium"
-msgstr ""
+msgstr "Holmio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:714
 msgid "Erbium"
-msgstr ""
+msgstr "Erbio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:717
 msgid "Thulium"
-msgstr ""
+msgstr "Tulio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:720
 msgid "Ytterbium"
-msgstr ""
+msgstr "Iterbio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:723
 msgid "Lutetium"
-msgstr ""
+msgstr "Lutecio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:726
 msgid "Hafnium"
-msgstr ""
+msgstr "Hafnio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:729
 msgid "Tantalum"
-msgstr ""
+msgstr "Tantalio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:732
 msgid "Tungsten"
@@ -932,15 +932,15 @@ msgstr "Tungsteno"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:735
 msgid "Rhenium"
-msgstr ""
+msgstr "Renio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:738
 msgid "Osmium"
-msgstr ""
+msgstr "Osmio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:741
 msgid "Iridium"
-msgstr ""
+msgstr "Iridio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:744
 msgid "Platinum"
@@ -956,7 +956,7 @@ msgstr "Mercurio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:753
 msgid "Thallium"
-msgstr ""
+msgstr "Talio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:756
 msgid "Lead"
@@ -964,23 +964,23 @@ msgstr "Plomo"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:759
 msgid "Bismuth"
-msgstr ""
+msgstr "Bismuto"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:762
 msgid "Polonium"
-msgstr ""
+msgstr "Polonio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:765
 msgid "Astatine"
-msgstr ""
+msgstr "Astato"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:768
 msgid "Radon"
-msgstr ""
+msgstr "Radón"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:771
 msgid "Francium"
-msgstr ""
+msgstr "Francio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:774
 msgid "Radium"
@@ -988,129 +988,129 @@ msgstr "Radio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:777
 msgid "Actinium"
-msgstr ""
+msgstr "Actinio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:780
 msgid "Thorium"
-msgstr ""
+msgstr "Torio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:783
 msgid "Protactinium"
-msgstr ""
+msgstr "Protactinio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:786
 msgid "Uranium"
-msgstr ""
+msgstr "Uranio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:789
 msgid "Neptunium"
-msgstr ""
+msgstr "Neptunio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:792
 msgid "Plutonium"
-msgstr ""
+msgstr "Plutonio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:795
 msgid "Americium"
-msgstr ""
+msgstr "Americio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:798
 msgid "Curium"
-msgstr ""
+msgstr "Curio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:801
 msgid "Berkelium"
-msgstr ""
+msgstr "Berkelio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:804
 msgid "Californium"
-msgstr ""
+msgstr "Californio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:807
 msgid "Einsteinium"
-msgstr ""
+msgstr "Einstenio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:810
 msgid "Fermium"
-msgstr ""
+msgstr "Fermio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:813
 msgid "Mendelevium"
-msgstr ""
+msgstr "Mendelevio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:816
 msgid "Nobelium"
-msgstr ""
+msgstr "Nobelio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:819
 msgid "Lawrencium"
-msgstr ""
+msgstr "Laurencio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:822
 msgid "Rutherfordium"
-msgstr ""
+msgstr "Rutherfordio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:825
 msgid "Dubnium"
-msgstr ""
+msgstr "Dubnio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:828
 msgid "Seaborgium"
-msgstr ""
+msgstr "Seaborgio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:831
 msgid "Bohrium"
-msgstr ""
+msgstr "Bohrio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:834
 msgid "Hassium"
-msgstr ""
+msgstr "Hassio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:837
 msgid "Meitnerium"
-msgstr ""
+msgstr "Meitnerio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:840
 msgid "Darmstadtium"
-msgstr ""
+msgstr "Darmstadtio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:843
 msgid "Roentgenium"
-msgstr ""
+msgstr "Roentgenio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:846
 msgid "Ununbium"
-msgstr ""
+msgstr "Ununbio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:849
 msgid "Ununtrium"
-msgstr ""
+msgstr "Ununtrio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:852
 msgid "Ununquadium"
-msgstr ""
+msgstr "Ununquadio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:855
 msgid "Ununpentium"
-msgstr ""
+msgstr "Ununpentio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:858
 msgid "Ununhexium"
-msgstr ""
+msgstr "Ununhexio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:861
 msgid "Ununseptium"
-msgstr ""
+msgstr "Ununseptio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:864
 msgid "Ununoctium"
-msgstr ""
+msgstr "Ununoctio"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:868
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:903
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:921
 msgid "Unknown"
-msgstr ""
+msgstr "Desconocido"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:883
 msgid "Noble Gases"
@@ -1151,19 +1151,19 @@ msgstr "Metales de transición"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:899
 msgid "Lanthanides"
-msgstr ""
+msgstr "Lantánidos"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:901
 msgid "Actinides"
-msgstr ""
+msgstr "Actínidos"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:915
 msgid "Gas"
-msgstr ""
+msgstr "Gas"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:917
 msgid "Liquid"
-msgstr ""
+msgstr "Líquido"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:919
 msgid "Solid"
@@ -1187,7 +1187,7 @@ msgstr "CAS RN:"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1055
 msgid "Element Category:"
-msgstr ""
+msgstr "Gategoría de elemento:"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1056
 msgid "State:"
@@ -1199,7 +1199,7 @@ msgstr ""
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1057
 msgid "undefined"
-msgstr ""
+msgstr "sin definir"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1065
 msgid "Periodic Table of elements"
@@ -1339,7 +1339,7 @@ msgstr "Plantillas de estructura"
 
 #: src/main/org/openscience/jchempaint/dialog/TemplateBrowser.java:117
 msgid "All"
-msgstr ""
+msgstr "Todos"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTableDialog.java:67
 msgid "Choose an element..."
@@ -2094,7 +2094,7 @@ msgstr "Cambiar el símbolo de dibujo para P"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:301
 msgid "Change drawing symbol to S"
-msgstr ""
+msgstr "Cambiar símbolo de dibujo a S"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:302
 msgid "Change drawing symbol to F"
@@ -2114,7 +2114,7 @@ msgstr "Cambiar el símbolo de dibujo para I"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:306
 msgid "Reaction"
-msgstr ""
+msgstr "Reacción"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:307
 msgid "Make Reactant in New Reaction"
@@ -2166,7 +2166,7 @@ msgstr "Lípidos"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:319
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Varios"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:320
 msgid "Nucleosides"
@@ -2182,7 +2182,7 @@ msgstr "Esteroides"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:323
 msgid "Language"
-msgstr ""
+msgstr "Idioma"
 
 #: src/main/org/openscience/jchempaint/GT.java:123
 msgid "Dutch"
