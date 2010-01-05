@@ -1,9 +1,8 @@
 import java.io.File;
 import java.io.FileFilter;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.IOException;
+import java.util.Date;
 import java.util.Properties;
 
 
@@ -15,6 +14,11 @@ public class ExtractCoprightInfo {
         String linesep = System.getProperty("line.separator");
         FileOutputStream fos = new FileOutputStream(new File("lib-licenses.txt"));
         fos.write(new String("JCP contains the following libraries. Please read this for comments on copyright etc."+linesep+linesep).getBytes());
+        fos.write(new String("Chemistry Development Kit, master version as of "+new Date().toString()+" (http://cdk.sf.net)"+linesep).getBytes());
+        fos.write(new String("Copyright 1997-2009 The CDK Development Team"+linesep).getBytes());
+        fos.write(new String("License: LGPL v2 (http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)"+linesep).getBytes());
+        fos.write(new String("Download: https://sourceforge.net/projects/cdk/files/"+linesep).getBytes());
+        fos.write(new String("Source available at: http://sourceforge.net/scm/?type=git&group_id=20024"+linesep+linesep).getBytes());
         File[] files = new File(args[0]).listFiles(new JarFileFilter());
         for(int i=0;i<files.length;i++){
             if(new File(files[i].getPath()+".meta").exists()){
