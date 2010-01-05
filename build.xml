@@ -49,6 +49,9 @@
             <fileset dir="${cdk.dir}/doc">
                 <include name="lgpl.license" />
             </fileset>        	
+            <fileset dir=".">
+                <include name="lib-licenses.txt" />
+            </fileset>          
         </jar>
     </target>
 
@@ -202,7 +205,7 @@
         </exec>
     </target>
 
-   	<target id="compile-jcp" name="compile-jcp" depends="build-languageclasses" >
+   	<target id="compile-jcp" name="compile-jcp" depends="build-languageclasses, makelicenseinfo" >
         <!-- TODO check if dist-all in cdk has been done-->
         <echo message="Compiling JChemPaint classes." />
         <mkdir dir="${dist-classes}" />
@@ -222,7 +225,9 @@
 
          </javac>
     	<copydir dest="${dist-classes}/org/openscience/jchempaint/resources" src="${src}/main/org/openscience/jchempaint/resources"></copydir>
+        <copy file="lib-licenses.txt" todir="${dist-classes}/org/openscience/jchempaint/resources/userhelp_jcp"/>
     	<replace file="${dist-classes}/org/openscience/jchempaint/resources/JChemPaintResources.properties" token="@@@" value="${jcp.version}"/>
+   		<replace file="${dist-classes}/org/openscience/jchempaint/resources/userhelp_jcp/license.html" token="@@@" value="${jcp.version}"/>
         <copydir dest="${dist-classes}/org/openscience/jchempaint/dialog/templates" src="${src}/main/org/openscience/jchempaint/dialog/templates"></copydir>
         <delete file="${dist-classes}/org/openscience/jchempaint/dialog/templates/DummyClass.java"></delete>
     	<copy todir="${dist-classes}">
@@ -461,6 +466,7 @@
       <zip destfile="${dist}/jchempaint-applet-${jcp.version}.zip">
             <zipfileset dir="${dist}/jar" includes="jchempaint-applet-*.jar"/>
             <zipfileset dir="${cdk.dir}/doc" includes="lgpl.license"/>
+      	    <zipfileset dir="." includes="lib-licenses.txt"/>
       </zip>
     </target>
 
@@ -470,6 +476,7 @@
         <zip destfile="${dist}/jchempaint-applet-${jcp.version}.zip">
             <zipfileset dir="${dist}/jar" includes="jchempaint-applet-*.jar"/>
         	<zipfileset dir="${cdk.dir}/doc" includes="lgpl.license"/>
+        	<zipfileset dir="." includes="lib-licenses.txt"/>
         </zip>
     </target>
 
@@ -487,6 +494,7 @@
         <zip destfile="${dist}/jchempaint-applet-${jcp.version}.zip">
             <zipfileset dir="${dist}/jar" includes="jchempaint-applet-*.jar"/>
             <zipfileset dir="${cdk.dir}/doc" includes="lgpl.license"/>
+        	<zipfileset dir="." includes="lib-licenses.txt"/>
         </zip>
     </target>
 	
@@ -701,6 +709,31 @@
                 <include name="org/openscience/jchempaint/**" />
             </packageset>
         </javadoc>
+    </target>
+	
+	   
+    <target name="makelicenseinfo">
+    	<mkdir dir="${dist}"/>
+        <javac srcdir="${src}/util" destdir="${dist}" optimize="${optimization}"
+                nowarn="${nowarn}"
+                debug="${debug}" deprecation="${deprecation}" target="1.5" source="1.5">
+            <classpath>
+                <fileset dir="${cdk.lib}" >
+                </fileset>
+                <fileset dir="${cdk.devellib}">
+                </fileset>
+                <fileset dir="${cdk.dist}/jar">
+                </fileset>
+                <fileset dir="${lib}">
+                </fileset>
+                <pathelement location="${dist-classes}"/>
+            </classpath>
+            <include name="**/ExtractCoprightInfo.java"/>
+        </javac>
+    	<java classname="ExtractCoprightInfo" classpath="${dist}">
+    		<arg value="${cdk.lib}"/>
+    	</java>
+    	<delete file="${dist}/ExtractCoprightInfo.class"></delete>
     </target>
 </project>
 

@@ -30,6 +30,7 @@ package org.openscience.jchempaint.action;
 
 import java.awt.event.ActionEvent;
 
+import org.openscience.jchempaint.GT;
 import org.openscience.jchempaint.dialog.HelpDialog;
 
 /**
@@ -45,14 +46,17 @@ public class HelpAction extends JCPAction
 	{
 		if (type.equals("tutorial"))
 		{
-			new HelpDialog(null, "org/openscience/jchempaint/resources/userhelp_jcp/contain/tutorial.html").setVisible(true);
+			new HelpDialog(null, "org/openscience/jchempaint/resources/userhelp_jcp/contain/tutorial.html", GT._("JChemPaint Help")).setVisible(true);
 		} else if (type.equals("feedback"))
         {
-            new HelpDialog(null, "org/openscience/jchempaint/resources/userhelp_jcp/contain/feedback.html").setVisible(true);
+            new HelpDialog(null, "org/openscience/jchempaint/resources/userhelp_jcp/contain/feedback.html", GT._("JChemPaint Help")).setVisible(true);
+        } else if (type.equals("license"))
+        {
+            new HelpDialog(null, "org/openscience/jchempaint/resources/userhelp_jcp/license.html", GT._("JChemPaint License")).setVisible(true);
         } else
-		{
-			new HelpDialog(null, "org/openscience/jchempaint/resources/userhelp_jcp/jcp.html").setVisible(true);
-		}
+        {
+            new HelpDialog(null, "org/openscience/jchempaint/resources/userhelp_jcp/jcp.html", GT._("JChemPaint Help")).setVisible(true);
+    	}
 	}
 }
 
