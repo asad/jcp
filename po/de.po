@@ -773,15 +773,15 @@ msgstr "Krypton"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:621
 msgid "Rubidium"
-msgstr ""
+msgstr "Rubidium"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:624
 msgid "Strontium"
-msgstr ""
+msgstr "Strontium"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:627
 msgid "Yttrium"
-msgstr ""
+msgstr "Yttrium"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:630
 msgid "Zirconium"
@@ -789,27 +789,27 @@ msgstr ""
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:633
 msgid "Niobium"
-msgstr ""
+msgstr "Niobium"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:636
 msgid "Molybdenum"
-msgstr ""
+msgstr "Molybdän"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:639
 msgid "Technetium"
-msgstr ""
+msgstr "Technetium"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:642
 msgid "Ruthenium"
-msgstr ""
+msgstr "Ruthenium"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:645
 msgid "Rhodium"
-msgstr ""
+msgstr "Rhodium"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:648
 msgid "Palladium"
-msgstr ""
+msgstr "Palladium"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:651
 msgid "Silver"
@@ -965,7 +965,7 @@ msgstr "Polonium"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:765
 msgid "Astatine"
-msgstr ""
+msgstr "Astat"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:768
 msgid "Radon"
@@ -1697,7 +1697,7 @@ msgstr "Einführung"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:108
 msgid "Report Feedback"
-msgstr ""
+msgstr "Probleme berichten"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:109
 msgid "License"
@@ -1941,7 +1941,7 @@ msgstr "Aktuelle Datei speichern"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:261
 msgid "Print current file"
-msgstr ""
+msgstr "Aktuelle Datei drucken"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:262
 msgid "Redo Action"
