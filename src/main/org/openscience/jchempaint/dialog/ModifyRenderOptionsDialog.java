@@ -55,15 +55,18 @@ public class ModifyRenderOptionsDialog extends JFrame {
 	private PropertiesModelEditor editor;
     private RendererModel model;
     private JChemPaintPanel jcpPanel;
+    private int tabtoshow;
     
 	/**
 	 * Displays the Info Dialog for JChemPaint. 
+	 * @param tabtoshow Which tab is to be displayed?
 	 */
-    public ModifyRenderOptionsDialog(JChemPaintPanel jcpPanel, RendererModel model) {
+    public ModifyRenderOptionsDialog(JChemPaintPanel jcpPanel, RendererModel model, int tabtoshow) {
         super();
         this.model = model;
         this.jcpPanel=jcpPanel;
-        editor = new PropertiesModelEditor(this);
+        this.tabtoshow = tabtoshow;
+        editor = new PropertiesModelEditor(this, jcpPanel, tabtoshow);
         createDialog();
         pack();
         setVisible(true);
@@ -89,7 +92,7 @@ public class ModifyRenderOptionsDialog extends JFrame {
         JButton apply = new JButton(GT._("Apply"));
         apply.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                ApplyPressed();
+                ApplyPressed(false);
             }}
         );
         buttonPanel.add( apply );
@@ -106,13 +109,13 @@ public class ModifyRenderOptionsDialog extends JFrame {
         validate();
     }
     
-    private  void ApplyPressed() {
+    private  void ApplyPressed(boolean close) {
         // apply new settings
-        editor.applyChanges();
+        editor.applyChanges(close);
         jcpPanel.get2DHub().updateView();
     }
     private  void OKPressed() {
-        ApplyPressed();
+        ApplyPressed(true);
         closeFrame();
     }
 

@@ -123,6 +123,7 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
      *            The gui string
      */
     public JChemPaintPanel(IChemModel chemModel, String gui, boolean debug, JChemPaintAbstractApplet applet) {
+        GT.setLanguage(JCPPropertyHandler.getInstance().getJCPProperties().getProperty("General.language"));
         this.guistring = gui;
         this.debug = debug;
         this.setLayout(new BorderLayout());

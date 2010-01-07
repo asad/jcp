@@ -178,22 +178,6 @@ public class JChemPaintMenuHelper {
                 }
             });
         }
-        if(key.equals("language")){
-            final GT.Language[] languages = GT.getLanguageList();
-            for(int i=0;i<languages.length;i++){
-                final int counter=i;
-                JMenuItem jmi = new JChemPaintMenuHelper().createMenuItem(jcpPanel, languages[i].language, false);
-                jmi.addActionListener(new ActionListener(){
-
-                    public void actionPerformed(ActionEvent e) {
-                        GT.setLanguage(languages[counter].code);
-                        jcpPanel.updateMenusWithLanguage();
-                    }
-                    
-                });
-                menu.add(jmi);
-            }
-        }
         if(menu instanceof JMenu)
             jcpPanel.menus.put(key, (JMenu)menu);
         else if(menu instanceof JChemPaintPopupMenu)
