@@ -82,7 +82,7 @@ public class HighlightModule extends ControllerModuleAdapter {
 	}
 	
     private void highlightPeakInSpectrumApplet(IAtom atom) {
-        if(jcpApplet.getParameter("spectrumRenderer")==null)
+        if(jcpApplet==null || jcpApplet.getParameter("spectrumRenderer")==null)
         	return;
         try{
 	        Method highlightMethod = getSpectrumApplet().getClass().getMethod("highlightPeakInSpectrum", new Class[] { Integer.TYPE });

@@ -151,8 +151,7 @@ public class ControllerHub implements IMouseEventRelay, IChemModelRelay {
 		if(!isViewer){
             registerGeneralControllerModule(new ZoomModule(this));
 		}
-		if(applet!=null)
-		    registerGeneralControllerModule(new HighlightModule(this, applet));
+	    registerGeneralControllerModule(new HighlightModule(this, applet));
 		matcher = CDKAtomTypeMatcher.getInstance(chemModel.getBuilder());
 	}
 
