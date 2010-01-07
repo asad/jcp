@@ -7,6 +7,7 @@ Fixes:
 * Tooltips parameter in applet works
 * (Virtually) Complete tranlations for Polish, Hungarian, Spanish, Czech
 * Cancel in Enter Element dialog created empty elements
+* All properties in the preferences dialog are stored in file system
 
 3.0
 ---
