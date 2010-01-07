@@ -96,6 +96,7 @@ import org.openscience.jchempaint.io.JCPFileFilter;
 public class JChemPaint {
 
     public static int instancecounter = 1;
+    public final static String GUI_APPLICATION="application";
 
     @SuppressWarnings("static-access")
     public static void main(String[] args) {
@@ -621,7 +622,7 @@ public class JChemPaint {
         chemModel.setID(title);
         f.addWindowListener(new JChemPaintPanel.AppCloser());
         f.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
-        JChemPaintPanel p = new JChemPaintPanel(chemModel, "stable", debug, null);
+        JChemPaintPanel p = new JChemPaintPanel(chemModel, GUI_APPLICATION, debug, null);
         f.setPreferredSize(new Dimension(1000, 500));
         f.add(p);
         f.pack();
