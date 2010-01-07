@@ -88,6 +88,7 @@ import org.openscience.jchempaint.renderer.selection.AbstractSelection;
 public class JChemPaintPanel extends AbstractJChemPaintPanel implements
         IChemModelEventRelayHandler, ICDKChangeListener, KeyListener, IChangeModeListener {
 
+    private static final long serialVersionUID = -8932765332441119177L;
     private JComponent lastActionButton;
     private JComponent lastSecondaryButton;
     private File currentWorkDirectory;
@@ -117,10 +118,10 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
 	/**
      * Builds a JCPPanel with a certain model and a certain gui
      *
-     * @param chemModel
-     *            The model
-     * @param gui
-     *            The gui string
+     * @param chemModel   The model
+     * @param gui         The gui configuration string
+     * @param debug       Should we be in debug mode?
+     * @param applet      If this panel is to be in an applet, pass the applet here, else null.
      */
     public JChemPaintPanel(IChemModel chemModel, String gui, boolean debug, JChemPaintAbstractApplet applet) {
         GT.setLanguage(JCPPropertyHandler.getInstance().getJCPProperties().getProperty("General.language"));
@@ -164,10 +165,20 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
         });
     }
 
+    /**
+     * Gets the top level container (JFrame, Applet) of this panel.
+     * 
+     * @return The top level container.
+     */
     public Container getTopLevelContainer() {
         return this.getParent().getParent().getParent().getParent();
     }
 
+    /**
+     * If this panel is in a JFrame, sets the title of the JFrame.
+     * 
+     * @param title The title to set.
+     */
     public void setTitle(String title) {
         Container topLevelContainer = this.getTopLevelContainer();
         if (topLevelContainer instanceof JFrame) {
@@ -175,6 +186,11 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
         }
     }
 
+    /**
+     * Installs popup menus for this panel.
+     * 
+     * @param inputAdapter The SwingPopupModule to use for the popup menus.
+     */
     public void setupPopupMenus(SwingPopupModule inputAdapter) {
         if (inputAdapter.getPopupMenu(PseudoAtom.class) == null) {
             inputAdapter.setPopupMenu(PseudoAtom.class,
@@ -341,6 +357,9 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
         customizeView();
     }
 
+    /**
+     * Shows and hides menus, statusbar, toolbars according to settings.
+     */
     public void customizeView() {
         if (showMenuBar) {
             if (menu == null) {
@@ -451,6 +470,11 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
         return isAlreadyAFile;
     }
 
+    /**
+     * Gets the current gui configuration string of this panel.
+     * 
+     * @return The current gui configuration string of this panel.
+     */
     public String getGuistring() {
         return guistring;
     }
@@ -475,10 +499,20 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
         return showInsertTextField;
     }
 
+    /**
+     * Gets the SVG of the chemical entities in this panel.
+     * 
+     * @return The SVG of the chemical entities in this panel.
+     */
     public String getSVGString() {
         return this.renderPanel.toSVG();
     }
 
+    /**
+     * Takes an image snapshot of this panel.
+     * 
+     * @return The snapshot.
+     */
     public Image takeSnapshot() {
         return this.renderPanel.takeSnapshot();
     }
@@ -491,10 +525,7 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
      *         OptionPane.YES_OPTION/OptionPane.NO_OPTION/OptionPane.CANCEL_OPTION
      */
     public int showWarning() {
-        if (isModified && !guistring.equals(JChemPaintEditorApplet.GUI_APPLET)) { // TODO
-                                                                                  // &&
-                                                                                  // !getIsOpenedByViewer())
-                                                                                  // {
+        if (isModified && !guistring.equals(JChemPaintEditorApplet.GUI_APPLET)) { 
             int answer = JOptionPane.showConfirmDialog(this, renderPanel
                     .getChemModel().getID()
                     + " " + GT._("has unsaved data. Do you want to save it?"),
@@ -509,12 +540,6 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
             }
             return answer;
         } else if (guistring.equals(JChemPaintEditorApplet.GUI_APPLET)) {
-            // In case of the applet we do not ask for save but put the clear
-            // into the undo stack
-            // ClearAllEdit coa = null;
-            // TODO undo redo missing coa = new
-            // ClearAllEdit(this.getChemModel(),(IMoleculeSet)this.getChemModel().getMoleculeSet().clone(),this.getChemModel().getReactionSet());
-            // this.jchemPaintModel.getControllerModel().getUndoSupport().postEdit(coa);
             return JOptionPane.YES_OPTION;
         } else {
             return JOptionPane.YES_OPTION;
@@ -537,14 +562,6 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
          *            Description of the Parameter
          */
         public void windowClosing(WindowEvent e) {
-            // JFrame rootFrame = (JFrame) e.getSource();
-            /*
-             * TODO if (rootFrame.getContentPane().getComponent(0) instanceof
-             * JChemPaintEditorPanel) { JChemPaintEditorPanel panel =
-             * (JChemPaintEditorPanel)
-             * rootFrame.getContentPane().getComponent(0);
-             * panel.fireChange(JChemPaintEditorPanel.JCP_CLOSING); }
-             */
             int clear = ((JChemPaintPanel) ((JFrame) e.getSource())
                     .getContentPane().getComponents()[0]).showWarning();
             if (JOptionPane.CANCEL_OPTION != clear) {
@@ -580,11 +597,17 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
         }
     }
 
+    /* (non-Javadoc)
+     * @see org.openscience.jchempaint.controller.IChemModelEventRelayHandler#coordinatesChanged()
+     */
     public void coordinatesChanged() {
         setModified(true);
         updateStatusBar();
     }
 
+    /* (non-Javadoc)
+     * @see org.openscience.jchempaint.controller.IChemModelEventRelayHandler#selectionChanged()
+     */
     public void selectionChanged() {
         updateStatusBar();
         if(this.getRenderPanel().getRenderer().getRenderer2DModel().getSelection()!=null 
@@ -617,6 +640,9 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
         }
     }
 
+    /* (non-Javadoc)
+     * @see org.openscience.jchempaint.controller.IChemModelEventRelayHandler#structureChanged()
+     */
     public void structureChanged() {
         setModified(true);
         updateStatusBar();
@@ -626,6 +652,9 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
         this.get2DHub().updateView();
     }
 
+    /* (non-Javadoc)
+     * @see org.openscience.jchempaint.controller.IChemModelEventRelayHandler#structurePropertiesChanged()
+     */
     public void structurePropertiesChanged() {
         setModified(true);
         updateStatusBar();
@@ -634,6 +663,9 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
         this.getRenderPanel().getRenderer().getRenderer2DModel().setSelection(AbstractSelection.EMPTY_SELECTION);
     }
 
+    /**
+     * Enables/disables the undo/redo button depending on if something can be undone/redone.
+     */
     public void updateUndoRedoControls() {
         UndoManager undoManager = renderPanel.getUndoManager();
         JButton redoButton=buttons.get("redo");
@@ -659,16 +691,22 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
         }
     }
 
+    /* (non-Javadoc)
+     * @see org.openscience.cdk.event.ICDKChangeListener#stateChanged(java.util.EventObject)
+     */
     public void stateChanged(EventObject event) {
     	updateUndoRedoControls();
     }
 
-    public void zoomFactorChanged(EventObject event) {
-    }
-
+    /* (non-Javadoc)
+     * @see java.awt.event.KeyListener#keyPressed(java.awt.event.KeyEvent)
+     */
     public void keyPressed(KeyEvent arg0) {
     }
 
+    /* (non-Javadoc)
+     * @see java.awt.event.KeyListener#keyReleased(java.awt.event.KeyEvent)
+     */
     public void keyReleased(KeyEvent arg0) {
         RendererModel model = renderPanel.getRenderer().getRenderer2DModel();
         ControllerHub relay = renderPanel.getHub();
@@ -691,9 +729,15 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
         }
     }
 
+    /* (non-Javadoc)
+     * @see java.awt.event.KeyListener#keyTyped(java.awt.event.KeyEvent)
+     */
     public void keyTyped(KeyEvent arg0) {
     }
 
+    /* (non-Javadoc)
+     * @see org.openscience.jchempaint.controller.IChemModelEventRelayHandler#zoomChanged()
+     */
     public void zoomChanged() {
         this.updateStatusBar();
     }
@@ -769,6 +813,12 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
         this.updateStatusBar();
 	}
 	
+    /**
+     * Gets all atomcontainers of a chemodel in one AtomContainer.
+     * 
+     * @param chemModel The chemodel
+     * @return The result.
+     */
     public static IAtomContainer getAllAtomContainersInOne(IChemModel chemModel){
 		List<IAtomContainer> acs=ChemModelManipulator.getAllAtomContainers(chemModel);
 		IAtomContainer allinone=chemModel.getBuilder().newAtomContainer();
@@ -778,6 +828,11 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
 		return allinone;
     }
 
+    /**
+     * Sets the lastSecondaryButton attribute. Only to be used once from JCPToolBar.
+     * 
+     * @param lastSecondaryButton The lastSecondaryButton.
+     */
     public void setLastSecondaryButton(JComponent lastSecondaryButton) {
         this.lastSecondaryButton = lastSecondaryButton;
     }

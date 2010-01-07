@@ -53,6 +53,7 @@ import org.openscience.jchempaint.renderer.selection.LogicalSelection;
  */
 public abstract class AbstractJChemPaintPanel extends JPanel{
 
+    private static final long serialVersionUID = -2229181291989083517L;
     // buttons/menus are remembered in here using the string from config files as key
     Map<String, JButton> buttons=new HashMap<String, JButton>();
     Map<String, JMenuItem> menus=new HashMap<String, JMenuItem>();
@@ -66,9 +67,9 @@ public abstract class AbstractJChemPaintPanel extends JPanel{
         LoggingToolFactory.createLoggingTool(AbstractJChemPaintPanel.class);
 
 	/**
+	 * Gets the RenderPanel in this panel.
 	 * 
-	 * 
-	 * @return
+	 * @return The RenderPanel.
 	 */
 	public RenderPanel getRenderPanel() {
 		return renderPanel;
@@ -84,18 +85,18 @@ public abstract class AbstractJChemPaintPanel extends JPanel{
 	}
 	
 	/**
-	 * Return the chemmodel of this JCPPanel
+	 * Returns the chemmodel used in this panel.
 	 * 
-	 * @return
+	 * @return The chemmodel usedin this panel.
 	 */
 	public IChemModel getChemModel(){
 		return renderPanel.getChemModel();
 	}
 
 	/**
-	 * Return the chemmodel of this JCPPanel
+	 * Sets the chemmodel used in this panel.
 	 * 
-	 * @return
+	 * @param model The chemmodel to use.
 	 */
 	public void setChemModel(IChemModel model){
 		renderPanel.setChemModel(model);
@@ -103,6 +104,15 @@ public abstract class AbstractJChemPaintPanel extends JPanel{
 		renderPanel.getRenderer().getRenderer2DModel().setSelection(new LogicalSelection(LogicalSelection.Type.NONE));
 	}
 	
+	/**
+	 * Gives the smiles for the current chemmodel in this panel.
+	 * 
+	 * @return The smiles for the current chemmodel in this panel.
+	 * @throws CDKException
+	 * @throws ClassNotFoundException
+	 * @throws IOException
+	 * @throws CloneNotSupportedException
+	 */
 	public String getSmiles() throws CDKException, ClassNotFoundException, IOException, CloneNotSupportedException{
 		return CreateSmilesAction.getSmiles(getChemModel());
 	}
