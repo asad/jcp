@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JChemPaint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-17 02:00+0300\n"
+"POT-Creation-Date: 2010-01-07 13:34+0000\n"
 "PO-Revision-Date: 2009-12-21 09:03+0100\n"
 "Last-Translator: Nikodem Miranowicz <nmiran@amu.edu.pl>\n"
 "Language-Team: CDK developers <cdk-jchempaint@lists.sourceforge.net>\n"
@@ -20,634 +20,269 @@ msgstr ""
 "X-Poedit-Country: POLAND\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: src/main/org/openscience/jchempaint/io/JCPFileFilter.java:193
-msgid "MDL MOL file"
-msgstr "Plik MDL MOL"
+#: src/main/org/openscience/jchempaint/controller/AddAtomModule.java:211
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:279
+msgid "Add Atom Or Change Element"
+msgstr "Dodaj atom lub zmień pierwiastek"
 
-#: src/main/org/openscience/jchempaint/io/JCPFileFilter.java:197
-msgid "MDL SDF Molfile"
-msgstr "Plik MDL SDF"
-
-#: src/main/org/openscience/jchempaint/io/JCPFileFilter.java:201
-msgid "MDL RXN Molfile"
-msgstr "Plik MDL RXN"
-
-#: src/main/org/openscience/jchempaint/io/JCPFileFilter.java:205
-msgid "IUPAC Chemical Identifier"
-msgstr "Identyfikator Substancji Chemicznej IUPAC"
-
-#: src/main/org/openscience/jchempaint/io/JCPSaveFileFilter.java:75
-msgid "CDK source code fragment"
-msgstr "Fragment kodu źródłowego CDK"
-
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:113
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:107
 msgid "Could not determine JCP version"
 msgstr "Nie można określić wersji JCP"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:117
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:111
 #, java-format
-msgid "WARNING: JChemPaint {0} must be run with a Java VM version {1} or higher."
-msgstr "UWAGA! JChemPaint {0} musi być uruchomiony w środowisku Java VM wersji {1} lub wyższej."
+msgid ""
+"WARNING: JChemPaint {0} must be run with a Java VM version {1} or higher."
+msgstr ""
+"UWAGA! JChemPaint {0} musi być uruchomiony w środowisku Java VM wersji {1} "
+"lub wyższej."
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:118
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:112
 #, java-format
 msgid "Your JVM version is {0}"
 msgstr "Wersja twojego JVM to {0}"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:123
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:117
 msgid "gives this help page"
 msgstr "podaje tę stronę pomocy"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:125
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:119
 msgid "gives JChemPaints version number"
 msgstr "podaje numer wersji JChemPaints"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:130
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:124
 msgid "supported options are given below"
 msgstr "Dostępne opcje podano poniżej"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:196
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:243
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:172
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:210
 msgid "File does not exist"
 msgstr "Plik nie istnieje"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:217
-msgid "Untitled"
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:193
+#, fuzzy
+msgid "Untitled-"
 msgstr "Bez tytułu"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:411
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:361
 msgid "Could not determine file format"
 msgstr "Nie można określić formatu"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:422
-msgid "It seems you opened a mol or sdf file containing several molecules. Only the first one will be shown"
-msgstr "Zdaje się, że otwarty został plik MOL lub SDF opisujący kilka cząsteczek. Tylko pierwsza z nich będzie przedstawiona"
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:372
+msgid ""
+"It seems you opened a mol or sdf file containing several molecules. Only the "
+"first one will be shown"
+msgstr ""
+"Zdaje się, że otwarty został plik MOL lub SDF opisujący kilka cząsteczek. "
+"Tylko pierwsza z nich będzie przedstawiona"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:426
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:376
 msgid "sdf-like file"
 msgstr "Plik pochodny od SDF"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:602
-msgid "Not all atoms have 2D coordinates. JCP can only show full 2D specified structures. Shall we lay out the structure?"
-msgstr "Nie wszystkie atomy mają współrzędne płaszczyznowe. JCP może pokazywać tylko w pełni dwuwymiarowo opisane struktury. Czy przedstawić tę strukturę?"
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:552
+msgid ""
+"Not all atoms have 2D coordinates. JCP can only show full 2D specified "
+"structures. Shall we lay out the structure?"
+msgstr ""
+"Nie wszystkie atomy mają współrzędne płaszczyznowe. JCP może pokazywać tylko "
+"w pełni dwuwymiarowo opisane struktury. Czy przedstawić tę strukturę?"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:610
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:560
 msgid "Cannot display without 2D coordinates"
 msgstr "Nie można przedstawić bez współrzędnych dwuwymiarowych"
 
-#: src/main/org/openscience/jchempaint/action/CreateSmilesAction.java:78
-msgid "Generated SMILES:"
-msgstr "Utworzony SMILES:"
+#: src/main/org/openscience/jchempaint/InsertTextPanel.java:86
+#: src/main/org/openscience/jchempaint/InsertTextPanel.java:129
+#: src/main/org/openscience/jchempaint/InsertTextPanel.java:273
+msgid "Insert"
+msgstr "Wstaw"
 
-#: src/main/org/openscience/jchempaint/action/CreateSmilesAction.java:81
-msgid "Error while creating SMILES:"
-msgstr "Błąd podczas tworzenia SMILES:"
+#: src/main/org/openscience/jchempaint/InsertTextPanel.java:98
+#: src/main/org/openscience/jchempaint/InsertTextPanel.java:272
+msgid "Enter a CAS, SMILES or InChI string"
+msgstr "Wprowadź łańcuch znaków CAS, SMILES lub InChI"
 
-#: src/main/org/openscience/jchempaint/action/CreateSmilesAction.java:84
-msgid "Error"
-msgstr "Błąd"
-
-#: src/main/org/openscience/jchempaint/action/CopyPasteAction.java:329
-msgid "The content you tried to copy could not be read to any known format"
-msgstr "Zawartość jaką starasz się przekopiować nie może być odczytana zgodnie z żadnym znanym formatem"
-
-#: src/main/org/openscience/jchempaint/action/CopyPasteAction.java:329
-msgid "Could not process content"
+#: src/main/org/openscience/jchempaint/InsertTextPanel.java:153
+#, fuzzy
+msgid "Could not process InChI"
 msgstr "Nie możne obrobić zawartości"
 
-#: src/main/org/openscience/jchempaint/action/ExportAction.java:97
-#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:153
-msgid "Please chose a file type!"
-msgstr "Wybierz proszę typ pliku!"
-
-#: src/main/org/openscience/jchempaint/action/ExportAction.java:97
-#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:153
-msgid "No file type chosen"
-msgstr "Nie wybrano typu pliku"
-
-#: src/main/org/openscience/jchempaint/action/CreateInChIAction.java:65
-msgid "Problem"
-msgstr "Problem"
-
-#: src/main/org/openscience/jchempaint/action/CreateInChIAction.java:66
-msgid "You have reactions in JCP. Reactions cannot be shown as InChI!"
-msgstr "W JCP przedstawiono reakcję. Reakcje nie mogą być przedstawiane w InChI!"
-
-#: src/main/org/openscience/jchempaint/action/CreateInChIAction.java:74
-msgid "Structure"
-msgstr "Struktura"
-
-#: src/main/org/openscience/jchempaint/action/CreateInChIAction.java:84
-msgid "InChI generation failed"
-msgstr "Wytwarzanie InChI nie powiodło się"
-
-#: src/main/org/openscience/jchempaint/action/CreateInChIAction.java:89
-msgid "InChI generation"
-msgstr "Wytwarzanie InChI"
-
-#: src/main/org/openscience/jchempaint/action/ChangeAtomSymbolAction.java:109
-msgid "Enter an element symbol:"
-msgstr "Wprowadź symbol pierwiastka:"
-
-#: src/main/org/openscience/jchempaint/action/ChangeAtomSymbolAction.java:109
-#: src/main/org/openscience/jchempaint/dialog/EnterElementSwingModule.java:127
-msgid "Enter element"
-msgstr "Wprowadź pierwiastek"
-
-#: src/main/org/openscience/jchempaint/action/ChangeAtomSymbolAction.java:118
-msgid "No valid element symbol entered"
-msgstr "Nie wprowadzono poprawnego symbolu pierwiastka"
-
-#: src/main/org/openscience/jchempaint/action/ChangeAtomSymbolAction.java:118
-msgid "Invalid symbol"
-msgstr "Niepoprawny symbol"
-
-#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:114
-msgid "Nothing to save."
-msgstr "Nie ma niczego do zapisania."
-
-#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:205
-msgid "Error while writing file"
-msgstr "Błąd zapisu pliku"
-
-#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:227
-#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:235
-#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:264
-#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:270
-#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:355
-msgid "Problems handling data"
-msgstr "Problemy z obsługą danych"
-
-#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:228
-#, java-format
-msgid "{0} files cannot contain extra molecules. You painted molecules outside the reaction(s), which will not be in the file. Continue?"
-msgstr "{0} plików nie może zawierać dodatkowych cząsteczek. Narysowano cząsteczki poza reakcją/reakcjami i nie znajdą się one w pliku. Kontynuować?"
-
-#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:236
-msgid "RXN can only save reactions. You have no reactions painted!"
-msgstr "RXN może zachowywać tylko reakcje. Nie narysowano żadnych reakcji!"
-
-#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:265
-msgid "MDL mol files can only save molecules. You have no molecules painted!"
-msgstr "MDL może zachowywać tylko cząsteczki. Nie narysowano żadnych cząsteczek!"
-
-#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:271
-#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:356
-#, java-format
-msgid "{0} files cannot contain reactions. Your have reaction(s) painted. The reactants/products of these will be included as separate molecules. Continue?"
-msgstr "{0} plików nie może zawierać reakcji. Narysowano reakcję/reakcje. Ich substraty/produkty będą załączone jak odrębne cząsteczki. Kontynuować?"
-
-#: src/main/org/openscience/jchempaint/action/CreateReactionAction.java:108
-#: src/main/org/openscience/jchempaint/action/CreateReactionAction.java:144
-msgid "No reaction existing. Cannot add therefore to something!"
-msgstr "Brak reakcji. Nie ma więc do czego dodawać!"
-
-#: src/main/org/openscience/jchempaint/action/CreateReactionAction.java:108
-#: src/main/org/openscience/jchempaint/action/CreateReactionAction.java:144
-msgid "No existing reactions"
-msgstr "Brak reakcji"
-
-#: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:72
-msgid "An open-source editor for 2D chemical structures."
-msgstr "Edytor na licencji open-source dla dwuwymiarowych reprezentacji struktur chemicznych."
-
-#: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:73
-msgid "An OpenScience project."
-msgstr "Projekt OpenScience."
-
-#: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:74
-msgid "See 'http://jchempaint.sourceforge.net' for more information."
-msgstr "Zobacz na 'http://jchempaint.sourceforge.net' po więcej informacji."
-
-#: src/main/org/openscience/jchempaint/dialog/TemplateBrowser.java:101
-msgid "Structure Templates"
-msgstr "Szablony struktur"
-
-#: src/main/org/openscience/jchempaint/dialog/TemplateBrowser.java:106
-#: src/main/org/openscience/jchempaint/dialog/EnterElementOrGroupDialog.java:96
-#: src/main/org/openscience/jchempaint/dialog/editor/ChemObjectPropertyDialog.java:83
-#: src/main/org/openscience/jchempaint/dialog/ModifyRenderOptionsDialog.java:97
-msgid "Cancel"
-msgstr "Anuluj"
-
-#: src/main/org/openscience/jchempaint/dialog/TemplateBrowser.java:118
-msgid "All"
-msgstr "Wszystko"
-
-#: src/main/org/openscience/jchempaint/dialog/TextViewDialog.java:114
-#: src/main/org/openscience/jchempaint/dialog/EnterElementOrGroupDialog.java:99
-#: src/main/org/openscience/jchempaint/dialog/editor/ChemObjectPropertyDialog.java:76
-#: src/main/org/openscience/jchempaint/dialog/ModifyRenderOptionsDialog.java:82
-msgid "OK"
-msgstr "OK"
-
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTableDialog.java:67
-msgid "Choose an element..."
-msgstr "Wybierz pierwiastek..."
-
-#: src/main/org/openscience/jchempaint/dialog/editor/BondEditor.java:56
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:85
-msgid "Single"
-msgstr "Pojedyncze"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/BondEditor.java:56
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:86
-msgid "Double"
-msgstr "Podwójne"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/BondEditor.java:56
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:87
-msgid "Triple"
-msgstr "Potrójne"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/BondEditor.java:56
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:88
-msgid "Quadruple"
-msgstr "Poczwórne"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/BondEditor.java:58
-msgid "Bond order"
-msgstr "Rząd wiązania"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/ReactionEditor.java:60
-msgid "Reaction ID"
-msgstr "ID reakcji"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/ReactionEditor.java:63
-msgid "Forward"
-msgstr "Wprzód"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/ReactionEditor.java:63
-msgid "Backward"
-msgstr "Wstecz"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/ReactionEditor.java:63
-msgid "Bidirectional"
-msgstr "Dwukierunkowo"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/ReactionEditor.java:66
-msgid "Direction"
-msgstr "Kierunek"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/ReactionEditor.java:68
-msgid "Solvent"
-msgstr "Rozpuszczalnik"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/ReactionEditor.java:70
-msgid "Temperature"
-msgstr "Temperatura"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PseudoAtomEditor.java:53
-msgid "Label"
-msgstr "Etykieta"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:149
-msgid "Display Preferences"
-msgstr "Preferencje wyświetlania"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:162
-msgid "Draw atom numbers"
-msgstr "Dorysuj numery atomów"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:169
-msgid "Explicit carbons"
-msgstr "Jawne atomy węgla"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:173
-msgid "Show explicit methyl groups"
-msgstr "Pokaż jawne grupy metylowe"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:177
-msgid "Show explicit hydrogens"
-msgstr "Pokaż jawne atomy wodoru"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:181
-msgid "Show implicit hydrogens"
-msgstr "Pokaż domniemane atomy wodoru "
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:185
-msgid "Show aromatic ring circles"
-msgstr "Pokaż okręgi w pierścieniach aromatycznych"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:192
-msgid "Color atoms by element"
-msgstr "Pokoloruj atomy odpowiednio do pierwiastków"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:206
-msgid "Set fit to screen"
-msgstr "Dostosuj do rozmiaru ekranu"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:214
-msgid "Show atom symbols"
-msgstr "Pokaż symbole atomów"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:219
-msgid "Show ball atoms"
-msgstr "Pokaż atomy jako koła"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:224
-msgid "Show square atoms"
-msgstr "Pokaż atomy jako kwadraty"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:238
-msgid "Atom size"
-msgstr "Rozmiar atomu"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:249
-msgid "Bond width"
-msgstr "Szerokość wiązania"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:268
-msgid "Highlight/Select diameter"
-msgstr "Podświetl/Wybierz średnicę"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:278
-msgid "Wedge width"
-msgstr "Szerokość klina"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:293
-msgid "Background color"
-msgstr "Kolor tła"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:300
-msgid "Choose background color..."
-msgstr "Wybierz kolor tła..."
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:307
-msgid "Other Preferences"
-msgstr "Inne preferencje"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:310
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:448
-msgid "Number of undoable operations"
-msgstr "Liczba operacji do cofnięcia"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:313
-msgid "Ask for CML settings when saving"
-msgstr "Zapytaj o ustawienia CML podczas zapisywania"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:316
-msgid "System"
-msgstr "System"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:318
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:479
-msgid "Look and feel"
-msgstr "Skórka"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:448
-msgid "must be a number from 1 to 100"
-msgstr "musi być liczbą od 1 do 100"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:479
-msgid "is not supported on this platform"
-msgstr "nie jest obsługiwana przez tę platformę"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:479
-msgid "Unsupported look&feel"
-msgstr "Nie obsługiwana skórka"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:482
-msgid "Class not found:"
-msgstr "Klasa nie odnaleziona:"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:486
-msgid "Instantiation Exception:"
-msgstr "Wyjątek konkretyzacji:"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:489
-msgid "Illegal Access: "
-msgstr "Nielegalny dostęp:"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:514
-msgid "Choose Background Color"
-msgstr "Wybierz kolor tła"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/AtomEditor.java:75
-msgid "Symbol"
-msgstr "Symbol"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/AtomEditor.java:77
-msgid "H Count"
-msgstr "Licznik atomów wodoru"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/AtomEditor.java:79
-msgid "Formal Charge"
-msgstr "Ładunek formalny"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/AtomEditor.java:81
-msgid "Isotope number"
-msgstr "Liczba izotopowa"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/AtomContainerEditor.java:54
-msgid "Title"
-msgstr "Tytuł"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/ChemObjectPropertyDialog.java:71
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:125
-msgid "Properties"
-msgstr "Właściwości"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/ChemObjectPropertyDialog.java:103
-msgid "You did not provide necessary information"
-msgstr "Nie podano wystarczających informacji"
-
-#: src/main/org/openscience/jchempaint/dialog/editor/ChemObjectPropertyDialog.java:103
-msgid "Incomplete Information"
-msgstr "Informacje niepełne"
-
-#: src/main/org/openscience/jchempaint/dialog/ModifyRenderOptionsDialog.java:76
-msgid "Preferences"
-msgstr "Preferencje"
-
-#: src/main/org/openscience/jchempaint/dialog/ModifyRenderOptionsDialog.java:90
-msgid "Apply"
-msgstr "Zastosuj"
-
-#: src/main/org/openscience/jchempaint/dialog/EnterElementSwingModule.java:127
-msgid "Enter an element symbol or choose/enter a functional group abbrivation:"
-msgstr "Wprowadź symbol pierwiastka lub wybierz/wprowadź skrót grupy funkcyjnej:"
-
-#: src/main/org/openscience/jchempaint/dialog/EnterElementSwingModule.java:181
-msgid "Add Functional Group"
-msgstr "Dodaj grupę funkcyjną"
-
-#: src/main/org/openscience/jchempaint/dialog/EnterElementSwingModule.java:195
-msgid "Add Atom"
-msgstr "Dodaj Atom"
-
-#: src/main/org/openscience/jchempaint/dialog/EnterElementSwingModule.java:203
-#, java-format
-msgid "{0} is not a valid element symbol or functional group."
-msgstr "{0} nie jest poprawnym symbolem pierwiastka lub grupy funkcyjnej"
-
-#: src/main/org/openscience/jchempaint/dialog/EnterElementSwingModule.java:203
-msgid "No valid input"
-msgstr "Brak poprawnych danych wejściowych"
+#: src/main/org/openscience/jchempaint/InsertTextPanel.java:159
+msgid "Could not load InChI subsystem"
+msgstr "Nie można załadować podsystemu InChI"
+
+#: src/main/org/openscience/jchempaint/InsertTextPanel.java:166
+msgid "Error in reading data from PubChem"
+msgstr "Błąd czytania danych z PubChem"
+
+#: src/main/org/openscience/jchempaint/InsertTextPanel.java:179
+msgid "Invalid SMILES specified"
+msgstr "Określono nieprawidłowe SMILES"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:139
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:158
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:155
 msgid "H"
 msgstr "H"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:169
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:165
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:162
 msgid "He"
 msgstr "He"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:175
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:170
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:167
 msgid "Li"
 msgstr "Li"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:177
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:171
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:168
 msgid "Be"
 msgstr "Be"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:183
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:168
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:165
 msgid "B"
 msgstr "B"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:184
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:155
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:152
 msgid "C"
 msgstr "C"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:185
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:157
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:154
 msgid "N"
 msgstr "N"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:186
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:156
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:153
 msgid "O"
 msgstr "O"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:187
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:161
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:158
 msgid "F"
 msgstr "F"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:189
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:166
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:163
 msgid "Ne"
 msgstr "Ne"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:194
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:172
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:169
 msgid "Na"
 msgstr "Na"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:195
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:173
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:170
 msgid "Mg"
 msgstr "Mg"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:228
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:174
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:171
 msgid "Al"
 msgstr "Al"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:229
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:175
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:172
 msgid "Si"
 msgstr "Si"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:230
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:159
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:169
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:156
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:166
 msgid "P"
 msgstr "P"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:231
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:160
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:157
 msgid "S"
 msgstr "S"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:232
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:162
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:159
 msgid "Cl"
 msgstr "Cl"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:234
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:167
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:164
 msgid "Ar"
 msgstr "Ar"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:239
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:186
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:183
 msgid "K"
 msgstr "K"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:240
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:190
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:187
 msgid "Ca"
 msgstr "Ca"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:242
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:194
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:191
 msgid "Sc"
 msgstr "Sc"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:243
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:195
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:192
 msgid "Ti"
 msgstr "Ti"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:244
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:196
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:193
 msgid "V"
 msgstr "V"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:245
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:197
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:194
 msgid "Cr"
 msgstr "Cr"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:246
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:198
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:195
 msgid "Mn"
 msgstr "Mn"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:247
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:176
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:173
 msgid "Fe"
 msgstr "Fe"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:248
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:177
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:174
 msgid "Co"
 msgstr "Co"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:249
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:183
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:180
 msgid "Ni"
 msgstr "Ni"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:250
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:182
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:179
 msgid "Cu"
 msgstr "Cu"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:251
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:184
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:181
 msgid "Zn"
 msgstr "Zn"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:253
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:222
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:219
 msgid "Ga"
 msgstr "Ga"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:254
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:227
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:224
 msgid "Ge"
 msgstr "Ge"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:255
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:228
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:225
 msgid "As"
 msgstr "As"
 
@@ -656,7 +291,7 @@ msgid "Se"
 msgstr "Se"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:257
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:163
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:160
 msgid "Br"
 msgstr "Br"
 
@@ -665,87 +300,87 @@ msgid "Kr"
 msgstr "Kr"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:264
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:187
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:184
 msgid "Rb"
 msgstr "Rb"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:265
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:191
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:188
 msgid "Sr"
 msgstr "Sr"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:267
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:199
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:196
 msgid "Y"
 msgstr "Y"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:268
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:200
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:197
 msgid "Zr"
 msgstr "Zr"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:269
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:201
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:198
 msgid "Nb"
 msgstr "Nb"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:270
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:202
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:199
 msgid "Mo"
 msgstr "Mo"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:271
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:203
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:200
 msgid "Tc"
 msgstr "Tc"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:272
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:204
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:201
 msgid "Ru"
 msgstr "Ru"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:273
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:205
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:202
 msgid "Rh"
 msgstr "Rh"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:274
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:206
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:203
 msgid "Pd"
 msgstr "Pd"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:275
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:178
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:175
 msgid "Ag"
 msgstr "Ag"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:276
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:207
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:204
 msgid "Cd"
 msgstr "Cd"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:278
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:223
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:220
 msgid "In"
 msgstr "In"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:279
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:185
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:182
 msgid "Sn"
 msgstr "Sn"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:280
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:229
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:226
 msgid "Sb"
 msgstr "Sb"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:281
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:230
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:227
 msgid "Te"
 msgstr "Te"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:282
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:164
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:161
 msgid "I"
 msgstr "I"
 
@@ -754,12 +389,12 @@ msgid "Xe"
 msgstr "Xe"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:289
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:188
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:185
 msgid "Cs"
 msgstr "Cs"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:290
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:192
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:189
 msgid "Ba"
 msgstr "Ba"
 
@@ -768,67 +403,67 @@ msgid "La"
 msgstr "La"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:293
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:208
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:205
 msgid "Hf"
 msgstr "Hf"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:294
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:209
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:206
 msgid "Ta"
 msgstr "Ta"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:295
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:210
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:207
 msgid "W"
 msgstr "W"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:296
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:211
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:208
 msgid "Re"
 msgstr "Re"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:297
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:212
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:209
 msgid "Os"
 msgstr "Os"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:298
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:213
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:210
 msgid "Ir"
 msgstr "Ir"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:299
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:179
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:176
 msgid "Pt"
 msgstr "Pt"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:300
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:180
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:177
 msgid "Au"
 msgstr "Au"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:301
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:181
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:178
 msgid "Hg"
 msgstr "Hg"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:303
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:224
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:221
 msgid "Tl"
 msgstr "Tl"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:304
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:225
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:222
 msgid "Pb"
 msgstr "Pb"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:305
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:226
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:223
 msgid "Bi"
 msgstr "Bi"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:306
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:231
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:228
 msgid "Po"
 msgstr "Po"
 
@@ -841,12 +476,12 @@ msgid "Rn"
 msgstr "Rn"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:314
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:189
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:186
 msgid "Fr"
 msgstr "Fr"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:315
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:193
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:190
 msgid "Ra"
 msgstr "Ra"
 
@@ -855,42 +490,42 @@ msgid "Ac"
 msgstr "Ac"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:318
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:214
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:211
 msgid "Rf"
 msgstr "Rf"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:319
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:215
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:212
 msgid "Db"
 msgstr "Db"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:320
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:216
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:213
 msgid "Sg"
 msgstr "Sg"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:321
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:217
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:214
 msgid "Bh"
 msgstr "Bh"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:322
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:218
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:215
 msgid "Hs"
 msgstr "Hs"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:323
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:219
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:216
 msgid "Mt"
 msgstr "Mt"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:324
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:220
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:217
 msgid "Ds"
 msgstr "Ds"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:325
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:221
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:218
 msgid "Rg"
 msgstr "Rg"
 
@@ -1489,7 +1124,7 @@ msgid "Noble Gases"
 msgstr "Gazy szlachetne"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:851
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:129
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:126
 msgid "Halogens"
 msgstr "Fluorowce"
 
@@ -1498,22 +1133,22 @@ msgid "Nonmetals"
 msgstr "Niemetale"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:855
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:135
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:132
 msgid "Metalloids"
 msgstr "Metaloidy"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:857
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:134
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:131
 msgid "Metals"
 msgstr "Metale"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:859
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:132
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:129
 msgid "Alkali Earth Metals"
 msgstr "Metale ziem alkalicznych"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:861
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:131
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:128
 msgid "Alkali Metals"
 msgstr "Metale alkaliczne"
 
@@ -1577,49 +1212,337 @@ msgstr "nie zdefiniowane"
 msgid "Periodic Table of elements"
 msgstr "Układ okresowy pierwiastków"
 
-#: src/main/org/openscience/jchempaint/GT.java:123
-msgid "Dutch"
-msgstr "Holenderski"
+#: src/main/org/openscience/jchempaint/dialog/EnterElementSwingModule.java:181
+msgid "Add Functional Group"
+msgstr "Dodaj grupę funkcyjną"
 
-#: src/main/org/openscience/jchempaint/GT.java:124
-msgid "American English"
-msgstr "Angielski"
+#: src/main/org/openscience/jchempaint/dialog/EnterElementSwingModule.java:195
+msgid "Add Atom"
+msgstr "Dodaj Atom"
 
-#: src/main/org/openscience/jchempaint/GT.java:125
-msgid "German"
-msgstr "Niemiecki"
+#: src/main/org/openscience/jchempaint/dialog/EnterElementSwingModule.java:203
+#, java-format
+msgid "{0} is not a valid element symbol or functional group."
+msgstr "{0} nie jest poprawnym symbolem pierwiastka lub grupy funkcyjnej"
 
-#: src/main/org/openscience/jchempaint/GT.java:126
-msgid "Brazilian Portuguese"
-msgstr "Brazylijski"
+#: src/main/org/openscience/jchempaint/dialog/EnterElementSwingModule.java:203
+msgid "No valid input"
+msgstr "Brak poprawnych danych wejściowych"
 
-#: src/main/org/openscience/jchempaint/GT.java:127
-msgid "Spanish"
-msgstr "Hiszpański"
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:152
+msgid "Display Preferences"
+msgstr "Preferencje wyświetlania"
 
-#: src/main/org/openscience/jchempaint/GT.java:128
-msgid "Arabic"
-msgstr "Arabski"
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:165
+msgid "Draw atom numbers"
+msgstr "Dorysuj numery atomów"
 
-#: src/main/org/openscience/jchempaint/GT.java:129
-msgid "Norwegian Bokmal"
-msgstr "Norweski"
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:172
+msgid "Explicit carbons"
+msgstr "Jawne atomy węgla"
 
-#: src/main/org/openscience/jchempaint/GT.java:130
-msgid "Czech"
-msgstr "Czeski"
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:176
+msgid "Show explicit methyl groups"
+msgstr "Pokaż jawne grupy metylowe"
 
-#: src/main/org/openscience/jchempaint/GT.java:131
-msgid "Hungarian"
-msgstr "Węgierski"
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:180
+msgid "Show explicit hydrogens"
+msgstr "Pokaż jawne atomy wodoru"
 
-#: src/main/org/openscience/jchempaint/GT.java:132
-msgid "Thai"
-msgstr "Tajski"
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:184
+msgid "Show implicit hydrogens"
+msgstr "Pokaż domniemane atomy wodoru "
 
-#: src/main/org/openscience/jchempaint/GT.java:133
-msgid "Russian"
-msgstr "Rosyjski"
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:188
+msgid "Show aromatic ring circles"
+msgstr "Pokaż okręgi w pierścieniach aromatycznych"
+
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:195
+msgid "Color atoms by element"
+msgstr "Pokoloruj atomy odpowiednio do pierwiastków"
+
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:209
+msgid "Set fit to screen"
+msgstr "Dostosuj do rozmiaru ekranu"
+
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:217
+msgid "Show atom symbols"
+msgstr "Pokaż symbole atomów"
+
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:222
+msgid "Show ball atoms"
+msgstr "Pokaż atomy jako koła"
+
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:227
+msgid "Show square atoms"
+msgstr "Pokaż atomy jako kwadraty"
+
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:241
+msgid "Atom size"
+msgstr "Rozmiar atomu"
+
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:252
+msgid "Bond width"
+msgstr "Szerokość wiązania"
+
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:271
+msgid "Highlight/Select diameter"
+msgstr "Podświetl/Wybierz średnicę"
+
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:281
+msgid "Wedge width"
+msgstr "Szerokość klina"
+
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:296
+msgid "Background color"
+msgstr "Kolor tła"
+
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:303
+msgid "Choose background color..."
+msgstr "Wybierz kolor tła..."
+
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:310
+msgid "Other Preferences"
+msgstr "Inne preferencje"
+
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:313
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:460
+msgid "Number of undoable operations"
+msgstr "Liczba operacji do cofnięcia"
+
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:316
+msgid "Ask for CML settings when saving"
+msgstr "Zapytaj o ustawienia CML podczas zapisywania"
+
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:327
+msgid "User Interface Language"
+msgstr ""
+
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:460
+msgid "must be a number from 1 to 100"
+msgstr "musi być liczbą od 1 do 100"
+
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:505
+msgid "Choose Background Color"
+msgstr "Wybierz kolor tła"
+
+#: src/main/org/openscience/jchempaint/dialog/ModifyRenderOptionsDialog.java:78
+msgid "Preferences"
+msgstr "Preferencje"
+
+#: src/main/org/openscience/jchempaint/dialog/ModifyRenderOptionsDialog.java:84
+#: src/main/org/openscience/jchempaint/dialog/TextViewDialog.java:114
+msgid "OK"
+msgstr "OK"
+
+#: src/main/org/openscience/jchempaint/dialog/ModifyRenderOptionsDialog.java:92
+msgid "Apply"
+msgstr "Zastosuj"
+
+#: src/main/org/openscience/jchempaint/dialog/ModifyRenderOptionsDialog.java:99
+#: src/main/org/openscience/jchempaint/dialog/TemplateBrowser.java:106
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: src/main/org/openscience/jchempaint/dialog/TemplateBrowser.java:101
+msgid "Structure Templates"
+msgstr "Szablony struktur"
+
+#: src/main/org/openscience/jchempaint/dialog/TemplateBrowser.java:118
+msgid "All"
+msgstr "Wszystko"
+
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTableDialog.java:67
+msgid "Choose an element..."
+msgstr "Wybierz pierwiastek..."
+
+#: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:72
+msgid "An open-source editor for 2D chemical structures."
+msgstr ""
+"Edytor na licencji open-source dla dwuwymiarowych reprezentacji struktur "
+"chemicznych."
+
+#: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:73
+msgid "An OpenScience project."
+msgstr "Projekt OpenScience."
+
+#: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:74
+msgid "See 'http://jchempaint.sourceforge.net' for more information."
+msgstr "Zobacz na 'http://jchempaint.sourceforge.net' po więcej informacji."
+
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:531
+msgid "has unsaved data. Do you want to save it?"
+msgstr "ma niezachowane dane. Czy chcesz je zachować?"
+
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:532
+msgid "Unsaved data"
+msgstr "Nie zapisane dane"
+
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:676
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:72
+msgid "Redo"
+msgstr "Ponów"
+
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:680
+msgid "No redo possible"
+msgstr "Ponowienie nie możliwe"
+
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:686
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:71
+msgid "Undo"
+msgstr "Anuluj"
+
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:690
+msgid "No undo possible"
+msgstr "Cofanie nie możliwe"
+
+#: src/main/org/openscience/jchempaint/action/CopyPasteAction.java:351
+msgid "The content you tried to copy could not be read to any known format"
+msgstr ""
+"Zawartość jaką starasz się przekopiować nie może być odczytana zgodnie z "
+"żadnym znanym formatem"
+
+#: src/main/org/openscience/jchempaint/action/CopyPasteAction.java:351
+msgid "Could not process content"
+msgstr "Nie możne obrobić zawartości"
+
+#: src/main/org/openscience/jchempaint/action/ChangeAtomSymbolAction.java:109
+msgid "Enter an element symbol:"
+msgstr "Wprowadź symbol pierwiastka:"
+
+#: src/main/org/openscience/jchempaint/action/ChangeAtomSymbolAction.java:109
+msgid "Enter element"
+msgstr "Wprowadź pierwiastek"
+
+#: src/main/org/openscience/jchempaint/action/ChangeAtomSymbolAction.java:118
+msgid "No valid element symbol entered"
+msgstr "Nie wprowadzono poprawnego symbolu pierwiastka"
+
+#: src/main/org/openscience/jchempaint/action/ChangeAtomSymbolAction.java:118
+msgid "Invalid symbol"
+msgstr "Niepoprawny symbol"
+
+#: src/main/org/openscience/jchempaint/action/HelpAction.java:49
+#: src/main/org/openscience/jchempaint/action/HelpAction.java:52
+#: src/main/org/openscience/jchempaint/action/HelpAction.java:58
+msgid "JChemPaint Help"
+msgstr ""
+
+#: src/main/org/openscience/jchempaint/action/HelpAction.java:55
+msgid "JChemPaint License"
+msgstr ""
+
+#: src/main/org/openscience/jchempaint/action/CreateSmilesAction.java:78
+msgid "Generated SMILES:"
+msgstr "Utworzony SMILES:"
+
+#: src/main/org/openscience/jchempaint/action/CreateSmilesAction.java:81
+msgid "Error while creating SMILES:"
+msgstr "Błąd podczas tworzenia SMILES:"
+
+#: src/main/org/openscience/jchempaint/action/CreateSmilesAction.java:84
+#: src/main/org/openscience/jchempaint/action/CreateInChIAction.java:75
+msgid "Error"
+msgstr "Błąd"
+
+#: src/main/org/openscience/jchempaint/action/ExportAction.java:97
+#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:148
+msgid "Please chose a file type!"
+msgstr "Wybierz proszę typ pliku!"
+
+#: src/main/org/openscience/jchempaint/action/ExportAction.java:97
+#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:148
+msgid "No file type chosen"
+msgstr "Nie wybrano typu pliku"
+
+#: src/main/org/openscience/jchempaint/action/CreateInChIAction.java:72
+msgid "Error loading InChI library:"
+msgstr ""
+
+#: src/main/org/openscience/jchempaint/action/CreateInChIAction.java:81
+msgid "Problem"
+msgstr "Problem"
+
+#: src/main/org/openscience/jchempaint/action/CreateInChIAction.java:81
+msgid "You have reactions in JCP. Reactions cannot be shown as InChI!"
+msgstr ""
+"W JCP przedstawiono reakcję. Reakcje nie mogą być przedstawiane w InChI!"
+
+#: src/main/org/openscience/jchempaint/action/CreateInChIAction.java:89
+msgid "Structure"
+msgstr "Struktura"
+
+#: src/main/org/openscience/jchempaint/action/CreateInChIAction.java:102
+#: src/main/org/openscience/jchempaint/action/CreateInChIAction.java:105
+msgid "InChI generation failed"
+msgstr "Wytwarzanie InChI nie powiodło się"
+
+#: src/main/org/openscience/jchempaint/action/CreateInChIAction.java:109
+#, fuzzy
+msgid "Generated InChI"
+msgstr "Utwórz InChI"
+
+#: src/main/org/openscience/jchempaint/action/CreateReactionAction.java:108
+#: src/main/org/openscience/jchempaint/action/CreateReactionAction.java:144
+msgid "No reaction existing. Cannot add therefore to something!"
+msgstr "Brak reakcji. Nie ma więc do czego dodawać!"
+
+#: src/main/org/openscience/jchempaint/action/CreateReactionAction.java:108
+#: src/main/org/openscience/jchempaint/action/CreateReactionAction.java:144
+msgid "No existing reactions"
+msgstr "Brak reakcji"
+
+#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:109
+msgid "Nothing to save."
+msgstr "Nie ma niczego do zapisania."
+
+#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:197
+msgid "Error while writing file"
+msgstr "Błąd zapisu pliku"
+
+#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:218
+#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:226
+#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:254
+#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:260
+#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:318
+msgid "Problems handling data"
+msgstr "Problemy z obsługą danych"
+
+#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:219
+#, java-format
+msgid ""
+"{0} files cannot contain extra molecules. You painted molecules outside the "
+"reaction(s), which will not be in the file. Continue?"
+msgstr ""
+"{0} plików nie może zawierać dodatkowych cząsteczek. Narysowano cząsteczki "
+"poza reakcją/reakcjami i nie znajdą się one w pliku. Kontynuować?"
+
+#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:227
+msgid "RXN can only save reactions. You have no reactions painted!"
+msgstr "RXN może zachowywać tylko reakcje. Nie narysowano żadnych reakcji!"
+
+#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:255
+msgid "MDL mol files can only save molecules. You have no molecules painted!"
+msgstr ""
+"MDL może zachowywać tylko cząsteczki. Nie narysowano żadnych cząsteczek!"
+
+#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:261
+#: src/main/org/openscience/jchempaint/action/SaveAsAction.java:319
+#, java-format
+msgid ""
+"{0} files cannot contain reactions. Your have reaction(s) painted. The "
+"reactants/products of these will be included as separate molecules. Continue?"
+msgstr ""
+"{0} plików nie może zawierać reakcji. Narysowano reakcję/reakcje. Ich "
+"substraty/produkty będą załączone jak odrębne cząsteczki. Kontynuować?"
+
+#: src/main/org/openscience/jchempaint/RenderPanel.java:453
+msgid "Zoomfactor"
+msgstr "Stopień powiększenia"
+
+#: src/main/org/openscience/jchempaint/RenderPanel.java:466
+msgid "Hs implicit"
+msgstr "Domniamane atomy wodoru"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:57
 msgid "File"
@@ -1677,16 +1600,6 @@ msgstr "Zamknij"
 msgid "Exit"
 msgstr "Wyjdź"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:71
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:593
-msgid "Undo"
-msgstr "Anuluj"
-
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:72
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:583
-msgid "Redo"
-msgstr "Ponów"
-
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:73
 msgid "Select All"
 msgstr "Wybierz wszystko"
@@ -1700,7 +1613,7 @@ msgid "Copy As SMILES"
 msgstr "Kopiuj jako SMILES"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:76
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:296
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:292
 msgid "Delete"
 msgstr "Usuń"
 
@@ -1736,597 +1649,624 @@ msgstr "Szablony"
 msgid "Radical"
 msgstr "Rodnik"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:89
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:85
+msgid "Single"
+msgstr "Pojedyncze"
+
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:86
 msgid "Stereo Down"
 msgstr "Stereowiązanie \"pod\""
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:90
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:87
 msgid "Stereo Up"
 msgstr "Stereowiązanie \"nad\""
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:91
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:88
 msgid "Undefined Stereo"
 msgstr "Nie zdefiniowane stereowiązanie"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:92
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:89
 msgid "Undefined E/Z"
 msgstr "Nie zdefiniowane E/Z"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:93
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:90
 msgid "Charge"
 msgstr "Ładunek"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:94
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:91
 msgid "Plus"
 msgstr "Plus"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:95
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:92
 msgid "Minus"
 msgstr "Minus"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:96
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:93
 msgid "Implicit Hydrogens"
 msgstr "Domniemane atomy wodoru"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:97
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:94
 msgid "Flip"
 msgstr "Przerzuć"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:98
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:95
 msgid "Clean Structure"
 msgstr "Oczyść strukturę"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:99
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:96
 msgid "Toolbar"
 msgstr "Pasek narzędzi"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:100
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:97
 msgid "Statusbar"
 msgstr "Pasek stanu"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:101
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:98
 msgid "Menubar"
 msgstr "Pasek menu"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:102
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:99
 msgid "Direct Entry as SMILES/InChI/CAS"
 msgstr "Bezpośrednie wprowadzenie jako SMILES/InChI/CAS"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:103
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:100
 msgid "Zoom In"
 msgstr "Powiększanie"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:104
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:101
 msgid "Zoom Out"
 msgstr "Pomniejszanie"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:105
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:102
 msgid "Zoom 100%"
 msgstr "Rozmiar oryginalny"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:106
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:103
 msgid "Preferences..."
 msgstr "Preferencje..."
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:107
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:104
 msgid "Create SMILES"
 msgstr "Utwórz SMILES"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:108
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:105
 msgid "Create InChI"
 msgstr "Utwórz InChI"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:109
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:106
 msgid "Help"
 msgstr "Pomoc"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:110
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:107
 msgid "Tutorial"
 msgstr "Instrukcja"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:111
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:108
 msgid "Report Feedback"
 msgstr "Zgłoś uwagi"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:112
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:109
 msgid "License"
 msgstr "Licencja"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:113
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:110
 msgid "About"
 msgstr "O programie"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:114
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:111
 msgid "On All"
 msgstr "Włącz wszystkie"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:115
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:112
 msgid "Off"
 msgstr "Wyłącz"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:116
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:113
 msgid "Horizontal"
 msgstr "Poziomo"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:117
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:114
 msgid "Vertical"
 msgstr "Pionowo"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:118
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:115
 msgid "Select"
 msgstr "Wybierz"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:119
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:116
 msgid "Change Element"
 msgstr "Zmień pierwiastek"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:120
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:117
 msgid "Periodic Table"
 msgstr "Układ okresowy pierwiastków"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:121
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:118
 msgid "Custom"
 msgstr "Własne"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:122
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:119
 msgid "Isotopes"
 msgstr "Izotopy"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:123
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:120
 msgid "Add Electron Pair"
 msgstr "Dodaj parę elektronową"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:124
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:121
 msgid "Remove Electron Pair"
 msgstr "Usuń parę elektronową"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:126
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:122
+msgid "Properties"
+msgstr "Właściwości"
+
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:123
 msgid "Molecule Properties"
 msgstr "Właściwości cząsteczki"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:127
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:124
 msgid "Convert to Regular Atom"
 msgstr "Przekształć na atom podstawowy"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:128
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:125
 msgid "Common Elements"
 msgstr "Zwykłe pierwiastki"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:130
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:127
 msgid "Nobel Gases"
 msgstr "Gazy szlachetne"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:133
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:130
 msgid "Transition Metals"
 msgstr "Metale przejściowe"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:136
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:133
 msgid "Non-Metals"
 msgstr "Niemetale"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:137
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:134
 msgid "Pseudo Atoms"
 msgstr "Pseudo atomy"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:138
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:139
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:140
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:135
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:136
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:137
 #, java-format
 msgid "Major Plus {0}"
 msgstr "Izotop główny plus {0}"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:141
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:138
 msgid "Major Isotope"
 msgstr "Izotop główny"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:142
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:143
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:144
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:139
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:140
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:141
 #, java-format
 msgid "Major Minus {0}"
 msgstr "Izotop główny minus {0}"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:145
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:142
 msgid "Valence"
 msgstr "Wartościowość"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:146
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:143
 msgid "Valence Off"
 msgstr "Wartościowość wyłączona"
 
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:144
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:145
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:146
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:147
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:148
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:149
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:150
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:151
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:152
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:153
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:154
 #, java-format
 msgid "Valence {0}"
 msgstr "Wartościowość {0}"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:232
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:229
 msgid "Variable Attachment Point *"
 msgstr "Punkt załączenia zmiennej *"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:233
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:230
 msgid "R"
 msgstr "R"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:234
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:231
 msgid "R.."
 msgstr "R.."
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:235
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:232
 msgid "R1"
 msgstr "R1"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:236
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:233
 msgid "R2"
 msgstr "R2"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:237
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:234
 msgid "R3"
 msgstr "R3"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:238
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:235
 msgid "R4"
 msgstr "R4"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:239
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:236
 msgid "Draw Bonds and Atoms"
 msgstr "Rysuj wiązania i atomy"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:240
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:237
 msgid "Change the Atom's Symbol"
 msgstr "Zmień symbol atomu"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:241
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:238
 msgid "Select new drawing symbol from periodic table"
 msgstr "Wybierz nowy symbol rysowania z układu okresowego"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:242
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:239
 msgid "Enter an element symbol via keyboard"
 msgstr "Wprowadź symbol pierwiastka za pomocą klawiatury"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:243
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:240
 msgid "Make the Bonds Stereo Up"
 msgstr "Zastosuj stereowiązania \"nad\""
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:244
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:241
 msgid "Make the Bonds Stereo Down"
 msgstr "Zastosuj stereowiązania \"pod\""
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:245
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:242
 msgid "Increase the charge on an Atom"
 msgstr "Zwiększ ładunek na atomie"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:246
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:243
 msgid "Decrease the charge on an Atom"
 msgstr "Zmniejsz ładunek na atomie"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:247
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:244
 msgid "Delete atoms and bonds"
 msgstr "Usuń atomy i wiązania"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:248
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:245
 msgid "Select atoms and bonds in a free-form region"
 msgstr "Wybierz atomy i wiązania w nieregularnym obszarze"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:249
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:246
 msgid "Select atoms and bonds in a rectangular region"
 msgstr "Wybierz atomy i wiązania w prostokątnym obszarze"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:250
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:247
 msgid "Add a propane ring"
 msgstr "Dodaj pierścień propanowy"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:251
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:248
 msgid "Add a butane ring"
 msgstr "Dodaj pierścień butanowy"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:252
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:249
 msgid "Add a pentane ring"
 msgstr "Dodaj pierścień pentanowy"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:253
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:250
 msgid "Add a hexane ring"
 msgstr "Dodaj pierścień heksanowy"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:254
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:251
 msgid "Add a heptane ring"
 msgstr "Dodaj pierścień heptanowy"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:255
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:252
 msgid "Add a octane ring"
 msgstr "Dodaj pierścień oktanowy"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:256
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:253
 msgid "Add a benzene ring"
 msgstr "Dodaj pierścień benzenowy"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:257
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:254
 msgid "Relayout the structures"
 msgstr "Ułóż na nowo struktury"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:259
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:256
 msgid "Clear"
 msgstr "Wyczyść"
 
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:258
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:261
 msgid "Create new file"
 msgstr "Utwórz nowy plik"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:262
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:259
 msgid "Open existing file"
 msgstr "Otwórz istniejący plik"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:263
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:260
 msgid "Save current file"
 msgstr "Zachowaj aktualny plik"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:264
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:261
 msgid "Print current file"
 msgstr "Drukuj aktualny plik"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:265
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:262
 msgid "Redo Action"
 msgstr "Ponów działanie"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:266
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:263
 msgid "Save to a file"
 msgstr "Zapisz do pliku"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:267
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:264
 msgid "Undo Action"
 msgstr "Cofnij działanie"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:268
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:265
 msgid "Zoom in"
 msgstr "Powiększ"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:269
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:266
 msgid "Zoom out"
 msgstr "Pomniejsz"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:270
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:267
 msgid "Stereo up or stereo down bond"
 msgstr "Stereowiązanie \"nad\" lub \"pod\""
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:271
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:268
 msgid "Any stereo bond"
 msgstr "Każde stereowiązanie"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:272
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:269
 msgid "Rotate selection"
 msgstr "Obróć zaznaczenie"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:273
-msgid "Rotate selection in space"
-msgstr "Obróć zaznaczenie w przestrzeni"
-
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:274
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:270
 msgid "Cut selection"
 msgstr "Wytnij zaznaczenie"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:275
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:271
 msgid "Copy selection to clipboard"
 msgstr "Kopiuj zaznaczenie do wycinka"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:276
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:272
 msgid "Paste from clipboard"
 msgstr "Wklej z wycinka"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:277
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:273
 msgid "Flip vertical"
 msgstr "Przerzuć w pionie"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:278
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:274
 msgid "Flip horizontal"
 msgstr "Przerzuć w poziomie"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:279
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:275
 msgid "Choose from complex templates"
 msgstr "Wybierz ze złożonego szablonu"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:280
-msgid " Menu"
-msgstr " Menu"
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:276
+#, fuzzy
+msgid "Bond Popup Menu"
+msgstr "Menu atomów"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:281
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:277
 msgid "ChemModel Popup Menu"
 msgstr "Menu kontekstowe ChemModel"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:282
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:278
 msgid "Enter Element or Group"
 msgstr "Wprowadź pierwiastek lub grupę"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:283
-#: src/main/org/openscience/jchempaint/controller/AddAtomModule.java:211
-msgid "Add Atom Or Change Element"
-msgstr "Dodaj atom lub zmień pierwiastek"
-
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:284
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:280
 msgid "Draw Bond"
 msgstr "Narysuj wiązanie"
 
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:281
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:282
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:283
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:284
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:285
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:286
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:287
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:288
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:289
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:290
 #, java-format
 msgid "Ring {0}"
 msgstr "Pierścień {0}"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:291
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:287
 msgid "Add or convert to bond up"
 msgstr "Dodaj lub przekształć do wiązania \"nad\""
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:292
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:288
 msgid "Add or convert to bond down"
 msgstr "Dodaj lub przekształć do wiązania \"pod\""
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:293
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:289
 msgid "Decrease Charge"
 msgstr "Zmniejsz ładunek"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:294
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:290
 msgid "Increase Charge"
 msgstr "Zwiększ ładunek"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:295
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:291
 msgid "Cyclic change of symbol"
 msgstr "Rotacyjna zmiana symbolu"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:297
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:293
 msgid "Move"
 msgstr "Przesuń"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:298
-msgid "Rotate"
-msgstr "Obróć"
-
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:299
-msgid "Rotate in space"
-msgstr "Obróć w przestrzeni"
-
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:300
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:294
 msgid "Benzene"
 msgstr "Benzen"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:301
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:295
 msgid "Select in Free Form"
 msgstr "Wybierz nieregularnie"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:302
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:296
 msgid "Select Rectangle"
 msgstr "Wybierz prostokąt"
 
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:297
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:298
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:299
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:300
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:301
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:302
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:303
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:304
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:305
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:306
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:307
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:308
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:309
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:310
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:311
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:312
 #, java-format
 msgid "Change drawing symbol to {0}"
 msgstr "Zmień rysunkowy symbol na {0}"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:313
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:307
 msgid "Reaction"
 msgstr "Reakcja"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:314
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:308
 msgid "Make Reactant in New Reaction"
 msgstr "Utwórz substrat w nowej reakcji"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:315
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:309
 msgid "Make Reactant in Existing Reaction"
 msgstr "Utwórz substrat w istniejącej reakcji"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:316
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:310
 msgid "Make Product in New Reaction"
 msgstr "Utwórz produkt w nowej reakcji"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:317
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:311
 msgid "Make Product in Existing Reaction"
 msgstr "Utwórz produkt w istniejącej reakcji"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:318
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:312
 msgid "Select Reactants"
 msgstr "Wybierz substraty"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:319
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:313
 msgid "Select Products"
 msgstr "Wybierz produkty"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:320
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:314
 msgid "Reaction Popup Menu"
 msgstr "Menu podręczne reakcji"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:321
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:315
 msgid "Alkaloids"
 msgstr "Alkaloidy"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:322
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:316
 msgid "Beta Lactams"
 msgstr "Beta laktamy"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:323
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:317
 msgid "Carbohydrates"
 msgstr "Węglowodany"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:324
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:318
 msgid "Inositols"
 msgstr "Inozytole"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:325
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:319
 msgid "Lipids"
 msgstr "Lipidy"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:326
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:320
 msgid "Miscellaneous"
 msgstr "Różne"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:327
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:321
 msgid "Nucleosides"
 msgstr "Nukleozydy"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:328
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:322
 msgid "Porphyrins"
 msgstr "Porfiryny"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:329
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:323
 msgid "Steroids"
 msgstr "Steroidy"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:330
-msgid "Language"
-msgstr "Język"
+#: src/main/org/openscience/jchempaint/GT.java:123
+msgid "American English"
+msgstr "Angielski"
 
-#: src/main/org/openscience/jchempaint/InsertTextPanel.java:71
-#: src/main/org/openscience/jchempaint/InsertTextPanel.java:114
-#: src/main/org/openscience/jchempaint/InsertTextPanel.java:255
-msgid "Insert"
-msgstr "Wstaw"
+#: src/main/org/openscience/jchempaint/GT.java:124
+msgid "Arabic"
+msgstr "Arabski"
 
-#: src/main/org/openscience/jchempaint/InsertTextPanel.java:83
-#: src/main/org/openscience/jchempaint/InsertTextPanel.java:254
-msgid "Enter a CAS, SMILES or InChI string"
-msgstr "Wprowadź łańcuch znaków CAS, SMILES lub InChI"
+#: src/main/org/openscience/jchempaint/GT.java:125
+msgid "Brazilian Portuguese"
+msgstr "Brazylijski"
 
-#: src/main/org/openscience/jchempaint/InsertTextPanel.java:141
-msgid "Could not load InChI subsystem"
-msgstr "Nie można załadować podsystemu InChI"
+#: src/main/org/openscience/jchempaint/GT.java:126
+msgid "Czech"
+msgstr "Czeski"
 
-#: src/main/org/openscience/jchempaint/InsertTextPanel.java:148
-msgid "Error in reading data from PubChem"
-msgstr "Błąd czytania danych z PubChem"
+#: src/main/org/openscience/jchempaint/GT.java:127
+msgid "Dutch"
+msgstr "Holenderski"
 
-#: src/main/org/openscience/jchempaint/InsertTextPanel.java:161
-msgid "Invalid SMILES specified"
-msgstr "Określono nieprawidłowe SMILES"
+#: src/main/org/openscience/jchempaint/GT.java:128
+msgid "German"
+msgstr "Niemiecki"
 
-#: src/main/org/openscience/jchempaint/RenderPanel.java:449
-msgid "Zoomfactor"
-msgstr "Stopień powiększenia"
+#: src/main/org/openscience/jchempaint/GT.java:129
+msgid "Hungarian"
+msgstr "Węgierski"
 
-#: src/main/org/openscience/jchempaint/RenderPanel.java:462
-msgid "Hs implicit"
-msgstr "Domniamane atomy wodoru"
+#: src/main/org/openscience/jchempaint/GT.java:130
+msgid "Norwegian Bokmal"
+msgstr "Norweski"
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:161
+#: src/main/org/openscience/jchempaint/GT.java:131
+#, fuzzy
+msgid "Polish"
+msgstr "Plus"
+
+#: src/main/org/openscience/jchempaint/GT.java:132
+msgid "Russian"
+msgstr "Rosyjski"
+
+#: src/main/org/openscience/jchempaint/GT.java:133
+msgid "Spanish"
+msgstr "Hiszpański"
+
+#: src/main/org/openscience/jchempaint/GT.java:134
+msgid "Thai"
+msgstr "Tajski"
+
+#: src/main/org/openscience/jchempaint/io/JCPSaveFileFilter.java:74
+msgid "CDK source code fragment"
+msgstr "Fragment kodu źródłowego CDK"
+
+#: src/main/org/openscience/jchempaint/io/JCPFileFilter.java:192
+msgid "MDL MOL file"
+msgstr "Plik MDL MOL"
+
+#: src/main/org/openscience/jchempaint/io/JCPFileFilter.java:196
+msgid "MDL SDF Molfile"
+msgstr "Plik MDL SDF"
+
+#: src/main/org/openscience/jchempaint/io/JCPFileFilter.java:200
+msgid "MDL RXN Molfile"
+msgstr "Plik MDL RXN"
+
+#: src/main/org/openscience/jchempaint/io/JCPFileFilter.java:204
+msgid "IUPAC Chemical Identifier"
+msgstr "Identyfikator Substancji Chemicznej IUPAC"
+
+#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:130
 msgid "The error was:"
 msgstr "Błąd był:"
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:161
+#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:130
 msgid ""
 "\n"
 "You can file a bug report at "
@@ -2334,7 +2274,7 @@ msgstr ""
 "\n"
 "Możesz złożyć raport błędu na "
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:163
+#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:132
 msgid ""
 "\n"
 "We apologize for any inconvenience!"
@@ -2342,23 +2282,107 @@ msgstr ""
 "\n"
 "Przepraszamy za utrudnienia!"
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:163
+#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:132
 msgid "Error occured"
 msgstr "Pojawił się błąd"
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:500
-msgid "has unsaved data. Do you want to save it?"
-msgstr "ma niezachowane dane. Czy chcesz je zachować?"
+#~ msgid "InChI generation"
+#~ msgstr "Wytwarzanie InChI"
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:501
-msgid "Unsaved data"
-msgstr "Nie zapisane dane"
+#~ msgid "Double"
+#~ msgstr "Podwójne"
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:587
-msgid "No redo possible"
-msgstr "Ponowienie nie możliwe"
+#~ msgid "Triple"
+#~ msgstr "Potrójne"
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:597
-msgid "No undo possible"
-msgstr "Cofanie nie możliwe"
+#~ msgid "Quadruple"
+#~ msgstr "Poczwórne"
 
+#~ msgid "Bond order"
+#~ msgstr "Rząd wiązania"
+
+#~ msgid "Reaction ID"
+#~ msgstr "ID reakcji"
+
+#~ msgid "Forward"
+#~ msgstr "Wprzód"
+
+#~ msgid "Backward"
+#~ msgstr "Wstecz"
+
+#~ msgid "Bidirectional"
+#~ msgstr "Dwukierunkowo"
+
+#~ msgid "Direction"
+#~ msgstr "Kierunek"
+
+#~ msgid "Solvent"
+#~ msgstr "Rozpuszczalnik"
+
+#~ msgid "Temperature"
+#~ msgstr "Temperatura"
+
+#~ msgid "Label"
+#~ msgstr "Etykieta"
+
+#~ msgid "System"
+#~ msgstr "System"
+
+#~ msgid "Look and feel"
+#~ msgstr "Skórka"
+
+#~ msgid "is not supported on this platform"
+#~ msgstr "nie jest obsługiwana przez tę platformę"
+
+#~ msgid "Unsupported look&feel"
+#~ msgstr "Nie obsługiwana skórka"
+
+#~ msgid "Class not found:"
+#~ msgstr "Klasa nie odnaleziona:"
+
+#~ msgid "Instantiation Exception:"
+#~ msgstr "Wyjątek konkretyzacji:"
+
+#~ msgid "Illegal Access: "
+#~ msgstr "Nielegalny dostęp:"
+
+#~ msgid "Symbol"
+#~ msgstr "Symbol"
+
+#~ msgid "H Count"
+#~ msgstr "Licznik atomów wodoru"
+
+#~ msgid "Formal Charge"
+#~ msgstr "Ładunek formalny"
+
+#~ msgid "Isotope number"
+#~ msgstr "Liczba izotopowa"
+
+#~ msgid "Title"
+#~ msgstr "Tytuł"
+
+#~ msgid "You did not provide necessary information"
+#~ msgstr "Nie podano wystarczających informacji"
+
+#~ msgid "Incomplete Information"
+#~ msgstr "Informacje niepełne"
+
+#~ msgid ""
+#~ "Enter an element symbol or choose/enter a functional group abbrivation:"
+#~ msgstr ""
+#~ "Wprowadź symbol pierwiastka lub wybierz/wprowadź skrót grupy funkcyjnej:"
+
+#~ msgid "Rotate selection in space"
+#~ msgstr "Obróć zaznaczenie w przestrzeni"
+
+#~ msgid " Menu"
+#~ msgstr " Menu"
+
+#~ msgid "Rotate"
+#~ msgstr "Obróć"
+
+#~ msgid "Rotate in space"
+#~ msgstr "Obróć w przestrzeni"
+
+#~ msgid "Language"
+#~ msgstr "Język"
