@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: jchempaint\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-01-07 13:34+0000\n"
-"PO-Revision-Date: 2009-12-18 07:55+0000\n"
+"PO-Revision-Date: 2010-01-05 04:33+0000\n"
 "Last-Translator: Thammaraj <Unknown>\n"
 "Language-Team: Thai <th@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-12-28 13:44+0000\n"
+"X-Launchpad-Export-Date: 2010-01-07 14:12+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #: src/main/org/openscience/jchempaint/controller/AddAtomModule.java:211
@@ -1093,11 +1093,11 @@ msgstr "อูนอูนเพนเทียม"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:824
 msgid "Ununhexium"
-msgstr ""
+msgstr "อูนอูนเฮกเซียม"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:827
 msgid "Ununseptium"
-msgstr ""
+msgstr "อูนอูนเซปเทียม"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:830
 msgid "Ununoctium"
@@ -1188,7 +1188,7 @@ msgstr "หมู่ธาตุ"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1019
 msgid "State:"
-msgstr ""
+msgstr "สภาพ"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1020
 #, fuzzy
@@ -1197,7 +1197,7 @@ msgstr "อิเล็กโทรเนทิวิตี้"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1021
 msgid "undefined"
-msgstr ""
+msgstr "ยังไม่กำหนด"
 
 #: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1029
 msgid "Periodic Table of elements"
@@ -1262,7 +1262,7 @@ msgstr "แสดงสัญลักษณ์อะตอม"
 
 #: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:222
 msgid "Show ball atoms"
-msgstr ""
+msgstr "แสดงอะตอมกลม"
 
 #: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:227
 msgid "Show square atoms"
@@ -1616,7 +1616,7 @@ msgstr "ตัด"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:80
 msgid "Atom"
-msgstr ""
+msgstr "อะตอม"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:81
 msgid "Bond"
@@ -1676,7 +1676,7 @@ msgstr "พลิก"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:95
 msgid "Clean Structure"
-msgstr ""
+msgstr "ล้างโครงสร้าง"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:96
 msgid "Toolbar"
@@ -1850,7 +1850,7 @@ msgstr ""
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:151
 #, java-format
 msgid "Valence {0}"
-msgstr ""
+msgstr "วาเลนซี่ {0}"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:229
 msgid "Variable Attachment Point *"
@@ -2003,7 +2003,7 @@ msgstr ""
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:268
 msgid "Any stereo bond"
-msgstr ""
+msgstr "พันธะสเตอริโอใดๆ"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:269
 msgid "Rotate selection"
@@ -2115,27 +2115,27 @@ msgstr "ปฏิกิริยา"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:308
 msgid "Make Reactant in New Reaction"
-msgstr ""
+msgstr "สร้างตัวทำปฏิกิริยาในปฏิกิริยาใหม่"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:309
 msgid "Make Reactant in Existing Reaction"
-msgstr ""
+msgstr "สร้างตัวทำปฏิกิริยาในปฏิกิริยาที่มีอยู่"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:310
 msgid "Make Product in New Reaction"
-msgstr ""
+msgstr "สร้างผลิตภัณฑ์ในปฏิกิริยาใหม่"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:311
 msgid "Make Product in Existing Reaction"
-msgstr ""
+msgstr "สร้างผลิตภัณฑ์ในปฏิกิริยาที่มีอยู่"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:312
 msgid "Select Reactants"
-msgstr ""
+msgstr "เลือกตัวทำปฏิกิริยา"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:313
 msgid "Select Products"
-msgstr ""
+msgstr "เลือกผลิตภัณฑ์"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:314
 msgid "Reaction Popup Menu"
@@ -2143,39 +2143,39 @@ msgstr "เมนูป๊อบอัพปฏิกิริยา"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:315
 msgid "Alkaloids"
-msgstr ""
+msgstr "อัลคาลอยด์"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:316
 msgid "Beta Lactams"
-msgstr ""
+msgstr "เบต้า-แลคแตม"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:317
 msgid "Carbohydrates"
-msgstr ""
+msgstr "คารโบไฮเดรต"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:318
 msgid "Inositols"
-msgstr ""
+msgstr "อิโนซิทอล"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:319
 msgid "Lipids"
-msgstr ""
+msgstr "ไขมัน"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:320
 msgid "Miscellaneous"
-msgstr ""
+msgstr "เบ็ดเตล็ด"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:321
 msgid "Nucleosides"
-msgstr ""
+msgstr "นิวคลีโอไซด์"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:322
 msgid "Porphyrins"
-msgstr ""
+msgstr "พอร์ไฟริน"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:323
 msgid "Steroids"
-msgstr ""
+msgstr "สเตียรอยด์"
 
 #: src/main/org/openscience/jchempaint/GT.java:123
 msgid "American English"
@@ -2183,7 +2183,7 @@ msgstr "อังกฤษ-อเมริกัน"
 
 #: src/main/org/openscience/jchempaint/GT.java:124
 msgid "Arabic"
-msgstr ""
+msgstr "อารบิก"
 
 #: src/main/org/openscience/jchempaint/GT.java:125
 msgid "Brazilian Portuguese"
@@ -2191,7 +2191,7 @@ msgstr "โปรตุเกส-บราซิล"
 
 #: src/main/org/openscience/jchempaint/GT.java:126
 msgid "Czech"
-msgstr ""
+msgstr "เชค"
 
 #: src/main/org/openscience/jchempaint/GT.java:127
 msgid "Dutch"
@@ -2203,7 +2203,7 @@ msgstr "เยอรมัน"
 
 #: src/main/org/openscience/jchempaint/GT.java:129
 msgid "Hungarian"
-msgstr ""
+msgstr "ฮังการี"
 
 #: src/main/org/openscience/jchempaint/GT.java:130
 msgid "Norwegian Bokmal"
@@ -2215,7 +2215,7 @@ msgstr "โปแลนด์"
 
 #: src/main/org/openscience/jchempaint/GT.java:132
 msgid "Russian"
-msgstr ""
+msgstr "รัสเซีย"
 
 #: src/main/org/openscience/jchempaint/GT.java:133
 msgid "Spanish"
@@ -2223,7 +2223,7 @@ msgstr "สเปน"
 
 #: src/main/org/openscience/jchempaint/GT.java:134
 msgid "Thai"
-msgstr ""
+msgstr "ไทย"
 
 #: src/main/org/openscience/jchempaint/io/JCPSaveFileFilter.java:74
 msgid "CDK source code fragment"
@@ -2247,7 +2247,7 @@ msgstr ""
 
 #: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:130
 msgid "The error was:"
-msgstr ""
+msgstr "ความผิดพลาดคือ:"
 
 #: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:130
 msgid ""
@@ -2260,10 +2260,12 @@ msgid ""
 "\n"
 "We apologize for any inconvenience!"
 msgstr ""
+"\n"
+"เราขออภัยสำหรับความไม่สะดวกใดๆ!"
 
 #: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:132
 msgid "Error occured"
-msgstr ""
+msgstr "ความผิดพลาดได้เกิดขึ้น"
 
 #~ msgid "Change drawing symbol to H"
 #~ msgstr "เปลี่ยนสัญลักษณ์การวาดสู่  H"
@@ -2291,6 +2293,9 @@ msgstr ""
 
 #~ msgid "Change drawing symbol to I"
 #~ msgstr "เปลี่ยนสัญลักษณ์การวาดสู่ I"
+
+#~ msgid "Language"
+#~ msgstr "ภาษา"
 
 #~ msgid "Click this button to go back to PeriodicTable."
 #~ msgstr "คลิกปุ่มนี้เพื่อกลับไปยังตารางธาตุพีริออดิก"
