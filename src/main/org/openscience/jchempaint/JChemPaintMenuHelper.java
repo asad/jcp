@@ -179,7 +179,7 @@ public class JChemPaintMenuHelper {
             });
         }
         if(menu instanceof JMenu)
-            jcpPanel.menus.put(key, (JMenu)menu);
+            jcpPanel.menus.add((JMenu)menu);
         else if(menu instanceof JChemPaintPopupMenu)
             jcpPanel.popupmenuitems.put(key, (JChemPaintPopupMenu)menu);
         return menu;
@@ -269,7 +269,7 @@ public class JChemPaintMenuHelper {
             jcpPanel.undoMenu=mi;
         if(cmd.equals("redo"))
             jcpPanel.redoMenu=mi;
-        jcpPanel.menus.put(cmd, (JMenuItem)mi);
+        jcpPanel.menus.add((JMenuItem)mi);
         return mi;
     }
 

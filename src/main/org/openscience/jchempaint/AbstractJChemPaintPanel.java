@@ -29,8 +29,10 @@
 package org.openscience.jchempaint;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 
 import javax.swing.JButton;
@@ -56,7 +58,7 @@ public abstract class AbstractJChemPaintPanel extends JPanel{
     private static final long serialVersionUID = -2229181291989083517L;
     // buttons/menus are remembered in here using the string from config files as key
     Map<String, JButton> buttons=new HashMap<String, JButton>();
-    Map<String, JMenuItem> menus=new HashMap<String, JMenuItem>();
+    List<JMenuItem> menus=new ArrayList<JMenuItem>();
     Map<String, JChemPaintPopupMenu> popupmenuitems=new HashMap<String, JChemPaintPopupMenu>();
     protected InsertTextPanel insertTextPanel = null;
     protected JCPStatusBar statusBar;
@@ -146,11 +148,10 @@ public abstract class AbstractJChemPaintPanel extends JPanel{
             JButton button = buttons.get(key);
             button.setToolTipText(JCPMenuTextMaker.getInstance(guistring).getText(key + JCPAction.TIPSUFFIX));
         }
-        it = menus.keySet().iterator();
-        while(it.hasNext()){
-            String key = it.next();
-            JMenuItem button = menus.get(key);
-            button.setText(JCPMenuTextMaker.getInstance(guistring).getText(key));
+        Iterator<JMenuItem> it2 = menus.iterator();
+        while(it2.hasNext()){
+            JMenuItem button = it2.next();
+            button.setText(JCPMenuTextMaker.getInstance(guistring).getText(button.getName().charAt(button.getName().length()-1)=='2' ? button.getName().substring(0,button.getName().length()-1) : button.getName()));
         }
         it = popupmenuitems.keySet().iterator();
         while(it.hasNext()){
