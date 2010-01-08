@@ -649,6 +649,7 @@ public class JChemPaintPanel extends AbstractJChemPaintPanel implements
         //if something changed in the structure, selection should be cleared
         //this is behaviour like eg in word processors, if you type, selection goes away
         this.getRenderPanel().getRenderer().getRenderer2DModel().setSelection(AbstractSelection.EMPTY_SELECTION);
+        updateUndoRedoControls();
         this.get2DHub().updateView();
     }
 
