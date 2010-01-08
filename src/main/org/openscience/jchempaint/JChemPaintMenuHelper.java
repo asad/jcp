@@ -1,12 +1,11 @@
 package org.openscience.jchempaint;
 
+import java.awt.Dimension;
+import java.awt.FlowLayout;
 import java.awt.Image;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.MissingResourceException;
 import java.util.Properties;
@@ -25,7 +24,6 @@ import org.openscience.cdk.config.IsotopeFactory;
 import org.openscience.cdk.interfaces.IIsotope;
 import org.openscience.cdk.tools.ILoggingTool;
 import org.openscience.cdk.tools.LoggingToolFactory;
-import org.openscience.jchempaint.action.CopyPasteAction;
 import org.openscience.jchempaint.action.JCPAction;
 
 
@@ -177,6 +175,18 @@ public class JChemPaintMenuHelper {
                     }
                 }
             });
+        }
+        //we make large menus two columns
+        JPopupMenu p;
+        if(menu instanceof JMenu)
+            p = ((JMenu)menu).getPopupMenu();
+        else
+            p = (JChemPaintPopupMenu)menu;
+        if(p.getComponents().length>30){
+            Dimension d = p.getPreferredSize();
+            d = new Dimension((int)(d.width * 2.5), (int)(d.height * 0.7));
+            p.setPreferredSize(d);
+            p.setLayout(new FlowLayout());
         }
         if(menu instanceof JMenu)
             jcpPanel.menus.add((JMenu)menu);
