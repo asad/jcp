@@ -1138,8 +1138,7 @@ public class ControllerHub implements IMouseEventRelay, IChemModelRelay {
         ring.getBond(0).setOrder(IBond.Order.DOUBLE);
         ring.getBond(2).setOrder(IBond.Order.DOUBLE);
         ring.getBond(4).setOrder(IBond.Order.DOUBLE);
-        makeRingAromatic(ring);
-
+        
         double bondLength = calculateAverageBondLength(chemModel.getMoleculeSet());
         ringPlacer.placeRing(ring, worldcoord, bondLength);
         IMoleculeSet set = chemModel.getMoleculeSet();
@@ -1241,8 +1240,7 @@ public class ControllerHub implements IMouseEventRelay, IChemModelRelay {
         newRing.getBond(0).setOrder(IBond.Order.DOUBLE);
         newRing.getBond(2).setOrder(IBond.Order.DOUBLE);
         newRing.getBond(4).setOrder(IBond.Order.DOUBLE);
-        makeRingAromatic(newRing);
-
+        
         double bondLength;
         if (sourceContainer.getBondCount() == 0) {
             /*
@@ -1299,13 +1297,6 @@ public class ControllerHub implements IMouseEventRelay, IChemModelRelay {
         }
         structureChanged();
         return newRing;
-    }
-
-    private void makeRingAromatic(IRing newRing) {
-        for (IAtom atom : newRing.atoms())
-            atom.setFlag(CDKConstants.ISAROMATIC, true);
-        for (IBond bond : newRing.bonds())
-            bond.setFlag(CDKConstants.ISAROMATIC, true);
     }
 
     //OK
@@ -1548,7 +1539,6 @@ public class ControllerHub implements IMouseEventRelay, IChemModelRelay {
 
         // construct a new Ring that contains the highlighted bond an its two atoms
         IRing newRing = createAttachRing(sharedAtoms, 6, "C", phantom);
-        makeRingAromatic(newRing);
         ringPlacer.placeFusedRing(newRing, sharedAtoms, sharedAtomsCenter,
                                   ringCenterVector, bondLength);
         if (sourceContainer.getMaximumBondOrder(bond.getAtom(0)) == IBond.Order.SINGLE &&
