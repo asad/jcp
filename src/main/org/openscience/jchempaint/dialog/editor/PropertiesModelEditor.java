@@ -33,28 +33,25 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Properties;
 
+import javax.swing.BoxLayout;
 import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JColorChooser;
 import javax.swing.JComboBox;
+import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JSeparator;
 import javax.swing.JSlider;
 import javax.swing.JTextField;
-import javax.swing.BoxLayout;
 
 import org.openscience.jchempaint.GT;
 import org.openscience.jchempaint.JCPPropertyHandler;
-import org.openscience.jchempaint.JChemPaintMenuHelper;
 import org.openscience.jchempaint.JChemPaintPanel;
-import org.openscience.jchempaint.action.ModifySettingsAction;
-import org.openscience.jchempaint.applet.JChemPaintEditorApplet;
 import org.openscience.jchempaint.dialog.FieldTablePanel;
 import org.openscience.jchempaint.dialog.ModifyRenderOptionsDialog;
 import org.openscience.jchempaint.renderer.RendererModel;
@@ -123,7 +120,7 @@ public class PropertiesModelEditor extends FieldTablePanel implements ActionList
 
     private Color currentColor;
 
-    private JFrame frame;
+    private JDialog frame;
     
     private JChemPaintPanel jcpPanel;
 
@@ -139,7 +136,7 @@ public class PropertiesModelEditor extends FieldTablePanel implements ActionList
     
     private int tabtoshow;
 
-    public PropertiesModelEditor(JFrame frame, JChemPaintPanel jcpPanel, int tabtoshow) {
+    public PropertiesModelEditor(JDialog frame, JChemPaintPanel jcpPanel, int tabtoshow) {
         super(true);
         this.frame = frame;
         this.jcpPanel = jcpPanel;

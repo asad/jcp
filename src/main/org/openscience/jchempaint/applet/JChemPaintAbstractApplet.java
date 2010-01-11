@@ -31,6 +31,7 @@ package org.openscience.jchempaint.applet;
 
 import java.awt.Color;
 import java.awt.Container;
+import java.awt.Frame;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.WindowAdapter;
@@ -44,6 +45,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 import javax.swing.JApplet;
+import javax.swing.JComponent;
 import javax.vecmath.Point2d;
 import javax.vecmath.Vector2d;
 
@@ -638,6 +640,14 @@ public abstract class JChemPaintAbstractApplet extends JApplet {
         ControllerHub.avoidOverlap(chemModel);
         chemPaintPanel.getChemModel().setMoleculeSet(moleculeSet);
         chemPaintPanel.get2DHub().updateView();
+    }
+    
+    public Frame getFrame(){
+        Container component = this.getParent();
+        while(!(component instanceof Frame)){
+            component=component.getParent();
+        }
+        return (Frame)component;
     }
 
 }

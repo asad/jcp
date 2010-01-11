@@ -36,7 +36,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
-import javax.swing.JFrame;
+import javax.swing.JDialog;
 import javax.swing.JPanel;
 
 import org.openscience.jchempaint.GT;
@@ -48,7 +48,7 @@ import org.openscience.jchempaint.renderer.RendererModel;
   * Simple Dialog that shows the loaded dictionaries..
   *
   */
-public class ModifyRenderOptionsDialog extends JFrame {
+public class ModifyRenderOptionsDialog extends JDialog {
 
 	private static final long serialVersionUID = -7228371698429720333L;
 	
