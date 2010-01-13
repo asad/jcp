@@ -47,7 +47,6 @@ import javax.swing.AbstractAction;
 import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.JButton;
-import javax.swing.JDialog;
 import javax.swing.JLabel;
 import javax.swing.JLayeredPane;
 import javax.swing.JPanel;
@@ -67,7 +66,7 @@ import org.openscience.jchempaint.GT;
  * @author        Konstantin Tokarev
  * @author        Mark Rijnbeek
  */
-public class PeriodicTablePanel extends JDialog
+public class PeriodicTablePanel extends JPanel
 {
 
     private static final long serialVersionUID = -2539418347261469740L;

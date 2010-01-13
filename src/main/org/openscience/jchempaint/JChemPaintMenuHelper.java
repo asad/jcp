@@ -140,9 +140,15 @@ public class JChemPaintMenuHelper {
 
                 public void menuSelected(MenuEvent arg0) {
                     menu.removeAll();
-                    if(SwingPopupModule.lastAtomPopupedFor.getSymbol()!=null){
+                    if((SwingPopupModule.lastAtomPopupedFor!=null && SwingPopupModule.lastAtomPopupedFor.getSymbol()!=null)
+                            || jcpPanel.getRenderPanel().getRenderer().getRenderer2DModel().getSelection().getConnectedAtomContainer().getAtomCount()>0){
                         try {
-                            IIsotope[] isotopes = IsotopeFactory.getInstance(jcpPanel.getChemModel().getBuilder()).getIsotopes(SwingPopupModule.lastAtomPopupedFor.getSymbol());
+                            String symbol;
+                            if(jcpPanel.getRenderPanel().getRenderer().getRenderer2DModel().getSelection().getConnectedAtomContainer()!=null && jcpPanel.getRenderPanel().getRenderer().getRenderer2DModel().getSelection().getConnectedAtomContainer().getAtomCount()>0)
+                                symbol = jcpPanel.getRenderPanel().getRenderer().getRenderer2DModel().getSelection().getConnectedAtomContainer().getAtom(0).getSymbol();
+                            else
+                                symbol = SwingPopupModule.lastAtomPopupedFor.getSymbol();
+                            IIsotope[] isotopes = IsotopeFactory.getInstance(jcpPanel.getChemModel().getBuilder()).getIsotopes(symbol);
                             for(int i=0;i<isotopes.length;i++){
                                 String cmd=isotopes[i].getSymbol()+isotopes[i].getMassNumber();
                                 JMenuItem mi = new JMenuItem(cmd);

@@ -14,6 +14,7 @@ Fixes:
 * Undo/Redo buttons active after drawing a ring (trac #58)
 * Phenyl rings no longer aromatic. Since aromaticity was not considered anywhere else, this lead to wrong H counts (trac #60)
 * Large menus (transition metals only right now) are now two columns to fit on screen (trac #47)
+* Certain functions (cleanup, open/save cml) failed in the applet due to problems with shrinking
 
 3.0
 ---
