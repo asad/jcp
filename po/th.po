@@ -7,79 +7,79 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jchempaint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-07 13:34+0000\n"
+"POT-Creation-Date: 2009-11-26 13:57+0000\n"
 "PO-Revision-Date: 2010-01-05 04:33+0000\n"
 "Last-Translator: Thammaraj <Unknown>\n"
 "Language-Team: Thai <th@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-01-07 14:12+0000\n"
+"X-Launchpad-Export-Date: 2010-01-20 09:52+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
-#: src/main/org/openscience/jchempaint/controller/AddAtomModule.java:211
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:279
-msgid "Add Atom Or Change Element"
-msgstr "เพิ่มอะตอมหรือเปลี่ยนธาตุ"
-
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:107
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:106
 msgid "Could not determine JCP version"
 msgstr "ไม่สามารถระบุเวอร์ชันของ JCP"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:111
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:110
 #, java-format
 msgid ""
 "WARNING: JChemPaint {0} must be run with a Java VM version {1} or higher."
 msgstr "คำเตือน: JChemPaint {0} ต้องรันด้วย Java VM version {1} หรือสูงกว่า"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:112
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:111
 #, java-format
 msgid "Your JVM version is {0}"
 msgstr "เวอร์ชัน JVM ของคุณคือ {0}"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:117
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:116
 msgid "gives this help page"
 msgstr "ให้หน้าช่วยเหลือนี้"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:119
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:118
 msgid "gives JChemPaints version number"
 msgstr "ให้เลขเวอร์ชัน JChemPaints"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:124
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:123
 msgid "supported options are given below"
 msgstr "ตัวเลือกที่รองรับ ถูกให้ไว้ด้านล่าง"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:172
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:210
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:175
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:213
 msgid "File does not exist"
 msgstr "ไม่มีแฟ้มอยู่"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:193
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:196
 msgid "Untitled-"
 msgstr "ไม่มีชื่อ-"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:361
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:364
 msgid "Could not determine file format"
 msgstr "ไม่สามารถระบุรูปแบบแฟ้ม"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:372
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:375
 msgid ""
 "It seems you opened a mol or sdf file containing several molecules. Only the "
 "first one will be shown"
 msgstr ""
-"ดูเหมือนว่าคุณเปิดแฟ้ม mol หรือ sdf ที่ประกอบด้วยหลายโมเลกุล เฉพาะอันแรกเท่านั้นที่จะถูกแสดง"
+"ดูเหมือนว่าคุณเปิดแฟ้ม mol หรือ sdf ที่ประกอบด้วยหลายโมเลกุล "
+"เฉพาะอันแรกเท่านั้นที่จะถูกแสดง"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:376
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:379
 msgid "sdf-like file"
 msgstr "แฟ้มที่คล้าย-sdf"
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:552
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:526
+msgid "Cannot depict contents. Model does not have bonds."
+msgstr ""
+
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:561
 msgid ""
 "Not all atoms have 2D coordinates. JCP can only show full 2D specified "
 "structures. Shall we lay out the structure?"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/application/JChemPaint.java:560
+#: src/main/org/openscience/jchempaint/application/JChemPaint.java:569
 msgid "Cannot display without 2D coordinates"
 msgstr "ไม่สามารถแสดงผลโดยปราศจากระยะพิกัด 2 มิติ"
 
@@ -110,1228 +110,1223 @@ msgstr "เกิดความผิดพลาดในการอ่าน
 msgid "Invalid SMILES specified"
 msgstr "ระบุ SMILES ไม่ถูกต้อง"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:139
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:153
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:155
 msgid "H"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:169
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:183
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:162
 msgid "He"
 msgstr "He"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:175
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:189
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:167
 msgid "Li"
 msgstr "Li"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:177
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:191
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:168
 msgid "Be"
 msgstr "Be"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:183
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:197
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:165
 msgid "B"
 msgstr "B"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:184
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:198
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:152
 msgid "C"
 msgstr "C"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:185
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:199
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:154
 msgid "N"
 msgstr "N"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:186
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:200
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:153
 msgid "O"
 msgstr "O"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:187
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:201
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:158
 msgid "F"
 msgstr "F"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:189
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:203
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:163
 msgid "Ne"
 msgstr "Ne"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:194
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:208
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:169
 msgid "Na"
 msgstr "Na"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:195
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:209
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:170
 msgid "Mg"
 msgstr "Mg"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:228
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:242
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:171
 msgid "Al"
 msgstr "Al"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:229
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:243
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:172
 msgid "Si"
 msgstr "Si"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:230
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:244
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:156
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:166
 msgid "P"
 msgstr "P"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:231
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:245
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:157
 msgid "S"
 msgstr "S"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:232
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:246
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:159
 msgid "Cl"
 msgstr "Cl"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:234
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:248
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:164
 msgid "Ar"
 msgstr "Ar"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:239
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:253
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:183
 msgid "K"
 msgstr "K"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:240
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:254
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:187
 msgid "Ca"
 msgstr "Ca"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:242
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:256
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:191
 msgid "Sc"
 msgstr "Sc"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:243
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:257
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:192
 msgid "Ti"
 msgstr "Ti"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:244
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:258
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:193
 msgid "V"
 msgstr "V"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:245
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:259
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:194
 msgid "Cr"
 msgstr "Cr"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:246
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:260
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:195
 msgid "Mn"
 msgstr "Mn"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:247
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:261
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:173
 msgid "Fe"
 msgstr "Fe"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:248
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:262
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:174
 msgid "Co"
 msgstr "Co"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:249
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:263
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:180
 msgid "Ni"
 msgstr "Ni"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:250
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:264
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:179
 msgid "Cu"
 msgstr "Cu"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:251
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:265
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:181
 msgid "Zn"
 msgstr "Zn"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:253
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:267
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:219
 msgid "Ga"
 msgstr "Ga"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:254
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:268
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:224
 msgid "Ge"
 msgstr "Ge"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:255
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:269
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:225
 msgid "As"
 msgstr "As"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:256
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:270
 msgid "Se"
 msgstr "Se"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:257
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:271
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:160
 msgid "Br"
 msgstr "Br"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:259
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:273
 msgid "Kr"
 msgstr "Kr"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:264
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:278
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:184
 msgid "Rb"
 msgstr "Rb"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:265
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:279
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:188
 msgid "Sr"
 msgstr "Sr"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:267
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:281
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:196
 msgid "Y"
 msgstr "Y"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:268
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:282
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:197
 msgid "Zr"
 msgstr "Zr"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:269
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:283
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:198
 msgid "Nb"
 msgstr "Nb"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:270
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:284
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:199
 msgid "Mo"
 msgstr "Mo"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:271
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:285
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:200
 msgid "Tc"
 msgstr "Tc"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:272
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:286
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:201
 msgid "Ru"
 msgstr "Ru"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:273
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:287
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:202
 msgid "Rh"
 msgstr "Rh"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:274
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:288
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:203
 msgid "Pd"
 msgstr "Pd"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:275
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:289
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:175
 msgid "Ag"
 msgstr "Ag"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:276
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:290
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:204
 msgid "Cd"
 msgstr "Cd"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:278
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:292
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:220
 msgid "In"
 msgstr "In"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:279
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:293
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:182
 msgid "Sn"
 msgstr "Sn"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:280
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:294
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:226
 msgid "Sb"
 msgstr "Sb"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:281
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:295
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:227
 msgid "Te"
 msgstr "Te"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:282
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:296
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:161
 msgid "I"
 msgstr "I"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:284
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:298
 msgid "Xe"
 msgstr "Xe"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:289
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:303
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:185
 msgid "Cs"
 msgstr "Cs"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:290
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:304
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:189
 msgid "Ba"
 msgstr "Ba"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:292
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:306
 msgid "La"
 msgstr "La"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:293
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:307
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:205
 msgid "Hf"
 msgstr "Hf"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:294
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:308
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:206
 msgid "Ta"
 msgstr "Ta"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:295
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:309
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:207
 msgid "W"
 msgstr "W"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:296
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:310
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:208
 msgid "Re"
 msgstr "Re"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:297
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:311
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:209
 msgid "Os"
 msgstr "Os"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:298
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:312
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:210
 msgid "Ir"
 msgstr "Ir"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:299
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:313
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:176
 msgid "Pt"
 msgstr "Pt"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:300
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:314
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:177
 msgid "Au"
 msgstr "Au"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:301
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:315
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:178
 msgid "Hg"
 msgstr "Hg"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:303
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:317
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:221
 msgid "Tl"
 msgstr "Tl"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:304
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:318
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:222
 msgid "Pb"
 msgstr "Pb"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:305
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:319
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:223
 msgid "Bi"
 msgstr "Bi"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:306
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:320
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:228
 msgid "Po"
 msgstr "Po"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:307
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:321
 msgid "At"
 msgstr "At"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:309
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:323
 msgid "Rn"
 msgstr "Rn"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:314
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:328
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:186
 msgid "Fr"
 msgstr "Fr"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:315
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:329
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:190
 msgid "Ra"
 msgstr "Ra"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:317
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:331
 msgid "Ac"
 msgstr "Ac"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:318
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:332
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:211
 msgid "Rf"
 msgstr "Rf"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:319
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:333
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:212
 msgid "Db"
 msgstr "Db"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:320
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:334
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:213
 msgid "Sg"
 msgstr "Sg"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:321
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:335
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:214
 msgid "Bh"
 msgstr "Bh"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:322
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:336
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:215
 msgid "Hs"
 msgstr "Hs"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:323
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:337
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:216
 msgid "Mt"
 msgstr "Mt"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:324
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:338
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:217
 msgid "Ds"
 msgstr "Ds"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:325
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:339
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:218
 msgid "Rg"
 msgstr "Rg"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:331
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:345
 msgid "Ce"
 msgstr "Ce"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:332
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:346
 msgid "Pr"
 msgstr "Pr"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:333
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:347
 msgid "Nd"
 msgstr "Nd"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:334
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:348
 msgid "Pm"
 msgstr "Pm"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:335
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:349
 msgid "Sm"
 msgstr "Sm"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:336
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:350
 msgid "Eu"
 msgstr "Eu"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:337
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:351
 msgid "Gd"
 msgstr "Gd"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:338
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:352
 msgid "Tb"
 msgstr "Tb"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:339
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:353
 msgid "Dy"
 msgstr "Dy"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:340
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:354
 msgid "Ho"
 msgstr "Ho"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:341
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:355
 msgid "Er"
 msgstr "Er"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:342
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:356
 msgid "Tm"
 msgstr "Tm"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:343
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:357
 msgid "Yb"
 msgstr "Yb"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:344
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:358
 msgid "Lu"
 msgstr "Lu"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:350
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:364
 msgid "Th"
 msgstr "Th"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:351
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:365
 msgid "Pa"
 msgstr "Pa"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:352
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:366
 msgid "U"
 msgstr "U"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:353
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:367
 msgid "Np"
 msgstr "Np"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:354
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:368
 msgid "Pu"
 msgstr "Pu"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:355
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:369
 msgid "Am"
 msgstr "Am"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:356
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:370
 msgid "Cm"
 msgstr "Cm"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:357
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:371
 msgid "Bk"
 msgstr "Bk"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:358
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:372
 msgid "Cf"
 msgstr "Cf"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:359
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:373
 msgid "Es"
 msgstr "Es"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:360
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:374
 msgid "Fm"
 msgstr "Fm"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:361
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:375
 msgid "Md"
 msgstr "Md"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:362
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:376
 msgid "No"
 msgstr "No"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:363
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:377
 msgid "Lr"
 msgstr "Lr"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:479
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:513
 msgid "Hydrogen"
 msgstr "ไฮโดรเจน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:482
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:516
 msgid "Helium"
 msgstr "ฮีเลียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:485
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:519
 msgid "Lithium"
 msgstr "ลิเทียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:488
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:522
 msgid "Beryllium"
 msgstr "เบอริลเลียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:491
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:525
 msgid "Boron"
 msgstr "โบรอน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:494
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:528
 msgid "Carbon"
 msgstr "คาร์บอน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:497
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:531
 msgid "Nitrogen"
 msgstr "ไนโตรเจน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:500
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:534
 msgid "Oxygen"
 msgstr "ออกซิเจน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:503
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:537
 msgid "Fluorine"
 msgstr "ฟลูออรีน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:506
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:540
 msgid "Neon"
 msgstr "นีออน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:509
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:543
 msgid "Sodium"
 msgstr "โซเดียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:512
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:546
 msgid "Magnesium"
 msgstr "แมกนีเซียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:515
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:549
 msgid "Aluminum"
 msgstr "อลูมินัม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:518
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:552
 msgid "Silicon"
 msgstr "ซิลิคอน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:521
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:555
 msgid "Phosphorus"
 msgstr "ฟอสฟอรัส"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:524
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:558
 msgid "Sulfur"
 msgstr "ซัลเฟอร์"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:527
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:561
 msgid "Chlorine"
 msgstr "คลอรีน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:530
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:564
 msgid "Argon"
 msgstr "อาร์กอน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:533
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:567
 msgid "Potassium"
 msgstr "โพแทสเซียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:536
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:570
 msgid "Calcium"
 msgstr "แคลเซียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:539
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:573
 msgid "Scandium"
 msgstr "สแกนเดียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:542
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:576
 msgid "Titanium"
 msgstr "ไททาเนียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:545
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:579
 msgid "Vanadium"
 msgstr "วานา้เดียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:548
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:582
 msgid "Chromium"
 msgstr "โครเมียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:551
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:585
 msgid "Manganese"
 msgstr "แมงกานีส"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:554
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:588
 msgid "Iron"
 msgstr "เหล็ก"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:557
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:591
 msgid "Cobalt"
 msgstr "โคบอลต์"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:560
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:594
 msgid "Nickel"
 msgstr "นิกเกิล"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:563
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:597
 msgid "Copper"
 msgstr "ทองแดง"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:566
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:600
 msgid "Zinc"
 msgstr "สังกะสี"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:569
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:603
 msgid "Gallium"
 msgstr "แกลเลียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:572
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:606
 msgid "Germanium"
 msgstr "เจอมาเนียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:575
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:609
 msgid "Arsenic"
 msgstr "อาร์เซนิก"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:578
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:612
 msgid "Selenium"
 msgstr "เซเลเนียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:581
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:615
 msgid "Bromine"
 msgstr "โบรมีน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:584
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:618
 msgid "Krypton"
 msgstr "คริปตอน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:587
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:621
 msgid "Rubidium"
 msgstr "รูบิเดียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:590
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:624
 msgid "Strontium"
 msgstr "สตรอนเทียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:593
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:627
 msgid "Yttrium"
 msgstr "อิตเทรียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:596
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:630
 msgid "Zirconium"
 msgstr "เซอร์โคเนียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:599
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:633
 msgid "Niobium"
 msgstr "ไนโอเบียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:602
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:636
 msgid "Molybdenum"
 msgstr "โมลิบดีนัม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:605
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:639
 msgid "Technetium"
 msgstr "เทคนิเทียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:608
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:642
 msgid "Ruthenium"
 msgstr "รูเทเนียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:611
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:645
 msgid "Rhodium"
 msgstr "โรห์เดียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:614
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:648
 msgid "Palladium"
 msgstr "แพลเลเดียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:617
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:651
 msgid "Silver"
 msgstr "เงิน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:620
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:654
 msgid "Cadmium"
 msgstr "แคดเมียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:623
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:657
 msgid "Indium"
 msgstr "อินเดียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:626
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:660
 msgid "Tin"
 msgstr "ดีบุก"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:629
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:663
 msgid "Antimony"
 msgstr "พลวง"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:632
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:666
 msgid "Tellurium"
 msgstr "เทลลูเรียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:635
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:669
 msgid "Iodine"
 msgstr "ไอโอดีน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:638
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:672
 msgid "Xenon"
 msgstr "ซีนอน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:641
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:675
 msgid "Cesium"
 msgstr "ซีเซียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:644
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:678
 msgid "Barium"
 msgstr "แบเรียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:647
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:681
 msgid "Lanthanum"
 msgstr "แลนทานัม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:650
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:684
 msgid "Cerium"
 msgstr "เซอเรียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:653
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:687
 msgid "Praseodymium"
 msgstr "พราซิโอไดเมียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:656
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:690
 msgid "Neodymium"
 msgstr "นีโอไดเมียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:659
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:693
 msgid "Promethium"
 msgstr "โพรมีเทียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:662
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:696
 msgid "Samarium"
 msgstr "ซามาเรียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:665
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:699
 msgid "Europium"
 msgstr "ยูโรเปียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:668
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:702
 msgid "Gadolinium"
 msgstr "แกโดลิเนียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:671
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:705
 msgid "Terbium"
 msgstr "เทอร์เบียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:674
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:708
 msgid "Dysprosium"
 msgstr "ดิสโพรเซียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:677
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:711
 msgid "Holmium"
 msgstr "ฮอลเมียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:680
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:714
 msgid "Erbium"
 msgstr "เออร์เบียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:683
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:717
 msgid "Thulium"
 msgstr "ทูเลียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:686
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:720
 msgid "Ytterbium"
 msgstr "อิตเทอร์เบียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:689
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:723
 msgid "Lutetium"
 msgstr "ลูเทเทียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:692
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:726
 msgid "Hafnium"
 msgstr "ฮาฟเนียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:695
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:729
 msgid "Tantalum"
 msgstr "แทนทาลัม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:698
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:732
 msgid "Tungsten"
 msgstr "ทังสเตน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:701
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:735
 msgid "Rhenium"
 msgstr "เรห์เนียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:704
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:738
 msgid "Osmium"
 msgstr "ออสเมียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:707
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:741
 msgid "Iridium"
 msgstr "อิริเดียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:710
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:744
 msgid "Platinum"
 msgstr "แพลทินัม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:713
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:747
 msgid "Gold"
 msgstr "ทอง"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:716
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:750
 msgid "Mercury"
 msgstr "ปรอท"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:719
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:753
 msgid "Thallium"
 msgstr "แทลเลียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:722
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:756
 msgid "Lead"
 msgstr "ตะกั่ว"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:725
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:759
 msgid "Bismuth"
 msgstr "บิสมัท"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:728
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:762
 msgid "Polonium"
 msgstr "โพโลเนียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:731
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:765
 msgid "Astatine"
 msgstr "แอสทาทีน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:734
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:768
 msgid "Radon"
 msgstr "เรดอน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:737
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:771
 msgid "Francium"
 msgstr "แฟรมเซียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:740
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:774
 msgid "Radium"
 msgstr "เรเดียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:743
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:777
 msgid "Actinium"
 msgstr "แอคทิเนียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:746
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:780
 msgid "Thorium"
 msgstr "ทอเรียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:749
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:783
 msgid "Protactinium"
 msgstr "โพรแทคทิเนียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:752
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:786
 msgid "Uranium"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:755
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:789
 msgid "Neptunium"
 msgstr "เนปจูเนียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:758
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:792
 msgid "Plutonium"
 msgstr "พลูโตเนียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:761
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:795
 msgid "Americium"
 msgstr "อเมริเคียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:764
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:798
 msgid "Curium"
 msgstr "คูเรียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:767
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:801
 msgid "Berkelium"
 msgstr "เบอร์คีเลียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:770
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:804
 msgid "Californium"
 msgstr "แคลิฟอร์เนียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:773
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:807
 msgid "Einsteinium"
 msgstr "ไอน์สไตเนียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:776
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:810
 msgid "Fermium"
 msgstr "เฟอร์เมียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:779
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:813
 msgid "Mendelevium"
 msgstr "เมนดีเลเวียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:782
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:816
 msgid "Nobelium"
 msgstr "โนเบเลียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:785
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:819
 msgid "Lawrencium"
 msgstr "ลอว์เรนเซียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:788
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:822
 msgid "Rutherfordium"
 msgstr "รูเทอฟอร์เดียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:791
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:825
 msgid "Dubnium"
 msgstr "ดับเนียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:794
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:828
 msgid "Seaborgium"
 msgstr "ซีบอร์เจียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:797
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:831
 msgid "Bohrium"
 msgstr "บอห์เรียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:800
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:834
 msgid "Hassium"
 msgstr "แฮสเซียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:803
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:837
 msgid "Meitnerium"
 msgstr "เมทเนอเรียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:806
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:840
 msgid "Darmstadtium"
 msgstr "ดาร์มสตาดเทียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:809
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:843
 msgid "Roentgenium"
 msgstr "เรนท์จีเนียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:812
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:846
 msgid "Ununbium"
 msgstr "อูนอูนเบียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:815
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:849
 msgid "Ununtrium"
 msgstr "อูนอูนเทรียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:818
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:852
 msgid "Ununquadium"
 msgstr "อูนอูนควอเดียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:821
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:855
 msgid "Ununpentium"
 msgstr "อูนอูนเพนเทียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:824
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:858
 msgid "Ununhexium"
 msgstr "อูนอูนเฮกเซียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:827
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:861
 msgid "Ununseptium"
 msgstr "อูนอูนเซปเทียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:830
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:864
 msgid "Ununoctium"
 msgstr "อูนอูนนอคเทียม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:834
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:869
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:887
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:868
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:903
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:921
 msgid "Unknown"
 msgstr "ไม่ทราบ"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:849
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:883
 msgid "Noble Gases"
 msgstr "แก๊สมีตระกูล"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:851
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:885
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:126
 msgid "Halogens"
 msgstr "ฮาโลเจน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:853
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:887
 msgid "Nonmetals"
 msgstr "อโลหะ"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:855
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:889
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:132
 msgid "Metalloids"
 msgstr "กึ่งโลหะ"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:857
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:891
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:131
 msgid "Metals"
 msgstr "โลหะ"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:859
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:893
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:129
 msgid "Alkali Earth Metals"
 msgstr "โลหะอัลคาไลน์เอิร์ท"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:861
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:895
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:128
 msgid "Alkali Metals"
 msgstr "โลหะอัลคาไน์"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:863
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:897
 msgid "Transition metals"
 msgstr "โลหะทรานซิชัน"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:865
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:899
 msgid "Lanthanides"
 msgstr "แลนทาไนด์"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:867
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:901
 msgid "Actinides"
 msgstr "แอคทิไนด์"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:881
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:915
 msgid "Gas"
 msgstr "แก๊ส"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:883
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:917
 msgid "Liquid"
 msgstr "ของเหลว"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:885
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:919
 msgid "Solid"
 msgstr "ของแข็ง"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1010
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1046
 msgid "Atomic number"
 msgstr "เลขอะตอม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1011
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1048
 msgid "Group"
 msgstr "กลุ่ม"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1012
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1049
 msgid "Period"
 msgstr "คาบ"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1017
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1054
 msgid "CAS RN:"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1018
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1055
 msgid "Element Category:"
 msgstr "หมู่ธาตุ"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1019
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1056
 msgid "State:"
 msgstr "สภาพ"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1020
-#, fuzzy
-msgid "Electronegativity:"
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1057
+msgid "Electronativity:"
 msgstr "อิเล็กโทรเนทิวิตี้"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1021
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1057
 msgid "undefined"
 msgstr "ยังไม่กำหนด"
 
-#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1029
+#: src/main/org/openscience/jchempaint/dialog/PeriodicTablePanel.java:1065
 msgid "Periodic Table of elements"
 msgstr "ตารางธาตุพิริออดิก"
 
-#: src/main/org/openscience/jchempaint/dialog/EnterElementSwingModule.java:181
+#: src/main/org/openscience/jchempaint/dialog/EnterElementSwingModule.java:179
 msgid "Add Functional Group"
 msgstr "เพิ่มหมู่ฟังก์ชัน"
 
-#: src/main/org/openscience/jchempaint/dialog/EnterElementSwingModule.java:195
+#: src/main/org/openscience/jchempaint/dialog/EnterElementSwingModule.java:192
 msgid "Add Atom"
 msgstr "เพิ่มอะตอม"
 
-#: src/main/org/openscience/jchempaint/dialog/EnterElementSwingModule.java:203
+#: src/main/org/openscience/jchempaint/dialog/EnterElementSwingModule.java:199
 #, java-format
 msgid "{0} is not a valid element symbol or functional group."
 msgstr "{0} ไม่เป็นสัญลักษณ์ธาตุหรือหมู่ฟังก์ชันที่ถูกต้อง"
 
-#: src/main/org/openscience/jchempaint/dialog/EnterElementSwingModule.java:203
+#: src/main/org/openscience/jchempaint/dialog/EnterElementSwingModule.java:199
 msgid "No valid input"
 msgstr "ไม่มีการใส่ค่าที่ถูกต้อง"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:152
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:135
 msgid "Display Preferences"
 msgstr "แสดงการกำหนดค่า"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:165
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:148
 msgid "Draw atom numbers"
 msgstr "วาดเลขอะตอม"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:172
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:155
 msgid "Explicit carbons"
 msgstr "คาร์บอนแบบแยกกัน"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:176
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:159
 msgid "Show explicit methyl groups"
 msgstr "แสดงหมู่เมธิลแบบแยกกัน"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:180
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:163
 msgid "Show explicit hydrogens"
 msgstr "แสดงไฮโดรเจนแบบแยกกัน"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:184
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:167
 msgid "Show implicit hydrogens"
 msgstr "แสดงไฮโดรเจนแบบรวมกัน"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:188
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:171
 msgid "Show aromatic ring circles"
 msgstr "แสดงวงแหวนอะโรมาติก"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:195
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:178
 msgid "Color atoms by element"
 msgstr "ใส่สีอะตอมตามชนิดธาตุ"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:209
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:192
 msgid "Set fit to screen"
 msgstr "ตั้งค่าให้พอดีจอ"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:217
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:200
 msgid "Show atom symbols"
 msgstr "แสดงสัญลักษณ์อะตอม"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:222
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:205
 msgid "Show ball atoms"
 msgstr "แสดงอะตอมกลม"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:227
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:210
 msgid "Show square atoms"
 msgstr "แสดงอะตอมสี่เหลี่ยม"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:241
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:224
 msgid "Atom size"
 msgstr "ขนาดอะตอม"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:252
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:235
 msgid "Bond width"
 msgstr "ความกว้างพันธะ"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:271
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:254
 msgid "Highlight/Select diameter"
 msgstr "เฉดสี/เลือกเส้นผ่าศูนย์กลาง"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:281
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:264
 msgid "Wedge width"
 msgstr "ความกว้างลิ่ม"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:296
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:279
 msgid "Background color"
 msgstr "สีพื้นหลัง"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:303
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:286
 msgid "Choose background color..."
 msgstr "เลือกสีพื้นหลัง..."
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:310
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:293
 msgid "Other Preferences"
 msgstr "การกำหนดค่าอื่นๆ"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:313
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:460
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:296
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:394
 msgid "Number of undoable operations"
 msgstr "จำนวนของการดำเนินการที่ทำไม่ได้"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:316
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:299
 msgid "Ask for CML settings when saving"
 msgstr "ถามเพื่อการตั้งค่า CML เมื่อกำลังบันทึก"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:327
-msgid "User Interface Language"
-msgstr ""
-
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:460
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:394
 msgid "must be a number from 1 to 100"
 msgstr "ต้องเป็นเลขจาก 1 ถึง 100"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:505
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:416
 msgid "Choose Background Color"
 msgstr "เลือกสีพื้นหลัง"
 
-#: src/main/org/openscience/jchempaint/dialog/ModifyRenderOptionsDialog.java:78
+#: src/main/org/openscience/jchempaint/dialog/ModifyRenderOptionsDialog.java:75
 msgid "Preferences"
 msgstr "กำหนดค่า"
 
-#: src/main/org/openscience/jchempaint/dialog/ModifyRenderOptionsDialog.java:84
+#: src/main/org/openscience/jchempaint/dialog/ModifyRenderOptionsDialog.java:81
 #: src/main/org/openscience/jchempaint/dialog/TextViewDialog.java:114
 msgid "OK"
 msgstr "ตกลง"
 
-#: src/main/org/openscience/jchempaint/dialog/ModifyRenderOptionsDialog.java:92
+#: src/main/org/openscience/jchempaint/dialog/ModifyRenderOptionsDialog.java:89
 msgid "Apply"
 msgstr "ใช้งาน"
 
-#: src/main/org/openscience/jchempaint/dialog/ModifyRenderOptionsDialog.java:99
-#: src/main/org/openscience/jchempaint/dialog/TemplateBrowser.java:106
+#: src/main/org/openscience/jchempaint/dialog/ModifyRenderOptionsDialog.java:96
+#: src/main/org/openscience/jchempaint/dialog/TemplateBrowser.java:105
 msgid "Cancel"
 msgstr "ยกเลิก"
 
@@ -1339,7 +1334,7 @@ msgstr "ยกเลิก"
 msgid "Structure Templates"
 msgstr "แม่แบบโครงสร้าง"
 
-#: src/main/org/openscience/jchempaint/dialog/TemplateBrowser.java:118
+#: src/main/org/openscience/jchempaint/dialog/TemplateBrowser.java:117
 msgid "All"
 msgstr "ทั้งหมด"
 
@@ -1359,29 +1354,29 @@ msgstr "โครงการ OpenScience"
 msgid "See 'http://jchempaint.sourceforge.net' for more information."
 msgstr "ดูที่ 'http://jchempaint.sourceforge.net' สำหรับข้อมูลเพิ่มเติม"
 
-#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:531
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:501
 msgid "has unsaved data. Do you want to save it?"
 msgstr "มีข้อมูลที่ยังไม่บันทึก คุณต้องการบันทึกหรือไม่?"
 
-#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:532
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:502
 msgid "Unsaved data"
 msgstr "ข้อมูลไม่ถูกบันทึก"
 
-#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:676
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:645
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:72
 msgid "Redo"
 msgstr "ทำซ้ำ"
 
-#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:680
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:649
 msgid "No redo possible"
 msgstr "ไม่มีการทำซ้ำ ที่เป็นไปได้"
 
-#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:686
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:655
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:71
 msgid "Undo"
 msgstr "เลิกทำ"
 
-#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:690
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:659
 msgid "No undo possible"
 msgstr "ไม่มีการเลิกทำ ที่เป็นไปได้"
 
@@ -1392,35 +1387,6 @@ msgstr "เนื้อหาที่คุณพยายามคัดลอ
 #: src/main/org/openscience/jchempaint/action/CopyPasteAction.java:351
 msgid "Could not process content"
 msgstr "ไม่สามารถดำเนินการเนื้อหา"
-
-#: src/main/org/openscience/jchempaint/action/ChangeAtomSymbolAction.java:109
-#, fuzzy
-msgid "Enter an element symbol:"
-msgstr "ใส่สัญลักษณ์ของธาตุผ่านทางคีย์บอร์ด"
-
-#: src/main/org/openscience/jchempaint/action/ChangeAtomSymbolAction.java:109
-#, fuzzy
-msgid "Enter element"
-msgstr "ใส่ธาตุหรือกลุ่ม"
-
-#: src/main/org/openscience/jchempaint/action/ChangeAtomSymbolAction.java:118
-#, fuzzy
-msgid "No valid element symbol entered"
-msgstr "ใส่สัญลักษณ์ของธาตุผ่านทางคีย์บอร์ด"
-
-#: src/main/org/openscience/jchempaint/action/ChangeAtomSymbolAction.java:118
-msgid "Invalid symbol"
-msgstr ""
-
-#: src/main/org/openscience/jchempaint/action/HelpAction.java:49
-#: src/main/org/openscience/jchempaint/action/HelpAction.java:52
-#: src/main/org/openscience/jchempaint/action/HelpAction.java:58
-msgid "JChemPaint Help"
-msgstr ""
-
-#: src/main/org/openscience/jchempaint/action/HelpAction.java:55
-msgid "JChemPaint License"
-msgstr ""
 
 #: src/main/org/openscience/jchempaint/action/CreateSmilesAction.java:78
 msgid "Generated SMILES:"
@@ -1502,8 +1468,8 @@ msgid ""
 "{0} files cannot contain extra molecules. You painted molecules outside the "
 "reaction(s), which will not be in the file. Continue?"
 msgstr ""
-"แฟ้ม {0} ไม่สามารถประกอบด้วยโมเลกุลพิเศษ คุณทาสีโมเลกุลด้านนอกปฏิกิริยา, ซึ่งจะไม่อยู่ในแฟ้ม "
-"จะทำต่อหรือไม่?"
+"แฟ้ม {0} ไม่สามารถประกอบด้วยโมเลกุลพิเศษ คุณทาสีโมเลกุลด้านนอกปฏิกิริยา, "
+"ซึ่งจะไม่อยู่ในแฟ้ม จะทำต่อหรือไม่?"
 
 #: src/main/org/openscience/jchempaint/action/SaveAsAction.java:227
 msgid "RXN can only save reactions. You have no reactions painted!"
@@ -1521,11 +1487,11 @@ msgid ""
 "reactants/products of these will be included as separate molecules. Continue?"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/RenderPanel.java:453
+#: src/main/org/openscience/jchempaint/RenderPanel.java:449
 msgid "Zoomfactor"
 msgstr "ค่าการซูม"
 
-#: src/main/org/openscience/jchempaint/RenderPanel.java:466
+#: src/main/org/openscience/jchempaint/RenderPanel.java:462
 msgid "Hs implicit"
 msgstr ""
 
@@ -2045,6 +2011,10 @@ msgstr "เมนูป๊อบอัพ ChemModel"
 msgid "Enter Element or Group"
 msgstr "ใส่ธาตุหรือกลุ่ม"
 
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:279
+msgid "Add Atom Or Change Element"
+msgstr "เพิ่มอะตอมหรือเปลี่ยนธาตุ"
+
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:280
 msgid "Draw Bond"
 msgstr "วาดพันธะ"
@@ -2080,182 +2050,204 @@ msgid "Cyclic change of symbol"
 msgstr "วงจรการเปลี่ยนของสัญลักษณ์"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:293
-msgid "Move"
-msgstr "ย้าย"
-
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:294
 msgid "Benzene"
 msgstr "เบนซีน"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:295
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:294
 msgid "Select in Free Form"
 msgstr "เลือกในแบบอิสระ"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:296
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:295
 msgid "Select Rectangle"
 msgstr "เลือกสี่เหลี่ยม"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:297
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:298
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:299
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:300
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:301
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:302
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:303
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:304
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:305
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:306
-#, fuzzy, java-format
-msgid "Change drawing symbol to {0}"
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:296
+msgid "Change drawing symbol to C"
 msgstr "เปลี่ยนสัญลักษณ์การวาดสู่ C"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:307
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:297
+msgid "Change drawing symbol to H"
+msgstr "เปลี่ยนสัญลักษณ์การวาดสู่  H"
+
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:298
+msgid "Change drawing symbol to O"
+msgstr "เปลี่ยนสัญลักษณ์การวาดสู่ O"
+
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:299
+msgid "Change drawing symbol to N"
+msgstr "เปลี่ยนสัญลักษณ์การวาดสู่ N"
+
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:300
+msgid "Change drawing symbol to P"
+msgstr "เปลี่ยนสัญลักษณ์การวาดสู่  P"
+
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:301
+msgid "Change drawing symbol to S"
+msgstr "เปลี่ยนสัญลักษณ์การวาดสู่  S"
+
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:302
+msgid "Change drawing symbol to F"
+msgstr "เปลี่ยนสัญลักษณ์การวาดสู่ F"
+
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:303
+msgid "Change drawing symbol to Cl"
+msgstr "เปลี่ยนสัญลักษณ์การวาดสู่ Cl"
+
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:304
+msgid "Change drawing symbol to Br"
+msgstr "เปลี่ยนสัญลักษณ์การวาดสู่ Cr"
+
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:305
+msgid "Change drawing symbol to I"
+msgstr "เปลี่ยนสัญลักษณ์การวาดสู่ I"
+
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:306
 msgid "Reaction"
 msgstr "ปฏิกิริยา"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:308
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:307
 msgid "Make Reactant in New Reaction"
 msgstr "สร้างตัวทำปฏิกิริยาในปฏิกิริยาใหม่"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:309
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:308
 msgid "Make Reactant in Existing Reaction"
 msgstr "สร้างตัวทำปฏิกิริยาในปฏิกิริยาที่มีอยู่"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:310
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:309
 msgid "Make Product in New Reaction"
 msgstr "สร้างผลิตภัณฑ์ในปฏิกิริยาใหม่"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:311
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:310
 msgid "Make Product in Existing Reaction"
 msgstr "สร้างผลิตภัณฑ์ในปฏิกิริยาที่มีอยู่"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:312
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:311
 msgid "Select Reactants"
 msgstr "เลือกตัวทำปฏิกิริยา"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:313
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:312
 msgid "Select Products"
 msgstr "เลือกผลิตภัณฑ์"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:314
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:313
 msgid "Reaction Popup Menu"
 msgstr "เมนูป๊อบอัพปฏิกิริยา"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:315
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:314
 msgid "Alkaloids"
 msgstr "อัลคาลอยด์"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:316
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:315
 msgid "Beta Lactams"
 msgstr "เบต้า-แลคแตม"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:317
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:316
 msgid "Carbohydrates"
 msgstr "คารโบไฮเดรต"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:318
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:317
 msgid "Inositols"
 msgstr "อิโนซิทอล"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:319
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:318
 msgid "Lipids"
 msgstr "ไขมัน"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:320
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:319
 msgid "Miscellaneous"
 msgstr "เบ็ดเตล็ด"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:321
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:320
 msgid "Nucleosides"
 msgstr "นิวคลีโอไซด์"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:322
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:321
 msgid "Porphyrins"
 msgstr "พอร์ไฟริน"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:323
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:322
 msgid "Steroids"
 msgstr "สเตียรอยด์"
 
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:323
+msgid "Language"
+msgstr "ภาษา"
+
 #: src/main/org/openscience/jchempaint/GT.java:123
-msgid "American English"
-msgstr "อังกฤษ-อเมริกัน"
-
-#: src/main/org/openscience/jchempaint/GT.java:124
-msgid "Arabic"
-msgstr "อารบิก"
-
-#: src/main/org/openscience/jchempaint/GT.java:125
-msgid "Brazilian Portuguese"
-msgstr "โปรตุเกส-บราซิล"
-
-#: src/main/org/openscience/jchempaint/GT.java:126
-msgid "Czech"
-msgstr "เชค"
-
-#: src/main/org/openscience/jchempaint/GT.java:127
 msgid "Dutch"
 msgstr "เนเธอร์แลนด์"
 
-#: src/main/org/openscience/jchempaint/GT.java:128
+#: src/main/org/openscience/jchempaint/GT.java:124
+msgid "American English"
+msgstr "อังกฤษ-อเมริกัน"
+
+#: src/main/org/openscience/jchempaint/GT.java:125
 msgid "German"
 msgstr "เยอรมัน"
 
-#: src/main/org/openscience/jchempaint/GT.java:129
-msgid "Hungarian"
-msgstr "ฮังการี"
+#: src/main/org/openscience/jchempaint/GT.java:126
+msgid "Brazilian Portuguese"
+msgstr "โปรตุเกส-บราซิล"
 
-#: src/main/org/openscience/jchempaint/GT.java:130
-msgid "Norwegian Bokmal"
-msgstr ""
-
-#: src/main/org/openscience/jchempaint/GT.java:131
-msgid "Polish"
-msgstr "โปแลนด์"
-
-#: src/main/org/openscience/jchempaint/GT.java:132
-msgid "Russian"
-msgstr "รัสเซีย"
-
-#: src/main/org/openscience/jchempaint/GT.java:133
+#: src/main/org/openscience/jchempaint/GT.java:127
 msgid "Spanish"
 msgstr "สเปน"
 
-#: src/main/org/openscience/jchempaint/GT.java:134
+#: src/main/org/openscience/jchempaint/GT.java:128
+msgid "Arabic"
+msgstr "อารบิก"
+
+#: src/main/org/openscience/jchempaint/GT.java:129
+msgid "Norwegian Bokmal"
+msgstr ""
+
+#: src/main/org/openscience/jchempaint/GT.java:130
+msgid "Czech"
+msgstr "เชค"
+
+#: src/main/org/openscience/jchempaint/GT.java:131
+msgid "Hungarian"
+msgstr "ฮังการี"
+
+#: src/main/org/openscience/jchempaint/GT.java:132
 msgid "Thai"
 msgstr "ไทย"
 
-#: src/main/org/openscience/jchempaint/io/JCPSaveFileFilter.java:74
+#: src/main/org/openscience/jchempaint/GT.java:133
+msgid "Russian"
+msgstr "รัสเซีย"
+
+#: src/main/org/openscience/jchempaint/io/JCPSaveFileFilter.java:75
 msgid "CDK source code fragment"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/io/JCPFileFilter.java:192
+#: src/main/org/openscience/jchempaint/io/JCPFileFilter.java:193
 msgid "MDL MOL file"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/io/JCPFileFilter.java:196
+#: src/main/org/openscience/jchempaint/io/JCPFileFilter.java:197
 msgid "MDL SDF Molfile"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/io/JCPFileFilter.java:200
+#: src/main/org/openscience/jchempaint/io/JCPFileFilter.java:201
 msgid "MDL RXN Molfile"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/io/JCPFileFilter.java:204
+#: src/main/org/openscience/jchempaint/io/JCPFileFilter.java:205
 msgid "IUPAC Chemical Identifier"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:130
+#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:120
 msgid "The error was:"
 msgstr "ความผิดพลาดคือ:"
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:130
+#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:120
 msgid ""
 "\n"
 "You can file a bug report at "
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:132
+#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:122
 msgid ""
 "\n"
 "We apologize for any inconvenience!"
@@ -2263,42 +2255,15 @@ msgstr ""
 "\n"
 "เราขออภัยสำหรับความไม่สะดวกใดๆ!"
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:132
+#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:122
 msgid "Error occured"
 msgstr "ความผิดพลาดได้เกิดขึ้น"
 
-#~ msgid "Change drawing symbol to H"
-#~ msgstr "เปลี่ยนสัญลักษณ์การวาดสู่  H"
-
-#~ msgid "Change drawing symbol to O"
-#~ msgstr "เปลี่ยนสัญลักษณ์การวาดสู่ O"
-
-#~ msgid "Change drawing symbol to N"
-#~ msgstr "เปลี่ยนสัญลักษณ์การวาดสู่ N"
-
-#~ msgid "Change drawing symbol to P"
-#~ msgstr "เปลี่ยนสัญลักษณ์การวาดสู่  P"
-
-#~ msgid "Change drawing symbol to S"
-#~ msgstr "เปลี่ยนสัญลักษณ์การวาดสู่  S"
-
-#~ msgid "Change drawing symbol to F"
-#~ msgstr "เปลี่ยนสัญลักษณ์การวาดสู่ F"
-
-#~ msgid "Change drawing symbol to Cl"
-#~ msgstr "เปลี่ยนสัญลักษณ์การวาดสู่ Cl"
-
-#~ msgid "Change drawing symbol to Br"
-#~ msgstr "เปลี่ยนสัญลักษณ์การวาดสู่ Cr"
-
-#~ msgid "Change drawing symbol to I"
-#~ msgstr "เปลี่ยนสัญลักษณ์การวาดสู่ I"
-
-#~ msgid "Language"
-#~ msgstr "ภาษา"
-
 #~ msgid "Click this button to go back to PeriodicTable."
 #~ msgstr "คลิกปุ่มนี้เพื่อกลับไปยังตารางธาตุพีริออดิก"
+
+#~ msgid "Polish"
+#~ msgstr "โปแลนด์"
 
 #~ msgid "Show atom-atom mappings"
 #~ msgstr "แสดงแผนที่อะตอม-อะตอม"
@@ -2331,7 +2296,8 @@ msgstr "ความผิดพลาดได้เกิดขึ้น"
 #~ msgstr "ตัวเลือกการแสดง"
 
 #~ msgid "A radical cannot be added to this atom. Re-try with less hydrogens."
-#~ msgstr "อนุมูลไม่สามารถถูกเพิ่มได้ที่อะตอมนี้ ลองอีกครั้งด้วยจำนวนไฮโดรเจนที่น้อยลง"
+#~ msgstr ""
+#~ "อนุมูลไม่สามารถถูกเพิ่มได้ที่อะตอมนี้ ลองอีกครั้งด้วยจำนวนไฮโดรเจนที่น้อยลง"
 
 #~ msgid "mass"
 #~ msgstr "มวล"
@@ -2390,12 +2356,14 @@ msgstr "ความผิดพลาดได้เกิดขึ้น"
 #~ msgid "Select Square"
 #~ msgstr "เลือกสี่เหลี่ยม"
 
+#~ msgid "Move"
+#~ msgstr "ย้าย"
+
 #~ msgid "Reload"
 #~ msgstr "โหลดใหม่"
 
 #~ msgid ""
-#~ "An OpenScience project by Christoph Steinbeck, Egon Willighagen and "
-#~ "others."
+#~ "An OpenScience project by Christoph Steinbeck, Egon Willighagen and others."
 #~ msgstr ""
 #~ "โครงการ OpenScience โดย Christoph Steinbeck, Egon Willighagen และคนอื่นๆ"
 
