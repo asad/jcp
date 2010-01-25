@@ -258,8 +258,8 @@ public class JCPMenuTextMaker {
             entries.put("newTooltip", GT._("Create new file"));
         entries.put("openTooltip", GT._("Open existing file"));
         entries.put("saveTooltip", GT._("Save current file"));
-        entries.put("printTooltip", GT._("Print current file"));			entries.put("newTooltip", GT._("Create new file"));
-		entries.put("redoTooltip", GT._("Redo Action"));
+        entries.put("printTooltip", GT._("Print current file"));
+        entries.put("redoTooltip", GT._("Redo Action"));
 		entries.put("saveAsTooltip", GT._("Save to a file"));
 		entries.put("undoTooltip", GT._("Undo Action"));
 		entries.put("zoominTooltip", GT._("Zoom in"));
