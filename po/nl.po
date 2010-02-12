@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JChemPaint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-07 13:34+0000\n"
+"POT-Creation-Date: 2010-02-12 09:26+0000\n"
 "PO-Revision-Date: 2009-10-23 09:51+0000\n"
 "Last-Translator: Egon Willighagen <Unknown>\n"
 "Language-Team: \n"
@@ -1240,108 +1240,108 @@ msgstr ""
 msgid "No valid input"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:152
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:149
 #, fuzzy
 msgid "Display Preferences"
 msgstr "Voorkeuren herladen"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:165
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:162
 msgid "Draw atom numbers"
 msgstr "Teken atoomnummers"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:172
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:169
 msgid "Explicit carbons"
 msgstr "Explicitiete waterstofatomen"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:176
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:173
 msgid "Show explicit methyl groups"
 msgstr "Laat methylgroupen expliciet zien"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:180
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:177
 msgid "Show explicit hydrogens"
 msgstr "Laat de expliciete waterstoffen zien"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:184
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:181
 msgid "Show implicit hydrogens"
 msgstr "Laat de impliciete waterstoffen zien"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:188
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:185
 #, fuzzy
 msgid "Show aromatic ring circles"
 msgstr "Gebruik cirkels voor aromatische ringen"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:195
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:192
 msgid "Color atoms by element"
 msgstr "Kleur atomen naar element"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:209
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:206
 msgid "Set fit to screen"
 msgstr "Pas in scherm"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:217
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:214
 #, fuzzy
 msgid "Show atom symbols"
 msgstr "Tekstballonnen tonen"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:222
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:219
 msgid "Show ball atoms"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:227
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:224
 #, fuzzy
 msgid "Show square atoms"
 msgstr "Vierkante compacte atomen"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:241
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:238
 msgid "Atom size"
 msgstr "Atoomgrootte"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:252
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:249
 msgid "Bond width"
 msgstr "Bondbreedte"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:271
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:268
 #, fuzzy
 msgid "Highlight/Select diameter"
 msgstr "Straal oplichten"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:281
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:278
 msgid "Wedge width"
 msgstr "Breedte wedge-bindingen"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:296
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:293
 msgid "Background color"
 msgstr "Achtergrondkleur"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:303
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:300
 #, fuzzy
 msgid "Choose background color..."
 msgstr "Kies een achtergrondkleur"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:310
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:307
 #, fuzzy
 msgid "Other Preferences"
 msgstr "Voorkeuren opslaan"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:313
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:460
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:310
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:457
 msgid "Number of undoable operations"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:316
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:313
 #, fuzzy
 msgid "Ask for CML settings when saving"
 msgstr "Pas IO-instellingen aan tijdens lezen"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:327
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:324
 msgid "User Interface Language"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:460
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:457
 msgid "must be a number from 1 to 100"
 msgstr "Moet een nummer zijn tussen 1 en 100"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:505
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:502
 msgid "Choose Background Color"
 msgstr "Kies een achtergrondkleur"
 
@@ -1378,15 +1378,15 @@ msgstr "Al"
 msgid "Choose an element..."
 msgstr "Lettertype kiezen..."
 
-#: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:72
+#: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:73
 msgid "An open-source editor for 2D chemical structures."
 msgstr "Een opensource tekenprogramma voor 2D chemische structuren."
 
-#: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:73
+#: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:74
 msgid "An OpenScience project."
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:74
+#: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:75
 msgid "See 'http://jchempaint.sourceforge.net' for more information."
 msgstr "Zie 'http://jchempaint.sourceforge.net' voor meer informatie."
 
@@ -1398,21 +1398,21 @@ msgstr "Er is onbewaarde data. Wil je die opslaan?"
 msgid "Unsaved data"
 msgstr "Onbewaarde data."
 
-#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:676
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:677
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:72
 msgid "Redo"
 msgstr "Opnieuw"
 
-#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:680
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:681
 msgid "No redo possible"
 msgstr "Opnieuw uitvoeren niet mogelijk"
 
-#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:686
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:687
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:71
 msgid "Undo"
 msgstr "Ongedaan maken"
 
-#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:690
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:691
 msgid "No undo possible"
 msgstr "Ongedaan maken niet mogelijk"
 
@@ -1554,11 +1554,11 @@ msgid ""
 "reactants/products of these will be included as separate molecules. Continue?"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/RenderPanel.java:453
+#: src/main/org/openscience/jchempaint/RenderPanel.java:439
 msgid "Zoomfactor"
 msgstr "Zoomfactor"
 
-#: src/main/org/openscience/jchempaint/RenderPanel.java:466
+#: src/main/org/openscience/jchempaint/RenderPanel.java:452
 msgid "Hs implicit"
 msgstr "H's impliciet"
 
@@ -2019,7 +2019,6 @@ msgid "Clear"
 msgstr "Wissen"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:258
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:261
 #, fuzzy
 msgid "Create new file"
 msgstr "Een nieuw bestand aanmaken"
@@ -2218,35 +2217,43 @@ msgid "Alkaloids"
 msgstr ""
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:316
-msgid "Beta Lactams"
+msgid "Amino Acids"
 msgstr ""
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:317
-msgid "Carbohydrates"
+msgid "Beta Lactams"
 msgstr ""
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:318
-msgid "Inositols"
+msgid "Carbohydrates"
 msgstr ""
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:319
-msgid "Lipids"
+msgid "Inositols"
 msgstr ""
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:320
-msgid "Miscellaneous"
+msgid "Lipids"
 msgstr ""
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:321
-msgid "Nucleosides"
+msgid "Miscellaneous"
 msgstr ""
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:322
+msgid "Nucleosides"
+msgstr ""
+
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:323
 #, fuzzy
 msgid "Porphyrins"
 msgstr "Instellingen"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:323
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:324
+msgid "Protecting Groups"
+msgstr ""
+
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:325
 msgid "Steroids"
 msgstr ""
 
@@ -2263,38 +2270,42 @@ msgid "Brazilian Portuguese"
 msgstr "Braziliaans Portugees"
 
 #: src/main/org/openscience/jchempaint/GT.java:126
-msgid "Czech"
+msgid "Catalan"
 msgstr ""
 
 #: src/main/org/openscience/jchempaint/GT.java:127
+msgid "Czech"
+msgstr ""
+
+#: src/main/org/openscience/jchempaint/GT.java:128
 msgid "Dutch"
 msgstr "Nederlands"
 
-#: src/main/org/openscience/jchempaint/GT.java:128
+#: src/main/org/openscience/jchempaint/GT.java:129
 msgid "German"
 msgstr "Duits"
 
-#: src/main/org/openscience/jchempaint/GT.java:129
+#: src/main/org/openscience/jchempaint/GT.java:130
 msgid "Hungarian"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/GT.java:130
+#: src/main/org/openscience/jchempaint/GT.java:131
 msgid "Norwegian Bokmal"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/GT.java:131
+#: src/main/org/openscience/jchempaint/GT.java:132
 msgid "Polish"
 msgstr "Pools"
 
-#: src/main/org/openscience/jchempaint/GT.java:132
+#: src/main/org/openscience/jchempaint/GT.java:133
 msgid "Russian"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/GT.java:133
+#: src/main/org/openscience/jchempaint/GT.java:134
 msgid "Spanish"
 msgstr "Spaans"
 
-#: src/main/org/openscience/jchempaint/GT.java:134
+#: src/main/org/openscience/jchempaint/GT.java:135
 #, fuzzy
 msgid "Thai"
 msgstr "Ti"
@@ -2319,23 +2330,23 @@ msgstr "MDL RXN Molfile"
 msgid "IUPAC Chemical Identifier"
 msgstr "IUPAC Chemical Identifier"
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:130
+#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:132
 msgid "The error was:"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:130
+#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:132
 msgid ""
 "\n"
 "You can file a bug report at "
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:132
+#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:134
 msgid ""
 "\n"
 "We apologize for any inconvenience!"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:132
+#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:134
 msgid "Error occured"
 msgstr ""
 

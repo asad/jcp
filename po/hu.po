@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jchempaint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-07 13:34+0000\n"
+"POT-Creation-Date: 2010-02-12 09:26+0000\n"
 "PO-Revision-Date: 2009-12-16 07:42+0000\n"
 "Last-Translator: Muszela Balázs <bazsi86@gmail.com>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -1225,100 +1225,100 @@ msgstr "{0} nem érvényes elem vagy funkciós csoport."
 msgid "No valid input"
 msgstr "Érvénytelen adatbevitel"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:152
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:149
 msgid "Display Preferences"
 msgstr "Megjelenítési beállítások"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:165
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:162
 msgid "Draw atom numbers"
 msgstr "Atomszámok rajzolása"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:172
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:169
 msgid "Explicit carbons"
 msgstr "Az összes szénatom megjelenítése"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:176
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:173
 msgid "Show explicit methyl groups"
 msgstr "Az összes metilcsoport megjelenítése"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:180
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:177
 msgid "Show explicit hydrogens"
 msgstr "Az összes hidrogén megjelenítése"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:184
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:181
 msgid "Show implicit hydrogens"
 msgstr "A közvetett hidrogének megjelenítése"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:188
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:185
 msgid "Show aromatic ring circles"
 msgstr "Az aromás rendszerek megjelenítése"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:195
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:192
 msgid "Color atoms by element"
 msgstr "Atomok színezése elemek szerint"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:209
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:206
 msgid "Set fit to screen"
 msgstr "Képernyőhöz igazítás"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:217
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:214
 msgid "Show atom symbols"
 msgstr "Az atomszimbólumok megjelenítése"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:222
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:219
 msgid "Show ball atoms"
 msgstr "Gömb atomok"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:227
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:224
 msgid "Show square atoms"
 msgstr "Szögletes atomok"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:241
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:238
 msgid "Atom size"
 msgstr "Atomméret"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:252
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:249
 msgid "Bond width"
 msgstr "Kötés szélessége"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:271
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:268
 msgid "Highlight/Select diameter"
 msgstr "Átmérő kiválasztása/megjelenítése"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:281
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:278
 msgid "Wedge width"
 msgstr "Ék szélessége"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:296
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:293
 msgid "Background color"
 msgstr "Háttérszín"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:303
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:300
 msgid "Choose background color..."
 msgstr "Háttérszín kiválasztása..."
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:310
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:307
 msgid "Other Preferences"
 msgstr "Egyéb beállítások"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:313
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:460
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:310
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:457
 msgid "Number of undoable operations"
 msgstr "Visszavonható lépések száma"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:316
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:313
 msgid "Ask for CML settings when saving"
 msgstr "Rákérdezés a CML beállításokra mentéskor"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:327
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:324
 msgid "User Interface Language"
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:460
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:457
 msgid "must be a number from 1 to 100"
 msgstr "1 és 100 közötti számnak kell lennie"
 
-#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:505
+#: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:502
 msgid "Choose Background Color"
 msgstr "Válasszon háttérszínt"
 
@@ -1352,15 +1352,15 @@ msgstr "Mind"
 msgid "Choose an element..."
 msgstr "Válassz egy elemet..."
 
-#: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:72
+#: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:73
 msgid "An open-source editor for 2D chemical structures."
 msgstr "Egy nyílt forráskódú szerkesztő 2D kémiai struktúrákhoz"
 
-#: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:73
+#: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:74
 msgid "An OpenScience project."
 msgstr "Egy OpenScience projekt"
 
-#: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:74
+#: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:75
 msgid "See 'http://jchempaint.sourceforge.net' for more information."
 msgstr ""
 "Látogasd meg a  'http://jchempaint.sourceforge.net' címet további "
@@ -1374,21 +1374,21 @@ msgstr "Elmentetlen adataid vannak. Elmented?"
 msgid "Unsaved data"
 msgstr "Mentetlen adatok"
 
-#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:676
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:677
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:72
 msgid "Redo"
 msgstr "Ismét"
 
-#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:680
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:681
 msgid "No redo possible"
 msgstr "Ismétlés nem lehetséges"
 
-#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:686
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:687
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:71
 msgid "Undo"
 msgstr "Visszavonás"
 
-#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:690
+#: src/main/org/openscience/jchempaint/JChemPaintPanel.java:691
 msgid "No undo possible"
 msgstr "Visszavonás nem lehetséges"
 
@@ -1532,11 +1532,11 @@ msgstr ""
 "{0} nem tartalmaz reakciót. Neked reakció(k) vannak lerajzolva. A reaktáns/"
 "termék külön molekulaként lesz elmentve. Folytatod?"
 
-#: src/main/org/openscience/jchempaint/RenderPanel.java:453
+#: src/main/org/openscience/jchempaint/RenderPanel.java:439
 msgid "Zoomfactor"
 msgstr "Nagyítási faktor"
 
-#: src/main/org/openscience/jchempaint/RenderPanel.java:466
+#: src/main/org/openscience/jchempaint/RenderPanel.java:452
 msgid "Hs implicit"
 msgstr "Hs implicit"
 
@@ -1972,7 +1972,6 @@ msgid "Clear"
 msgstr "Tisztít"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:258
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:261
 msgid "Create new file"
 msgstr "Új fájl létrehozása"
 
@@ -2157,34 +2156,44 @@ msgid "Alkaloids"
 msgstr "Alkaloidok"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:316
+#, fuzzy
+msgid "Amino Acids"
+msgstr "Aktinoidák"
+
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:317
 msgid "Beta Lactams"
 msgstr "Béta Laktámok"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:317
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:318
 msgid "Carbohydrates"
 msgstr "Cukrok"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:318
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:319
 msgid "Inositols"
 msgstr "Inozit"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:319
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:320
 msgid "Lipids"
 msgstr "Lipidek"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:320
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:321
 msgid "Miscellaneous"
 msgstr "Egyéb"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:321
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:322
 msgid "Nucleosides"
 msgstr "Nukleozidok"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:322
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:323
 msgid "Porphyrins"
 msgstr "Porfirin"
 
-#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:323
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:324
+#, fuzzy
+msgid "Protecting Groups"
+msgstr "Protaktínium"
+
+#: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:325
 msgid "Steroids"
 msgstr "Szteroidok"
 
@@ -2201,38 +2210,42 @@ msgid "Brazilian Portuguese"
 msgstr "Portugál (brazil)"
 
 #: src/main/org/openscience/jchempaint/GT.java:126
+msgid "Catalan"
+msgstr ""
+
+#: src/main/org/openscience/jchempaint/GT.java:127
 msgid "Czech"
 msgstr "Cseh"
 
-#: src/main/org/openscience/jchempaint/GT.java:127
+#: src/main/org/openscience/jchempaint/GT.java:128
 msgid "Dutch"
 msgstr "Holland"
 
-#: src/main/org/openscience/jchempaint/GT.java:128
+#: src/main/org/openscience/jchempaint/GT.java:129
 msgid "German"
 msgstr "Német"
 
-#: src/main/org/openscience/jchempaint/GT.java:129
+#: src/main/org/openscience/jchempaint/GT.java:130
 msgid "Hungarian"
 msgstr "Magyar"
 
-#: src/main/org/openscience/jchempaint/GT.java:130
+#: src/main/org/openscience/jchempaint/GT.java:131
 msgid "Norwegian Bokmal"
 msgstr "Norvég Bokmal"
 
-#: src/main/org/openscience/jchempaint/GT.java:131
+#: src/main/org/openscience/jchempaint/GT.java:132
 msgid "Polish"
 msgstr "Lengyel"
 
-#: src/main/org/openscience/jchempaint/GT.java:132
+#: src/main/org/openscience/jchempaint/GT.java:133
 msgid "Russian"
 msgstr "Orosz"
 
-#: src/main/org/openscience/jchempaint/GT.java:133
+#: src/main/org/openscience/jchempaint/GT.java:134
 msgid "Spanish"
 msgstr "Spanyol"
 
-#: src/main/org/openscience/jchempaint/GT.java:134
+#: src/main/org/openscience/jchempaint/GT.java:135
 msgid "Thai"
 msgstr "Thaiföldi"
 
@@ -2256,17 +2269,17 @@ msgstr "MDL RXN Molfájl"
 msgid "IUPAC Chemical Identifier"
 msgstr "IUPAC Kémiai Azonosító"
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:130
+#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:132
 msgid "The error was:"
 msgstr "A hiba oka:"
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:130
+#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:132
 msgid ""
 "\n"
 "You can file a bug report at "
 msgstr ""
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:132
+#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:134
 msgid ""
 "\n"
 "We apologize for any inconvenience!"
@@ -2274,7 +2287,7 @@ msgstr ""
 "\n"
 "Elnézést kérünk minden kellemetlenségért."
 
-#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:132
+#: src/main/org/openscience/jchempaint/AbstractJChemPaintPanel.java:134
 msgid "Error occured"
 msgstr "Hiba tapasztalható"
 
