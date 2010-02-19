@@ -5,6 +5,9 @@ New features:
 * Enhanced template list
 * More public applet methods (see http://www.ebi.ac.uk/steinbeck-srv/jchempaint-nightly/javadoc/org/openscience/jchempaint/applet/JChemPaintAbstractApplet.html)
 
+Fixes:
+* The molecule titel was not written to MDL files (but read from), now both ways work
+
 3.0.1
 -----
 New features:
