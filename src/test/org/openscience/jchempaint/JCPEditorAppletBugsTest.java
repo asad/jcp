@@ -385,4 +385,18 @@ public class JCPEditorAppletBugsTest extends AbstractAppletTest{
         mol = (IAtomContainer)reader.read(DefaultChemObjectBuilder.getInstance().newMolecule());
         Assert.assertEquals(7, mol.getAtomCount());
 	}
+
+    @Test public void testBug65() {
+        JPanelFixture jcppanel=applet.panel("appletframe");
+        JChemPaintPanel panel = (JChemPaintPanel)jcppanel.target;
+        applet.button("hexagon").click();
+        applet.click();
+        applet.button("eraser").click();
+        Point2d point = getBondPoint(panel,0);
+        applet.panel("renderpanel").robot.click(applet.panel("renderpanel").component(), new Point((int)point.x, (int)point.y), MouseButton.LEFT_BUTTON,1);
+        point = getBondPoint(panel,2);
+        applet.panel("renderpanel").robot.click(applet.panel("renderpanel").component(), new Point((int)point.x, (int)point.y), MouseButton.LEFT_BUTTON,1);
+        Assert.assertEquals(6, panel.getChemModel().getMoleculeSet().getMolecule(0).getAtomCount());
+        Assert.assertEquals(4, panel.getChemModel().getMoleculeSet().getMolecule(0).getBondCount());
+    }
 }
