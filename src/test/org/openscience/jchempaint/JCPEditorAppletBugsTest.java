@@ -304,4 +304,85 @@ public class JCPEditorAppletBugsTest extends AbstractAppletTest{
         IAtomContainer mol = (IAtomContainer)reader.read(DefaultChemObjectBuilder.getInstance().newMolecule());
         Assert.assertEquals("aaa",(String)mol.getProperty(CDKConstants.TITLE));
 	}
+
+	@Test public void testBug77() throws FileNotFoundException, CDKException{
+        JPanelFixture jcppanel=applet.panel("appletframe");
+        JChemPaintPanel panel = (JChemPaintPanel)jcppanel.target;
+        applet.button("hexagon").click();
+        applet.click();
+        applet.menuItem("save").click();
+        DialogFixture dialog = applet.dialog();
+        JComboBox combobox = dialog.robot.finder().find(new ComboBoxTextComponentMatcher("org.openscience.jchempaint.io.JCPFileFilter"));
+        combobox.setSelectedItem(combobox.getItemAt(5));
+        JTextComponentFixture text = dialog.textBox();
+        File file=new File(System.getProperty("java.io.tmpdir")+File.separator+"test1.mol");
+        if(file.exists())
+            file.delete();
+        text.setText(file.toString());
+        JButtonFixture okbutton = new JButtonFixture(dialog.robot, dialog.robot.finder().find(new ButtonTextComponentMatcher("Save")));
+        okbutton.click();
+        //not the bug, but still worth testing
+        MDLReader reader = new MDLReader(new FileInputStream(file));
+        IAtomContainer mol = (IAtomContainer)reader.read(DefaultChemObjectBuilder.getInstance().newMolecule());
+        Assert.assertEquals(panel.getChemModel().getMoleculeSet().getMolecule(0).getAtomCount(), mol.getAtomCount());
+        Assert.assertEquals(panel.getChemModel().getMoleculeSet().getMolecule(0).getBondCount(), mol.getBondCount());
+        applet.menuItem("new").click();
+        applet.button("hexagon").click();
+        applet.click();
+        applet.button("bond").click();
+        Point2d moveto=getAtomPoint(panel,0);    
+        applet.panel("renderpanel").robot.click(applet.panel("renderpanel").component(), new Point((int)moveto.x,(int)moveto.y), MouseButton.LEFT_BUTTON,1);
+        applet.menuItem("saveAs").click();
+        dialog = applet.dialog();
+        combobox = dialog.robot.finder().find(new ComboBoxTextComponentMatcher("org.openscience.jchempaint.io.JCPFileFilter"));
+        combobox.setSelectedItem(combobox.getItemAt(5));
+        text = dialog.textBox();
+        file=new File(System.getProperty("java.io.tmpdir")+File.separator+"test2.mol");
+        if(file.exists())
+            file.delete();
+        text.setText(file.toString());
+        okbutton = new JButtonFixture(dialog.robot, dialog.robot.finder().find(new ButtonTextComponentMatcher("Save")));
+        okbutton.click();
+        //not the bug, but still worth testing
+        reader = new MDLReader(new FileInputStream(file));
+        mol = (IAtomContainer)reader.read(DefaultChemObjectBuilder.getInstance().newMolecule());
+        Assert.assertEquals(panel.getChemModel().getMoleculeSet().getMolecule(0).getAtomCount(), mol.getAtomCount());
+        Assert.assertEquals(panel.getChemModel().getMoleculeSet().getMolecule(0).getBondCount(), mol.getBondCount());
+        //ok, now the critical bits - open mol1
+        file=new File(System.getProperty("java.io.tmpdir")+File.separator+"test1.mol");
+        applet.menuItem("open").click();
+        dialog = applet.dialog();
+        text = dialog.textBox();
+        text.setText(file.toString());
+        okbutton = new JButtonFixture(dialog.robot, dialog.robot.finder().find(new ButtonTextComponentMatcher("Open")));
+        okbutton.click();
+        //"save as" mol1
+        file.delete();
+        applet.menuItem("saveAs").click();
+        dialog = applet.dialog();
+        combobox = dialog.robot.finder().find(new ComboBoxTextComponentMatcher("org.openscience.jchempaint.io.JCPFileFilter"));
+        combobox.setSelectedItem(combobox.getItemAt(5));
+        text = dialog.textBox();
+        text.setText(file.toString());
+        okbutton = new JButtonFixture(dialog.robot, dialog.robot.finder().find(new ButtonTextComponentMatcher("Save")));
+        okbutton.click();
+        //open mol2
+        file=new File(System.getProperty("java.io.tmpdir")+File.separator+"test2.mol");
+        applet.menuItem("open").click();
+        dialog = applet.dialog();
+        text = dialog.textBox();
+        text.setText(file.toString());
+        okbutton = new JButtonFixture(dialog.robot, dialog.robot.finder().find(new ButtonTextComponentMatcher("Open")));
+        okbutton.click();
+        //save should write to mol2, ie mol1=6 atoms, mol2=7atoms
+        applet.menuItem("save").click();
+        file=new File(System.getProperty("java.io.tmpdir")+File.separator+"test1.mol");
+        reader = new MDLReader(new FileInputStream(file));
+        mol = (IAtomContainer)reader.read(DefaultChemObjectBuilder.getInstance().newMolecule());
+        Assert.assertEquals(6, mol.getAtomCount());
+        file=new File(System.getProperty("java.io.tmpdir")+File.separator+"test2.mol");
+        reader = new MDLReader(new FileInputStream(file));
+        mol = (IAtomContainer)reader.read(DefaultChemObjectBuilder.getInstance().newMolecule());
+        Assert.assertEquals(7, mol.getAtomCount());
+	}
 }
