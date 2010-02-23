@@ -7,6 +7,7 @@ New features:
 
 Fixes:
 * The molecule titel was not written to MDL files (but read from), now both ways work
+* In certain situations open/save as/save confused file names (trac #77)
 
 3.0.1
 -----
