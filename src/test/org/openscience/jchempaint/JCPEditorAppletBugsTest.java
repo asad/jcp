@@ -400,5 +400,6 @@ public class JCPEditorAppletBugsTest extends AbstractAppletTest{
         applet.panel("renderpanel").robot.click(applet.panel("renderpanel").component(), new Point((int)point.x, (int)point.y), MouseButton.LEFT_BUTTON,1);
         Assert.assertEquals(6, panel.getChemModel().getMoleculeSet().getMolecule(0).getAtomCount());
         Assert.assertEquals(4, panel.getChemModel().getMoleculeSet().getMolecule(0).getBondCount());
+        restoreModelToEmpty();
     }
 }
