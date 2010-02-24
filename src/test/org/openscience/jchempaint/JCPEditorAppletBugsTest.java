@@ -4,6 +4,7 @@ import java.awt.Point;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 import javax.swing.JComboBox;
 import javax.swing.text.JTextComponent;
@@ -401,5 +402,27 @@ public class JCPEditorAppletBugsTest extends AbstractAppletTest{
         Assert.assertEquals(6, panel.getChemModel().getMoleculeSet().getMolecule(0).getAtomCount());
         Assert.assertEquals(4, panel.getChemModel().getMoleculeSet().getMolecule(0).getBondCount());
         restoreModelToEmpty();
+    }
+
+    @Test public void testBug75() throws CDKException, ClassNotFoundException, IOException, CloneNotSupportedException{
+        JPanelFixture jcppanel=applet.panel("appletframe");
+        JChemPaintPanel panel = (JChemPaintPanel)jcppanel.target;
+        applet.button("hexagon").click();
+        applet.click();
+        applet.panel("renderpanel").robot.click(applet.panel("renderpanel").component(), new Point(100,100), MouseButton.LEFT_BUTTON,1);
+        applet.button("eraser").click();
+        Point2d moveto=getAtomPoint(panel,5);
+        applet.panel("renderpanel").robot.click(applet.panel("renderpanel").component(), new Point((int)moveto.x, (int)moveto.y), MouseButton.LEFT_BUTTON,1);
+        moveto=getAtomPoint(panel,4);
+        applet.panel("renderpanel").robot.click(applet.panel("renderpanel").component(), new Point((int)moveto.x, (int)moveto.y), MouseButton.LEFT_BUTTON,1);
+        moveto=getAtomPoint(panel,3);
+        applet.panel("renderpanel").robot.click(applet.panel("renderpanel").component(), new Point((int)moveto.x, (int)moveto.y), MouseButton.LEFT_BUTTON,1);
+        moveto=getAtomPoint(panel,2);
+        applet.panel("renderpanel").robot.click(applet.panel("renderpanel").component(), new Point((int)moveto.x, (int)moveto.y), MouseButton.LEFT_BUTTON,1);
+        moveto=getAtomPoint(panel,1);
+        applet.panel("renderpanel").robot.click(applet.panel("renderpanel").component(), new Point((int)moveto.x, (int)moveto.y), MouseButton.LEFT_BUTTON,1);
+        moveto=getAtomPoint(panel,0);
+        applet.panel("renderpanel").robot.click(applet.panel("renderpanel").component(), new Point((int)moveto.x, (int)moveto.y), MouseButton.LEFT_BUTTON,1);
+        Assert.assertEquals("C1CCCCC1", panel.getSmiles());
     }
 }
