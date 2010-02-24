@@ -317,6 +317,7 @@ public class PropertiesModelEditor extends FieldTablePanel implements ActionList
             languagesstrings[i] = gtlanguages[i].language;
         }
         language = new JComboBox(languagesstrings);
+        language.setName("language");
         for(int i=0;i<languagesstrings.length;i++){
             if(gtlanguages[i].code.equals(GT.getLanguage()))
                 language.setSelectedIndex(i);

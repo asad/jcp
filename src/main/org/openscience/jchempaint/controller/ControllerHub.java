@@ -425,6 +425,7 @@ public class ControllerHub implements IMouseEventRelay, IChemModelRelay {
 	//OK TODO this could do with less partitioning
 	public IAtomContainer removeAtom(IAtom atom) {
 		IAtomContainer ac = removeAtomWithoutUndo(atom);
+        removeEmptyContainers(chemModel);
 	    if(getUndoRedoFactory()!=null && getUndoRedoHandler()!=null){
 		    IUndoRedoable undoredo = getUndoRedoFactory().getRemoveAtomsAndBondsEdit(getIChemModel(), ac, "Remove Atom",this);
 		    getUndoRedoHandler().postEdit(undoredo);
