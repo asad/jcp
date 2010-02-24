@@ -244,7 +244,7 @@ public class SaveAsAction extends JCPAction
 
     private boolean askIOSettings() {
         return JCPPropertyHandler.getInstance().getJCPProperties()
-        .getProperty("askForIOSettings", "false").equals("true");
+        .getProperty("General.askForIOSettings").equals("true");
     }
 
     protected File saveAsMol(IChemModel model, File outFile) throws Exception

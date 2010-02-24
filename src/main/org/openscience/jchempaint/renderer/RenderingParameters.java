@@ -36,7 +36,7 @@ public class RenderingParameters {
      * The size on screen of a compact mode shape
      */
     private double atomRadius = Double.parseDouble(JCPPropertyHandler.getInstance()
-	.getJCPProperties().getProperty("AtomRadius", "8"));
+	.getJCPProperties().getProperty("AtomRadius"));
 
     /**
      * When atoms are selected or in compact mode, they will
@@ -74,7 +74,7 @@ public class RenderingParameters {
      * The width on screen of a bond
      */
     private double bondWidth = Double.parseDouble(JCPPropertyHandler.getInstance()
-	.getJCPProperties().getProperty("BondWidth", "1.0"));
+	.getJCPProperties().getProperty("BondWidth"));
 
     /**
      * The width on screen of an atom-atom mapping line
@@ -91,20 +91,20 @@ public class RenderingParameters {
      * Determines whether atoms are colored by type
      */
     private boolean colorAtomsByType = Boolean.parseBoolean(JCPPropertyHandler.getInstance()
-	.getJCPProperties().getProperty("ColorAtomsByType", "true"));
+	.getJCPProperties().getProperty("ColorAtomsByType"));
 
     /**
      * If true, atoms are displayed in a compact notation,
      * as a colored square or circle, rather than as text
      */
     private boolean compact = Boolean.parseBoolean(JCPPropertyHandler.getInstance()
-	.getJCPProperties().getProperty("IsCompact", "false"));
+	.getJCPProperties().getProperty("IsCompact"));
 
     /**
      * The shape of the compact mode atom.
      */
     private AtomShape compactShape = JCPPropertyHandler.getInstance().getJCPProperties()
-	.getProperty("CompactShape", "square").equals("square") ? AtomShape.SQUARE : AtomShape.OVAL;
+	.getProperty("CompactShape").equals("square") ? AtomShape.SQUARE : AtomShape.OVAL;
 
     /**
      * The color to draw bonds if not other color is given.
@@ -118,7 +118,7 @@ public class RenderingParameters {
     private Color externalHighlightColor = Color.RED;
 
     private boolean fitToScreen = Boolean.parseBoolean(JCPPropertyHandler.getInstance()
-	.getJCPProperties().getProperty("FitToScreen", "true"));
+	.getJCPProperties().getProperty("FitToScreen"));
 
     private Color foreColor = Color.black;
 
@@ -130,7 +130,7 @@ public class RenderingParameters {
      * element symbol. Example C-C-C instead of /\.
      */
     private boolean kekuleStructure = Boolean.parseBoolean(JCPPropertyHandler.getInstance()
-	.getJCPProperties().getProperty("KekuleStructure", "false"));
+	.getJCPProperties().getProperty("KekuleStructure"));
 
 
     /**
@@ -138,7 +138,7 @@ public class RenderingParameters {
      * highlight an element.
      */
     private double highlightDistance = Double.parseDouble(JCPPropertyHandler.getInstance()
-	.getJCPProperties().getProperty("HighlightDistance", "8"));
+	.getJCPProperties().getProperty("HighlightDistance"));
 
     private boolean highlightShapeFilled = false;
 
@@ -176,7 +176,7 @@ public class RenderingParameters {
      * aromatic.
      */
     private boolean showAromaticity = Boolean.parseBoolean(JCPPropertyHandler.getInstance()
-	.getJCPProperties().getProperty("ShowAromaticity", "true"));
+	.getJCPProperties().getProperty("ShowAromaticity"));
 
     private boolean showAromaticityInCDKStyle = false;
 
@@ -189,15 +189,15 @@ public class RenderingParameters {
      * methyl carbons. Example C/\C instead of /\.
      */
     private boolean showEndCarbons = Boolean.parseBoolean(JCPPropertyHandler.getInstance()
-	.getJCPProperties().getProperty("ShowEndCarbons", "false"));
+	.getJCPProperties().getProperty("ShowEndCarbons"));
 
     /** Determines whether explicit hydrogens should be drawn. */
     private boolean showExplicitHydrogens = Boolean.parseBoolean(JCPPropertyHandler.getInstance()
-	.getJCPProperties().getProperty("ShowExplicitHydrogens", "true"));
+	.getJCPProperties().getProperty("ShowExplicitHydrogens"));
 
     /** Determines whether implicit hydrogens should be drawn. */
     private boolean showImplicitHydrogens = Boolean.parseBoolean(JCPPropertyHandler.getInstance()
-	.getJCPProperties().getProperty("ShowImplicitHydrogens", "true"));
+	.getJCPProperties().getProperty("ShowImplicitHydrogens"));
 
     private boolean showMoleculeTitle = false;
 
@@ -208,13 +208,13 @@ public class RenderingParameters {
     private boolean useAntiAliasing = true;
 
     private boolean willDrawNumbers = Boolean.parseBoolean(JCPPropertyHandler.getInstance()
-	.getJCPProperties().getProperty("DrawNumbers", "false"));
+	.getJCPProperties().getProperty("DrawNumbers"));
 
     /**
      * The width on screen of the fat end of a wedge bond.
      */
     private double wedgeWidth = Double.parseDouble(JCPPropertyHandler.getInstance()
-	.getJCPProperties().getProperty("WedgeWidth", "5.0"));
+	.getJCPProperties().getProperty("WedgeWidth"));
 
 
     public int getArrowHeadWidth() {

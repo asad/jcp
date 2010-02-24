@@ -368,7 +368,7 @@ public class PropertiesModelEditor extends FieldTablePanel implements ActionList
         }
         //the general settings
         Properties props = JCPPropertyHandler.getInstance().getJCPProperties();
-        askForIOSettings.setSelected(props.getProperty("askForIOSettings", "false").equals("true"));
+        askForIOSettings.setSelected(props.getProperty("General.askForIOSettings").equals("true"));
         undoStackSize.setText(props.getProperty("General.UndoStackSize"));
         language.setSelectedItem(props.getProperty("General.language"));
         validate();
@@ -406,7 +406,8 @@ public class PropertiesModelEditor extends FieldTablePanel implements ActionList
 
         //model.setFontName(currentFontName);
         model.setBackColor(currentColor);
-        GT.setLanguage(gtlanguages[language.getSelectedIndex()].code);
+        if(language.getSelectedIndex()>-1)
+            GT.setLanguage(gtlanguages[language.getSelectedIndex()].code);
         jcpPanel.updateMenusWithLanguage();
         updateLanguge();
 
@@ -442,7 +443,7 @@ public class PropertiesModelEditor extends FieldTablePanel implements ActionList
         props.setProperty("BackColor",String.valueOf(currentColor.getRGB()));
                 
         //the general settings
-        props.setProperty("askForIOSettings",
+        props.setProperty("General.askForIOSettings",
             String.valueOf(askForIOSettings.isSelected())
         );
 
