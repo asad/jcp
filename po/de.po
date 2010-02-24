@@ -1297,7 +1297,7 @@ msgstr "Andere Einstellungen"
 #: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:310
 #: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:457
 msgid "Number of undoable operations"
-msgstr "Anzahl der Operationen zum Rückgängimachen"
+msgstr "Anzahl der Operationen zum Rückgängigmachen"
 
 #: src/main/org/openscience/jchempaint/dialog/editor/PropertiesModelEditor.java:313
 msgid "Ask for CML settings when saving"
@@ -1351,7 +1351,7 @@ msgstr "Ein Open-Source-Editor für chemische Strukturen in 2D."
 
 #: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:74
 msgid "An OpenScience project."
-msgstr "Ein OpenScinece-Projekt."
+msgstr "Ein OpenScience-Projekt."
 
 #: src/main/org/openscience/jchempaint/dialog/AboutDialog.java:75
 msgid "See 'http://jchempaint.sourceforge.net' for more information."
