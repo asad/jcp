@@ -303,6 +303,7 @@ public class JCPEditorAppletBugsTest extends AbstractAppletTest{
         MDLReader reader = new MDLReader(new FileInputStream(file));
         IAtomContainer mol = (IAtomContainer)reader.read(DefaultChemObjectBuilder.getInstance().newMolecule());
         Assert.assertEquals("aaa",(String)mol.getProperty(CDKConstants.TITLE));
+        restoreModelToEmpty();
 	}
 
 	@Test public void testBug77() throws FileNotFoundException, CDKException{
@@ -310,7 +311,7 @@ public class JCPEditorAppletBugsTest extends AbstractAppletTest{
         JChemPaintPanel panel = (JChemPaintPanel)jcppanel.target;
         applet.button("hexagon").click();
         applet.click();
-        applet.menuItem("save").click();
+        applet.menuItem("saveAs").click();
         DialogFixture dialog = applet.dialog();
         JComboBox combobox = dialog.robot.finder().find(new ComboBoxTextComponentMatcher("org.openscience.jchempaint.io.JCPFileFilter"));
         combobox.setSelectedItem(combobox.getItemAt(5));
@@ -384,6 +385,7 @@ public class JCPEditorAppletBugsTest extends AbstractAppletTest{
         reader = new MDLReader(new FileInputStream(file));
         mol = (IAtomContainer)reader.read(DefaultChemObjectBuilder.getInstance().newMolecule());
         Assert.assertEquals(7, mol.getAtomCount());
+        restoreModelToEmpty();
 	}
 
     @Test public void testBug65() {
