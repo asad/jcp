@@ -1913,27 +1913,23 @@ msgstr "R"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:231
 msgid "R.."
-msgstr ""
+msgstr "R.."
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:232
-#, fuzzy
 msgid "R1"
-msgstr "R"
+msgstr "R1"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:233
-#, fuzzy
 msgid "R2"
-msgstr "R"
+msgstr "R2"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:234
-#, fuzzy
 msgid "R3"
-msgstr "R"
+msgstr "R3"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:235
-#, fuzzy
 msgid "R4"
-msgstr "R"
+msgstr "R4"
 
 #: src/main/org/openscience/jchempaint/JCPMenuTextMaker.java:236
 msgid "Draw Bonds and Atoms"
