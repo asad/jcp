@@ -186,10 +186,10 @@ public class JChemPaint {
 
     public static void showEmptyInstance(boolean debug) {
         IChemModel chemModel = DefaultChemObjectBuilder.getInstance()
-                .newChemModel();
-        chemModel.setMoleculeSet(chemModel.getBuilder().newMoleculeSet());
+                .newInstance(IChemModel.class);
+        chemModel.setMoleculeSet(chemModel.getBuilder().newInstance(IMoleculeSet.class));
         chemModel.getMoleculeSet().addAtomContainer(
-                chemModel.getBuilder().newMolecule());
+                chemModel.getBuilder().newInstance(IAtomContainer.class));
         showInstance(chemModel, GT._("Untitled-") + (instancecounter++), debug);
     }
 
@@ -604,7 +604,7 @@ public class JChemPaint {
         StructureDiagramGenerator sdg = new StructureDiagramGenerator();
         for (int atIdx = 0; atIdx < molecules.getAtomContainerCount(); atIdx++) {
             IAtomContainer mol = molecules.getAtomContainer(atIdx);
-            sdg.setMolecule(mol.getBuilder().newMolecule(mol));
+            sdg.setMolecule(mol.getBuilder().newInstance(IMolecule.class,mol));
             try {
                 sdg.generateCoordinates();
             } catch (Exception e) {

@@ -154,7 +154,7 @@ public class InsertTextPanel extends JPanel implements ActionListener {
                   return null;
                 }
                 IAtomContainer atomContainer = inchiToStructure.getAtomContainer();
-                molecule = atomContainer.getBuilder().newMolecule(atomContainer);
+                molecule = atomContainer.getBuilder().newInstance(IMolecule.class,atomContainer);
             } catch (CDKException e2) {
                 JOptionPane.showMessageDialog(jChemPaintPanel, GT._("Could not load InChI subsystem"));
                 return null;

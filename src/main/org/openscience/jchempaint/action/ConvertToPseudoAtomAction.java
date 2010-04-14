@@ -78,7 +78,7 @@ public class ConvertToPseudoAtomAction extends JCPAction {
             IAtom atom = atomsInRange.next();
         	if(type.equals("normal")){
                 PseudoAtom pseudo = (PseudoAtom)atom;
-                IAtom normal = pseudo.getBuilder().newAtom(pseudo);
+                IAtom normal = pseudo.getBuilder().newInstance(IAtom.class,pseudo);
                 normal.setSymbol("C");
                 jcpPanel.get2DHub().replaceAtom(normal,pseudo);
         	}else {
