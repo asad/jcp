@@ -189,7 +189,7 @@ public class JChemPaint {
                 .newInstance(IChemModel.class);
         chemModel.setMoleculeSet(chemModel.getBuilder().newInstance(IMoleculeSet.class));
         chemModel.getMoleculeSet().addAtomContainer(
-                chemModel.getBuilder().newInstance(IAtomContainer.class));
+                chemModel.getBuilder().newInstance(IMolecule.class));
         showInstance(chemModel, GT._("Untitled-") + (instancecounter++), debug);
     }
 
